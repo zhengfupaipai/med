@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="8" y1="4" x2="58" y2="62" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8cc0ff"/>
+      <stop offset=".5" stop-color="#3b6ef0"/>
+      <stop offset="1" stop-color="#2547c8"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="32" y1="4" x2="32" y2="34" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="10" y1="6" x2="54" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity=".95"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".15"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".5"/>
+    </linearGradient>
+    <clipPath id="clip">
+      <rect x="3" y="3" width="58" height="58" rx="16"/>
+    </clipPath>
+  </defs>
+  <rect x="3" y="3" width="58" height="58" rx="16" fill="url(#bg)"/>
+  <g clip-path="url(#clip)">
+    <path d="M5 21C10 11 20 5 32 5c9 0 17 3 23 8-8 1-15 6-22 13-7 7-12 15-14 25C8 44 5 33 5 21Z" fill="url(#sheen)"/>
+  </g>
+  <rect x="3.75" y="3.75" width="56.5" height="56.5" rx="15.25" fill="none" stroke="url(#rim)" stroke-width="1.5"/>
+  <circle cx="31" cy="29" r="13" fill="none" stroke="#fff" stroke-width="7.5"/>
+  <path d="M38 40l9.5 9.5" stroke="#fff" stroke-width="7.5" stroke-linecap="round"/>
+</svg>
