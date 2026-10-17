@@ -1,0 +1,12010 @@
+{
+ "meta": {
+  "title": "病理学3A",
+  "questionCount": 300,
+  "volumes": 1,
+  "sourceNote": "锦州医科大学期末考试试卷《病理学3A》，含 A1/A2 单选与 B1 共用备选答案题。"
+ },
+ "questions": [
+  {
+   "id": "pathology-3a-single-0001",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 1,
+   "question": "左心房内的附壁血栓是",
+   "options": [
+    {
+     "key": "A",
+     "text": "白色血栓"
+    },
+    {
+     "key": "B",
+     "text": "红色血栓"
+    },
+    {
+     "key": "C",
+     "text": "透明血栓"
+    },
+    {
+     "key": "D",
+     "text": "混合血栓"
+    },
+    {
+     "key": "E",
+     "text": "血凝块"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "混合血栓"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0002",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 2,
+   "question": "炎症反应中最有防御作用的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "组织增生"
+    },
+    {
+     "key": "B",
+     "text": "动脉充血"
+    },
+    {
+     "key": "C",
+     "text": "发热反应"
+    },
+    {
+     "key": "D",
+     "text": "吞噬作用"
+    },
+    {
+     "key": "E",
+     "text": "液体渗出"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "吞噬作用"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0003",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 3,
+   "question": "肿瘤经血道转移的最常累及的器官是",
+   "options": [
+    {
+     "key": "A",
+     "text": "肺、脑"
+    },
+    {
+     "key": "B",
+     "text": "肝、肺"
+    },
+    {
+     "key": "C",
+     "text": "肺、骨"
+    },
+    {
+     "key": "D",
+     "text": "肝、脑"
+    },
+    {
+     "key": "E",
+     "text": "肝、骨"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "肝、骨"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0004",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 4,
+   "question": "食管癌最好发的部位是",
+   "options": [
+    {
+     "key": "A",
+     "text": "上段"
+    },
+    {
+     "key": "B",
+     "text": "下段"
+    },
+    {
+     "key": "C",
+     "text": "中段"
+    },
+    {
+     "key": "D",
+     "text": "起始部"
+    },
+    {
+     "key": "E",
+     "text": "末端"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "中段"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0005",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 5,
+   "question": "关于小叶性肺炎，下列哪一项是错误的",
+   "options": [
+    {
+     "key": "A",
+     "text": "细支气管和肺泡的化脓性炎"
+    },
+    {
+     "key": "B",
+     "text": "可并发肺脓肿和脑脓肿"
+    },
+    {
+     "key": "C",
+     "text": "严重者病灶发生融合"
+    },
+    {
+     "key": "D",
+     "text": "病灶周围肺组织充血"
+    },
+    {
+     "key": "E",
+     "text": "病灶散在于两肺，以上肺多见"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "病灶散在于两肺，以上肺多见"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0006",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 6,
+   "question": "下列属于恶性肿瘤的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "多形性腺瘤"
+    },
+    {
+     "key": "B",
+     "text": "甲状腺腺瘤"
+    },
+    {
+     "key": "C",
+     "text": "乳腺纤维腺瘤"
+    },
+    {
+     "key": "D",
+     "text": "脂肪母细胞瘤"
+    },
+    {
+     "key": "E",
+     "text": "肾母细胞瘤"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "肾母细胞瘤"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0007",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 7,
+   "question": "急性炎症时，炎症局部血流速度的减慢主要是由于",
+   "options": [
+    {
+     "key": "A",
+     "text": "血管内流体静压下降"
+    },
+    {
+     "key": "B",
+     "text": "血管口径变小，血流阻力增大"
+    },
+    {
+     "key": "C",
+     "text": "微血管通透性升高的结果"
+    },
+    {
+     "key": "D",
+     "text": "组织水肿升高对血管产生压迫"
+    },
+    {
+     "key": "E",
+     "text": "血管阻塞"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "微血管通透性升高的结果"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0008",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 8,
+   "question": "炎症时白细胞游出后定向移动的主要原因是",
+   "options": [
+    {
+     "key": "A",
+     "text": "炎症部位的化学趋向性"
+    },
+    {
+     "key": "B",
+     "text": "白细胞的阿米巴样运动"
+    },
+    {
+     "key": "C",
+     "text": "血管内压升高"
+    },
+    {
+     "key": "D",
+     "text": "轴流消失白细胞边集"
+    },
+    {
+     "key": "E",
+     "text": "血管壁的通透性增高"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "炎症部位的化学趋向性"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0009",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 9,
+   "question": "导致肉眼所见“虎斑心”的形态改变的是心肌细胞发生",
+   "options": [
+    {
+     "key": "A",
+     "text": "淀粉样变性"
+    },
+    {
+     "key": "B",
+     "text": "脂肪变性"
+    },
+    {
+     "key": "C",
+     "text": "脂褐素沉积"
+    },
+    {
+     "key": "D",
+     "text": "细胞水肿"
+    },
+    {
+     "key": "E",
+     "text": "黏液样变性"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "脂肪变性"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0010",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 10,
+   "question": "动脉粥样硬化主要发生在",
+   "options": [
+    {
+     "key": "A",
+     "text": "细、小动脉"
+    },
+    {
+     "key": "B",
+     "text": "大、中动脉"
+    },
+    {
+     "key": "C",
+     "text": "细、小静脉"
+    },
+    {
+     "key": "D",
+     "text": "大、中静脉"
+    },
+    {
+     "key": "E",
+     "text": "毛细血管"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "大、中动脉"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0011",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 11,
+   "question": "化脓性炎中，坏死组织的溶解液化是由于下列哪一类细胞存在所致",
+   "options": [
+    {
+     "key": "A",
+     "text": "炎症部位坏死的组织细胞"
+    },
+    {
+     "key": "B",
+     "text": "浸润的巨噬细胞"
+    },
+    {
+     "key": "C",
+     "text": "浸润的浆细胞"
+    },
+    {
+     "key": "D",
+     "text": "浸润的嗜酸性粒细胞"
+    },
+    {
+     "key": "E",
+     "text": "脓细胞"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "脓细胞"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0012",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 12,
+   "question": "慢性胃溃疡最多见的部位是",
+   "options": [
+    {
+     "key": "A",
+     "text": "大弯近幽门部"
+    },
+    {
+     "key": "B",
+     "text": "小弯近幽门部"
+    },
+    {
+     "key": "C",
+     "text": "近贲门部"
+    },
+    {
+     "key": "D",
+     "text": "小弯角切迹部"
+    },
+    {
+     "key": "E",
+     "text": "小弯近胃窦部"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "小弯近胃窦部"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0013",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 13,
+   "question": "心冠状动脉粥样硬化最常受累的动脉分枝是",
+   "options": [
+    {
+     "key": "A",
+     "text": "右冠状动脉主干"
+    },
+    {
+     "key": "B",
+     "text": "左冠状动脉主干"
+    },
+    {
+     "key": "C",
+     "text": "右冠状动脉后降支"
+    },
+    {
+     "key": "D",
+     "text": "左冠状动脉回旋支"
+    },
+    {
+     "key": "E",
+     "text": "左冠状动脉前降支"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "左冠状动脉前降支"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0014",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 14,
+   "question": "继发性肺结核最常见的临床类型是",
+   "options": [
+    {
+     "key": "A",
+     "text": "局灶型肺结核"
+    },
+    {
+     "key": "B",
+     "text": "浸润型肺结核"
+    },
+    {
+     "key": "C",
+     "text": "肺结核球"
+    },
+    {
+     "key": "D",
+     "text": "干酪样肺炎"
+    },
+    {
+     "key": "E",
+     "text": "慢性纤维空洞型肺结核"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "浸润型肺结核"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0015",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 15,
+   "question": "脓肿时病变局限在局部主要是由于",
+   "options": [
+    {
+     "key": "A",
+     "text": "细菌的毒素"
+    },
+    {
+     "key": "B",
+     "text": "血浆凝固酶的作用"
+    },
+    {
+     "key": "C",
+     "text": "中性粒细胞的浸润"
+    },
+    {
+     "key": "D",
+     "text": "脓液的黏稠度大"
+    },
+    {
+     "key": "E",
+     "text": "脓肿膜的形成"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "血浆凝固酶的作用"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0016",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 16,
+   "question": "下列关于软骨瘤的叙述不正确的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "多位于手、足各骨"
+    },
+    {
+     "key": "B",
+     "text": "男性发病率高"
+    },
+    {
+     "key": "C",
+     "text": "外生性软骨瘤位于骨皮质外侧"
+    },
+    {
+     "key": "D",
+     "text": "生长快，局部症状明显"
+    },
+    {
+     "key": "E",
+     "text": "内生性软骨瘤位于骨髓腔"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "生长快，局部症状明显"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0017",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 17,
+   "question": "下述哪种情况不容易引起空气栓塞",
+   "options": [
+    {
+     "key": "A",
+     "text": "胸部外伤损伤深静脉"
+    },
+    {
+     "key": "B",
+     "text": "分娩时子宫强烈收缩"
+    },
+    {
+     "key": "C",
+     "text": "头颈部外伤损伤深静脉"
+    },
+    {
+     "key": "D",
+     "text": "静脉穿刺输液"
+    },
+    {
+     "key": "E",
+     "text": "儿童青枝骨折"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "儿童青枝骨折"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0018",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 18,
+   "question": "下列哪一项不属于门脉高压症",
+   "options": [
+    {
+     "key": "A",
+     "text": "慢性淤血性脾大"
+    },
+    {
+     "key": "B",
+     "text": "腹水"
+    },
+    {
+     "key": "C",
+     "text": "蜘蛛痣"
+    },
+    {
+     "key": "D",
+     "text": "侧支循环形成"
+    },
+    {
+     "key": "E",
+     "text": "胃肠淤血"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "蜘蛛痣"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0019",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 19,
+   "question": "引起卵巢krukenberg瘤的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "肝癌"
+    },
+    {
+     "key": "B",
+     "text": "肺癌"
+    },
+    {
+     "key": "C",
+     "text": "胃肠道癌"
+    },
+    {
+     "key": "D",
+     "text": "乳腺癌"
+    },
+    {
+     "key": "E",
+     "text": "子宫颈癌"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "胃肠道癌"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0020",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 20,
+   "question": "以下哪项与流脑、乙脑的区别无关",
+   "options": [
+    {
+     "key": "A",
+     "text": "中枢神经系统病变"
+    },
+    {
+     "key": "B",
+     "text": "病原微生物"
+    },
+    {
+     "key": "C",
+     "text": "传染途径"
+    },
+    {
+     "key": "D",
+     "text": "病变性质"
+    },
+    {
+     "key": "E",
+     "text": "炎症细胞种类"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "中枢神经系统病变"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0021",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 21,
+   "question": "主动脉粥样硬化时，病变最严重的部位是",
+   "options": [
+    {
+     "key": "A",
+     "text": "升主动脉"
+    },
+    {
+     "key": "B",
+     "text": "主动脉弓"
+    },
+    {
+     "key": "C",
+     "text": "降主动脉"
+    },
+    {
+     "key": "D",
+     "text": "主动脉根部"
+    },
+    {
+     "key": "E",
+     "text": "腹主动脉"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "腹主动脉"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0022",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 22,
+   "question": "下列组织愈合是由瘢痕修复的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "心肌梗死"
+    },
+    {
+     "key": "B",
+     "text": "皮肤的浅表性缺损"
+    },
+    {
+     "key": "C",
+     "text": "月经期子宫内膜脱落"
+    },
+    {
+     "key": "D",
+     "text": "肝细胞点状坏死"
+    },
+    {
+     "key": "E",
+     "text": "慢性菌痢的假膜性炎"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "心肌梗死"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0023",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 23,
+   "question": "肺癌一般不转移至",
+   "options": [
+    {
+     "key": "A",
+     "text": "脑"
+    },
+    {
+     "key": "B",
+     "text": "骨"
+    },
+    {
+     "key": "C",
+     "text": "肾"
+    },
+    {
+     "key": "D",
+     "text": "肝"
+    },
+    {
+     "key": "E",
+     "text": "心"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "心"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0024",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 24,
+   "question": "关于骨巨细胞瘤的描述，不正确的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "常在20岁以前发病"
+    },
+    {
+     "key": "B",
+     "text": "虽然是良性的，也要切除"
+    },
+    {
+     "key": "C",
+     "text": "长管骨末端常见"
+    },
+    {
+     "key": "D",
+     "text": "约1/2者有局部复发和转移"
+    },
+    {
+     "key": "E",
+     "text": "病变常由含有肿瘤的薄层骨包绕"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "常在20岁以前发病"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0025",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 25,
+   "question": "下列关于蜂窝织炎的叙述，正确的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "常由草绿色链球菌感染引起"
+    },
+    {
+     "key": "B",
+     "text": "常见部位是内脏器官、肌肉和阑尾"
+    },
+    {
+     "key": "C",
+     "text": "病变特点与链球菌分泌的链激酶和透明质酸酶有关"
+    },
+    {
+     "key": "D",
+     "text": "细菌不容易经组织间隙、淋巴管和血道蔓延扩散"
+    },
+    {
+     "key": "E",
+     "text": "常有明显的组织坏死和脓肿形成"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "病变特点与链球菌分泌的链激酶和透明质酸酶有关"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0026",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 26,
+   "question": "区域性心肌梗死最常发生的部位是",
+   "options": [
+    {
+     "key": "A",
+     "text": "左心室后壁"
+    },
+    {
+     "key": "B",
+     "text": "左心室侧壁"
+    },
+    {
+     "key": "C",
+     "text": "左心室前壁"
+    },
+    {
+     "key": "D",
+     "text": "室间隔后1/3"
+    },
+    {
+     "key": "E",
+     "text": "右心室"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "左心室前壁"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0027",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 27,
+   "question": "下列选项中，不是侵袭性血管黏液瘤的特征的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "好发于女性盆腔"
+    },
+    {
+     "key": "B",
+     "text": "瘤细胞核分裂很多见"
+    },
+    {
+     "key": "C",
+     "text": "瘤组织呈浸润性生长"
+    },
+    {
+     "key": "D",
+     "text": "瘤组织富含黏液"
+    },
+    {
+     "key": "E",
+     "text": "瘤组织由散在梭形、星形的间叶细胞构成"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "瘤细胞核分裂很多见"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0028",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 28,
+   "question": "减压病的栓塞是",
+   "options": [
+    {
+     "key": "A",
+     "text": "血栓栓塞"
+    },
+    {
+     "key": "B",
+     "text": "羊水栓塞"
+    },
+    {
+     "key": "C",
+     "text": "气体栓塞"
+    },
+    {
+     "key": "D",
+     "text": "脂肪栓塞"
+    },
+    {
+     "key": "E",
+     "text": "虫卵栓塞"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "气体栓塞"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0029",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 29,
+   "question": "对图示炎症细胞描述正确的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "出现在炎症的早期"
+    },
+    {
+     "key": "B",
+     "text": "出现在炎症的晚期"
+    },
+    {
+     "key": "C",
+     "text": "出现在化脓性炎中"
+    },
+    {
+     "key": "D",
+     "text": "出现在脓肿中"
+    },
+    {
+     "key": "E",
+     "text": "出现在假膜性炎"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "出现在炎症的晚期"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0030",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 30,
+   "question": "下肢静脉内血栓形成后，对机体的最为严重的后果是",
+   "options": [
+    {
+     "key": "A",
+     "text": "血栓脱落后引起冠状动脉栓塞"
+    },
+    {
+     "key": "B",
+     "text": "阻塞血管，引起下肢急性梗死"
+    },
+    {
+     "key": "C",
+     "text": "血栓被机化后永久阻塞下肢血管"
+    },
+    {
+     "key": "D",
+     "text": "血栓脱落后引起肺动脉栓塞"
+    },
+    {
+     "key": "E",
+     "text": "形成静脉石后造成下肢静脉的永久性阻塞"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "血栓脱落后引起肺动脉栓塞"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0031",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 31,
+   "question": "骨肉瘤是指",
+   "options": [
+    {
+     "key": "A",
+     "text": "骨原发性的恶性肿瘤，有反应性骨质增生"
+    },
+    {
+     "key": "B",
+     "text": "肉瘤细胞直接形成肿瘤性骨样组织或骨组织的肿瘤"
+    },
+    {
+     "key": "C",
+     "text": "骨组织起源的肉瘤"
+    },
+    {
+     "key": "D",
+     "text": "骨组织中肉瘤的总称"
+    },
+    {
+     "key": "E",
+     "text": "骨组织来源的未分化肿瘤"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "肉瘤细胞直接形成肿瘤性骨样组织或骨组织的肿瘤"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0032",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 32,
+   "question": "确定癌的主要依据是",
+   "options": [
+    {
+     "key": "A",
+     "text": "灰白、质硬"
+    },
+    {
+     "key": "B",
+     "text": "瘤细胞呈巢状排列"
+    },
+    {
+     "key": "C",
+     "text": "出现病理性核分裂象"
+    },
+    {
+     "key": "D",
+     "text": "细胞异型性明显"
+    },
+    {
+     "key": "E",
+     "text": "40岁以上中老年人"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "瘤细胞呈巢状排列"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0033",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 33,
+   "question": "动脉粥样硬化合并血栓形成的最主要的机制是",
+   "options": [
+    {
+     "key": "A",
+     "text": "血流涡流形成"
+    },
+    {
+     "key": "B",
+     "text": "局部血流缓慢"
+    },
+    {
+     "key": "C",
+     "text": "内膜受损、胶原纤维暴露"
+    },
+    {
+     "key": "D",
+     "text": "局部血液凝固性增高"
+    },
+    {
+     "key": "E",
+     "text": "炎性细胞浸润"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "内膜受损、胶原纤维暴露"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0034",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 34,
+   "question": "动脉粥样硬化的继发性病变中最危险的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "钙化"
+    },
+    {
+     "key": "B",
+     "text": "斑块内出血"
+    },
+    {
+     "key": "C",
+     "text": "斑块破裂"
+    },
+    {
+     "key": "D",
+     "text": "动脉瘤形成"
+    },
+    {
+     "key": "E",
+     "text": "粥样瘤性溃疡"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "动脉瘤形成"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0035",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 35,
+   "question": "膀胱癌最突出的临床表现是",
+   "options": [
+    {
+     "key": "A",
+     "text": "无痛性血尿"
+    },
+    {
+     "key": "B",
+     "text": "膀胱刺激综合征"
+    },
+    {
+     "key": "C",
+     "text": "尿路梗阻"
+    },
+    {
+     "key": "D",
+     "text": "蛋白尿和管型尿"
+    },
+    {
+     "key": "E",
+     "text": "腹部肿块"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "无痛性血尿"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0036",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 36,
+   "question": "脑动脉粥样硬化最常见的部位是",
+   "options": [
+    {
+     "key": "A",
+     "text": "大脑中动脉"
+    },
+    {
+     "key": "B",
+     "text": "大脑前动脉"
+    },
+    {
+     "key": "C",
+     "text": "大脑后动脉"
+    },
+    {
+     "key": "D",
+     "text": "大脑中动脉及Willis环"
+    },
+    {
+     "key": "E",
+     "text": "基底动脉及大脑后动脉"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "大脑中动脉及Willis环"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0037",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 37,
+   "question": "下列哪项不是慢性淤血的后果",
+   "options": [
+    {
+     "key": "A",
+     "text": "实质细胞的增生"
+    },
+    {
+     "key": "B",
+     "text": "出血"
+    },
+    {
+     "key": "C",
+     "text": "含铁血黄素沉积"
+    },
+    {
+     "key": "D",
+     "text": "间质细胞增生"
+    },
+    {
+     "key": "E",
+     "text": "可并发血栓形成"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "实质细胞的增生"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0038",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 38,
+   "question": "下列肺部炎症中属纤维素性炎的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "肺结核"
+    },
+    {
+     "key": "B",
+     "text": "病毒性肺炎"
+    },
+    {
+     "key": "C",
+     "text": "大叶性肺炎"
+    },
+    {
+     "key": "D",
+     "text": "小叶性肺炎"
+    },
+    {
+     "key": "E",
+     "text": "支原体肺炎"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "大叶性肺炎"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0039",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 39,
+   "question": "脑动脉发生栓塞，其栓子最可能来自",
+   "options": [
+    {
+     "key": "A",
+     "text": "下肢浅静脉血栓"
+    },
+    {
+     "key": "B",
+     "text": "下肢深静脉血栓"
+    },
+    {
+     "key": "C",
+     "text": "左心室附壁血栓"
+    },
+    {
+     "key": "D",
+     "text": "肺动脉血栓"
+    },
+    {
+     "key": "E",
+     "text": "下腔静脉血栓"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "左心室附壁血栓"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0040",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 40,
+   "question": "良性肿瘤的异型性主要表现在",
+   "options": [
+    {
+     "key": "A",
+     "text": "瘤细胞的多形性"
+    },
+    {
+     "key": "B",
+     "text": "细胞核的多形性"
+    },
+    {
+     "key": "C",
+     "text": "组织结构的异型性"
+    },
+    {
+     "key": "D",
+     "text": "病理性核分裂"
+    },
+    {
+     "key": "E",
+     "text": "细胞异型性"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "组织结构的异型性"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0041",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 41,
+   "question": "侵袭性葡萄胎与葡萄胎的主要不同是",
+   "options": [
+    {
+     "key": "A",
+     "text": "滋养细胞增生"
+    },
+    {
+     "key": "B",
+     "text": "绒毛水肿"
+    },
+    {
+     "key": "C",
+     "text": "hCG水平增高"
+    },
+    {
+     "key": "D",
+     "text": "绒毛间质血管消失"
+    },
+    {
+     "key": "E",
+     "text": "绒毛及滋养细胞侵蚀子宫肌层的深层"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "绒毛及滋养细胞侵蚀子宫肌层的深层"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0042",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 42,
+   "question": "与Burkitt淋巴瘤有关的病毒是",
+   "options": [
+    {
+     "key": "A",
+     "text": "EB病毒"
+    },
+    {
+     "key": "B",
+     "text": "麻疹病毒"
+    },
+    {
+     "key": "C",
+     "text": "疱疹病毒"
+    },
+    {
+     "key": "D",
+     "text": "腺病毒"
+    },
+    {
+     "key": "E",
+     "text": "HTLV-1"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "EB病毒"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0043",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 43,
+   "question": "梗死灶的形状取决于",
+   "options": [
+    {
+     "key": "A",
+     "text": "坏死灶的大小"
+    },
+    {
+     "key": "B",
+     "text": "坏死的类型"
+    },
+    {
+     "key": "C",
+     "text": "梗死灶内的含血量"
+    },
+    {
+     "key": "D",
+     "text": "该器官的血管分布"
+    },
+    {
+     "key": "E",
+     "text": "侧支循环的建立"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "该器官的血管分布"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0044",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 44,
+   "question": "下列病变属于梗死的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "深Ⅱ度烧伤"
+    },
+    {
+     "key": "B",
+     "text": "足坏疽"
+    },
+    {
+     "key": "C",
+     "text": "刀割伤"
+    },
+    {
+     "key": "D",
+     "text": "病毒性肝炎"
+    },
+    {
+     "key": "E",
+     "text": "脓肿"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "足坏疽"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0045",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 45,
+   "question": "动脉粥样硬化的早期病变中，最早迁入内膜的细胞是",
+   "options": [
+    {
+     "key": "A",
+     "text": "单核细胞"
+    },
+    {
+     "key": "B",
+     "text": "淋巴细胞"
+    },
+    {
+     "key": "C",
+     "text": "平滑肌细胞"
+    },
+    {
+     "key": "D",
+     "text": "成纤维细胞"
+    },
+    {
+     "key": "E",
+     "text": "中性粒细胞"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "单核细胞"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0046",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 46,
+   "question": "急性炎症时组织变红的主要原因是",
+   "options": [
+    {
+     "key": "A",
+     "text": "血管内血栓形成"
+    },
+    {
+     "key": "B",
+     "text": "动脉性充血"
+    },
+    {
+     "key": "C",
+     "text": "肉芽组织形成"
+    },
+    {
+     "key": "D",
+     "text": "静脉性充血"
+    },
+    {
+     "key": "E",
+     "text": "血管扩张"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "动脉性充血"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0047",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 47,
+   "question": "易发生干性坏疽的器官是",
+   "options": [
+    {
+     "key": "A",
+     "text": "肺"
+    },
+    {
+     "key": "B",
+     "text": "肝"
+    },
+    {
+     "key": "C",
+     "text": "肠"
+    },
+    {
+     "key": "D",
+     "text": "四肢"
+    },
+    {
+     "key": "E",
+     "text": "心"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "四肢"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0048",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 48,
+   "question": "子宫颈癌最常见的组织学类型为",
+   "options": [
+    {
+     "key": "A",
+     "text": "黏液癌"
+    },
+    {
+     "key": "B",
+     "text": "鳞状细胞癌"
+    },
+    {
+     "key": "C",
+     "text": "腺癌"
+    },
+    {
+     "key": "D",
+     "text": "未分化癌"
+    },
+    {
+     "key": "E",
+     "text": "大细胞癌"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "鳞状细胞癌"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0049",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 49,
+   "question": "尿道发生肿瘤，尿路阻塞，肉眼观肾体积增大，肾实质变薄，称为",
+   "options": [
+    {
+     "key": "A",
+     "text": "肥大"
+    },
+    {
+     "key": "B",
+     "text": "变性"
+    },
+    {
+     "key": "C",
+     "text": "萎缩"
+    },
+    {
+     "key": "D",
+     "text": "发育不良"
+    },
+    {
+     "key": "E",
+     "text": "增生"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "萎缩"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0050",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 50,
+   "question": "高血压时心脏向心性肥大指",
+   "options": [
+    {
+     "key": "A",
+     "text": "左室心肌肥厚而心腔不扩张"
+    },
+    {
+     "key": "B",
+     "text": "左室心肌肥厚而心腔扩张"
+    },
+    {
+     "key": "C",
+     "text": "左室壁厚正常而心腔明显扩张"
+    },
+    {
+     "key": "D",
+     "text": "左室左房心肌明显肥厚"
+    },
+    {
+     "key": "E",
+     "text": "左右心室心肌均肥厚"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "左室心肌肥厚而心腔不扩张"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0051",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 51,
+   "question": "下列哪项不是生殖细胞起源的肿瘤",
+   "options": [
+    {
+     "key": "A",
+     "text": "无性细胞瘤"
+    },
+    {
+     "key": "B",
+     "text": "葡萄胎"
+    },
+    {
+     "key": "C",
+     "text": "颗粒细胞瘤"
+    },
+    {
+     "key": "D",
+     "text": "畸胎瘤"
+    },
+    {
+     "key": "E",
+     "text": "绒癌"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "颗粒细胞瘤"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0052",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 52,
+   "question": "新月体性肾小球肾炎的预后主要取决于",
+   "options": [
+    {
+     "key": "A",
+     "text": "性别、年龄"
+    },
+    {
+     "key": "B",
+     "text": "治疗方法"
+    },
+    {
+     "key": "C",
+     "text": "机体的抵抗力"
+    },
+    {
+     "key": "D",
+     "text": "出现新月体的肾小球比例"
+    },
+    {
+     "key": "E",
+     "text": "肾小管-间质的损伤"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "出现新月体的肾小球比例"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0053",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 53,
+   "question": "菌痢所致溃疡的形态是",
+   "options": [
+    {
+     "key": "A",
+     "text": "溃疡长轴与肠长轴垂直"
+    },
+    {
+     "key": "B",
+     "text": "溃疡呈烧瓶状"
+    },
+    {
+     "key": "C",
+     "text": "溃疡边缘堤状隆起"
+    },
+    {
+     "key": "D",
+     "text": "溃疡呈地图状"
+    },
+    {
+     "key": "E",
+     "text": "溃疡长轴与肠长轴平行"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "溃疡呈地图状"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0054",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 54,
+   "question": "关于湿性坏疽的描述，下列不正确的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "常继发于肠、子宫及肺等内脏器官的坏死"
+    },
+    {
+     "key": "B",
+     "text": "坏死组织与周围组织边界不清"
+    },
+    {
+     "key": "C",
+     "text": "常有恶臭味"
+    },
+    {
+     "key": "D",
+     "text": "若发于肢体末端，只有动脉的阻塞"
+    },
+    {
+     "key": "E",
+     "text": "全身中毒症状明显"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "若发于肢体末端，只有动脉的阻塞"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0055",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 55,
+   "question": "病毒性肝炎时最常见的肝细胞变性是",
+   "options": [
+    {
+     "key": "A",
+     "text": "嗜酸性变"
+    },
+    {
+     "key": "B",
+     "text": "脂肪变性"
+    },
+    {
+     "key": "C",
+     "text": "细胞水肿"
+    },
+    {
+     "key": "D",
+     "text": "玻璃样变"
+    },
+    {
+     "key": "E",
+     "text": "黏液样变"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "细胞水肿"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0056",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 56,
+   "question": "单核巨噬细胞在局部增生、聚集而形成的结节状病灶称",
+   "options": [
+    {
+     "key": "A",
+     "text": "炎性假瘤"
+    },
+    {
+     "key": "B",
+     "text": "炎性息肉"
+    },
+    {
+     "key": "C",
+     "text": "炎性浸润"
+    },
+    {
+     "key": "D",
+     "text": "肉芽肿"
+    },
+    {
+     "key": "E",
+     "text": "肉芽组织"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "肉芽肿"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0057",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 57,
+   "question": "关于慢性肺源性心脏病，下列哪项是错误的",
+   "options": [
+    {
+     "key": "A",
+     "text": "能够导致肺循环阻力增加的疾病可引起慢性肺心病"
+    },
+    {
+     "key": "B",
+     "text": "慢性支气管炎是最常见的原发疾病"
+    },
+    {
+     "key": "C",
+     "text": "间质性肺炎引起肺间质纤维化可并发慢性肺心病"
+    },
+    {
+     "key": "D",
+     "text": "慢性肺心病发生的关键环节是肺动脉高压"
+    },
+    {
+     "key": "E",
+     "text": "右心肥大、扩张是其病变特点"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "间质性肺炎引起肺间质纤维化可并发慢性肺心病"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0058",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 58,
+   "question": "骨化性纤维瘤不具有的特征是",
+   "options": [
+    {
+     "key": "A",
+     "text": "多见于上颌骨"
+    },
+    {
+     "key": "B",
+     "text": "女性发病率高"
+    },
+    {
+     "key": "C",
+     "text": "肿瘤中常见编织骨"
+    },
+    {
+     "key": "D",
+     "text": "常见成堆的多核巨细胞"
+    },
+    {
+     "key": "E",
+     "text": "多见于股骨、胫骨"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "多见于股骨、胫骨"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0059",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 59,
+   "question": "乳腺癌表面皮肤橘皮样变是因为",
+   "options": [
+    {
+     "key": "A",
+     "text": "肿瘤细胞直接浸润表皮"
+    },
+    {
+     "key": "B",
+     "text": "肿瘤体积过大，压迫皮肤"
+    },
+    {
+     "key": "C",
+     "text": "肿瘤压迫静脉导致血液回流受阻"
+    },
+    {
+     "key": "D",
+     "text": "肿瘤细胞阻塞淋巴管导致淋巴液回流受阻而使皮肤水肿"
+    },
+    {
+     "key": "E",
+     "text": "肿瘤侵犯Cooper韧带所致"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "肿瘤细胞阻塞淋巴管导致淋巴液回流受阻而使皮肤水肿"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0060",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 60,
+   "question": "下列不符合肿瘤性增生的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "与整个机体不协调"
+    },
+    {
+     "key": "B",
+     "text": "生长旺盛"
+    },
+    {
+     "key": "C",
+     "text": "增生过程中致瘤因子持续存在"
+    },
+    {
+     "key": "D",
+     "text": "具有相对自主性"
+    },
+    {
+     "key": "E",
+     "text": "不同程度的丧失了分化成熟的能力"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "增生过程中致瘤因子持续存在"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0061",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 61,
+   "question": "流行性乙型脑炎的噬神经细胞现象是由（  ）侵入神经细胞内产生的",
+   "options": [
+    {
+     "key": "A",
+     "text": "巨噬细胞"
+    },
+    {
+     "key": "B",
+     "text": "小胶质细胞"
+    },
+    {
+     "key": "C",
+     "text": "淋巴细胞"
+    },
+    {
+     "key": "D",
+     "text": "巨噬细胞和小胶质细胞"
+    },
+    {
+     "key": "E",
+     "text": "小胶质细胞和淋巴细胞"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "巨噬细胞和小胶质细胞"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0062",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 62,
+   "question": "慢性乙型肝炎时出现毛玻璃样肝细胞的原因是",
+   "options": [
+    {
+     "key": "A",
+     "text": "滑面内质网增生，内质网池内有大量HBsAg颗粒"
+    },
+    {
+     "key": "B",
+     "text": "线粒体肿胀"
+    },
+    {
+     "key": "C",
+     "text": "粗面内质网内有大量HBsAg颗粒"
+    },
+    {
+     "key": "D",
+     "text": "核糖体增多"
+    },
+    {
+     "key": "E",
+     "text": "高尔基体复合体内有大量HBsAg颗粒"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "滑面内质网增生，内质网池内有大量HBsAg颗粒"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0063",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 63,
+   "question": "肿瘤细胞核染色体多呈",
+   "options": [
+    {
+     "key": "A",
+     "text": "单倍体"
+    },
+    {
+     "key": "B",
+     "text": "双倍体"
+    },
+    {
+     "key": "C",
+     "text": "三倍体"
+    },
+    {
+     "key": "D",
+     "text": "四倍体"
+    },
+    {
+     "key": "E",
+     "text": "多倍体"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "多倍体"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0064",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 64,
+   "question": "下列哪项对大肠癌诊断有意义",
+   "options": [
+    {
+     "key": "A",
+     "text": "血清酸性磷酸酶活性增加"
+    },
+    {
+     "key": "B",
+     "text": "癌胚抗原（CEA）高度阳性"
+    },
+    {
+     "key": "C",
+     "text": "甲胎蛋白（AFP）阳性"
+    },
+    {
+     "key": "D",
+     "text": "转肽酶活性增高"
+    },
+    {
+     "key": "E",
+     "text": "谷丙转氨酶活性增高"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "癌胚抗原（CEA）高度阳性"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0065",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 65,
+   "question": "下列哪种最支持恶性肿瘤的形态",
+   "options": [
+    {
+     "key": "A",
+     "text": "肿瘤与周围组织分界不清"
+    },
+    {
+     "key": "B",
+     "text": "囊性变"
+    },
+    {
+     "key": "C",
+     "text": "出血、坏死"
+    },
+    {
+     "key": "D",
+     "text": "病理性核分裂"
+    },
+    {
+     "key": "E",
+     "text": "质硬"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "病理性核分裂"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0066",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 66,
+   "question": "关于肺硅沉着症的叙述错误的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "长期吸入游离的二氧化硅引起"
+    },
+    {
+     "key": "B",
+     "text": "及时脱离硅尘环境可防止病情发展"
+    },
+    {
+     "key": "C",
+     "text": "基本病变是硅结节形成和肺广泛纤维化"
+    },
+    {
+     "key": "D",
+     "text": "易激发肺的细菌和病毒感染"
+    },
+    {
+     "key": "E",
+     "text": "晚期常并发肺源性心脏病"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "及时脱离硅尘环境可防止病情发展"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0067",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 67,
+   "question": "在肉芽组织内具有收缩功能，又能产生基质和胶原的细胞是",
+   "options": [
+    {
+     "key": "A",
+     "text": "成肌纤维细胞"
+    },
+    {
+     "key": "B",
+     "text": "巨噬细胞"
+    },
+    {
+     "key": "C",
+     "text": "血管内皮细胞"
+    },
+    {
+     "key": "D",
+     "text": "成纤维细胞"
+    },
+    {
+     "key": "E",
+     "text": "中性粒细胞"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "成肌纤维细胞"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0068",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 68,
+   "question": "下列哪种疾病不属于慢性阻塞性肺病",
+   "options": [
+    {
+     "key": "A",
+     "text": "支气管炎"
+    },
+    {
+     "key": "B",
+     "text": "肺气肿"
+    },
+    {
+     "key": "C",
+     "text": "支气管哮喘"
+    },
+    {
+     "key": "D",
+     "text": "慢性肺源性心脏病"
+    },
+    {
+     "key": "E",
+     "text": "支气管扩张症"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "慢性肺源性心脏病"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0069",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 69,
+   "question": "干酪样坏死好发于",
+   "options": [
+    {
+     "key": "A",
+     "text": "风湿病"
+    },
+    {
+     "key": "B",
+     "text": "伤寒"
+    },
+    {
+     "key": "C",
+     "text": "结核"
+    },
+    {
+     "key": "D",
+     "text": "麻风"
+    },
+    {
+     "key": "E",
+     "text": "梅毒"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "结核"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0070",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 70,
+   "question": "下列均为假小叶的特点，但除外",
+   "options": [
+    {
+     "key": "A",
+     "text": "肝小叶内中央静脉缺如"
+    },
+    {
+     "key": "B",
+     "text": "肝小叶内出现汇管区"
+    },
+    {
+     "key": "C",
+     "text": "肝小叶内可有两条以上中央静脉"
+    },
+    {
+     "key": "D",
+     "text": "肝细胞排列紊乱，可出现双核肝细胞"
+    },
+    {
+     "key": "E",
+     "text": "肝细胞广泛凋亡，大量凋亡小体形成"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "肝细胞广泛凋亡，大量凋亡小体形成"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0071",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 71,
+   "question": "除外下列哪项均为乙型脑炎的病变",
+   "options": [
+    {
+     "key": "A",
+     "text": "“血管套”形成"
+    },
+    {
+     "key": "B",
+     "text": "小脓肿形成"
+    },
+    {
+     "key": "C",
+     "text": "神经细胞坏变"
+    },
+    {
+     "key": "D",
+     "text": "软化灶形成"
+    },
+    {
+     "key": "E",
+     "text": "胶质细胞增生"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "小脓肿形成"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0072",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 72,
+   "question": "大叶性肺炎合并肺肉质变的机制是",
+   "options": [
+    {
+     "key": "A",
+     "text": "病变范围太广"
+    },
+    {
+     "key": "B",
+     "text": "纤维素渗出太多"
+    },
+    {
+     "key": "C",
+     "text": "吞噬细胞渗出太少"
+    },
+    {
+     "key": "D",
+     "text": "肺组织结构被炎症破坏"
+    },
+    {
+     "key": "E",
+     "text": "病程太长"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "吞噬细胞渗出太少"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0073",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 73,
+   "question": "Krukenberg瘤的本质是",
+   "options": [
+    {
+     "key": "A",
+     "text": "胃癌"
+    },
+    {
+     "key": "B",
+     "text": "肠癌"
+    },
+    {
+     "key": "C",
+     "text": "卵巢癌"
+    },
+    {
+     "key": "D",
+     "text": "肝癌"
+    },
+    {
+     "key": "E",
+     "text": "肾癌"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "胃癌"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0074",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 74,
+   "question": "关于溃疡底部的结构，下列不正确的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "渗出层"
+    },
+    {
+     "key": "B",
+     "text": "坏死层"
+    },
+    {
+     "key": "C",
+     "text": "肉芽肿层"
+    },
+    {
+     "key": "D",
+     "text": "瘢痕层"
+    },
+    {
+     "key": "E",
+     "text": "肉芽组织层"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "肉芽肿层"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0075",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 75,
+   "question": "急进型高血压时，细动脉壁内有细丝、颗粒状或凝集成片块状的嗜酸物质，其改变可能是",
+   "options": [
+    {
+     "key": "A",
+     "text": "玻璃样变"
+    },
+    {
+     "key": "B",
+     "text": "淀粉样变"
+    },
+    {
+     "key": "C",
+     "text": "黏液样变性"
+    },
+    {
+     "key": "D",
+     "text": "纤维素样坏死"
+    },
+    {
+     "key": "E",
+     "text": "干酪样坏死"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "纤维素样坏死"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0076",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 76,
+   "question": "病理诊断慢性支气管炎的主要病变指标是",
+   "options": [
+    {
+     "key": "A",
+     "text": "支气管黏膜上皮细胞变性、坏死脱落"
+    },
+    {
+     "key": "B",
+     "text": "支气管壁黏液腺体增生、肥大"
+    },
+    {
+     "key": "C",
+     "text": "支气管壁充血、水肿、炎细胞浸润"
+    },
+    {
+     "key": "D",
+     "text": "支气管黏膜鳞状上皮化生"
+    },
+    {
+     "key": "E",
+     "text": "支气管壁平滑肌、软骨破坏"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "支气管壁黏液腺体增生、肥大"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0077",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 77,
+   "question": "主动脉关闭不全的患者有以下临床表现，除外",
+   "options": [
+    {
+     "key": "A",
+     "text": "股动脉枪击音"
+    },
+    {
+     "key": "B",
+     "text": "X线示心脏增大"
+    },
+    {
+     "key": "C",
+     "text": "主动脉瓣区收缩期杂音"
+    },
+    {
+     "key": "D",
+     "text": "水冲脉"
+    },
+    {
+     "key": "E",
+     "text": "脉压差增大"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "主动脉瓣区收缩期杂音"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0078",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 78,
+   "question": "前列腺癌常见的类型为",
+   "options": [
+    {
+     "key": "A",
+     "text": "鳞状细胞癌"
+    },
+    {
+     "key": "B",
+     "text": "移行细胞癌"
+    },
+    {
+     "key": "C",
+     "text": "腺癌"
+    },
+    {
+     "key": "D",
+     "text": "透明细胞癌"
+    },
+    {
+     "key": "E",
+     "text": "腺鳞癌"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "腺癌"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0079",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 79,
+   "question": "气性坏疽是湿性坏疽的一种特殊形式，主要是合并了",
+   "options": [
+    {
+     "key": "A",
+     "text": "结核杆菌感染"
+    },
+    {
+     "key": "B",
+     "text": "产气荚膜杆菌感染"
+    },
+    {
+     "key": "C",
+     "text": "金黄色葡萄球菌感染"
+    },
+    {
+     "key": "D",
+     "text": "链球菌感染"
+    },
+    {
+     "key": "E",
+     "text": "白色念珠菌感染"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "产气荚膜杆菌感染"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0080",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 80,
+   "question": "骨折愈合的最终阶段应是",
+   "options": [
+    {
+     "key": "A",
+     "text": "骨性骨痂形成"
+    },
+    {
+     "key": "B",
+     "text": "骨改建"
+    },
+    {
+     "key": "C",
+     "text": "纤维性骨痂连接"
+    },
+    {
+     "key": "D",
+     "text": "骨样组织中有钙盐沉着"
+    },
+    {
+     "key": "E",
+     "text": "完成了软骨化骨过程"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "骨改建"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0081",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 81,
+   "question": "液化性坏死好发生于下列哪种器官",
+   "options": [
+    {
+     "key": "A",
+     "text": "脑"
+    },
+    {
+     "key": "B",
+     "text": "心"
+    },
+    {
+     "key": "C",
+     "text": "肝"
+    },
+    {
+     "key": "D",
+     "text": "脾"
+    },
+    {
+     "key": "E",
+     "text": "肺"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "脑"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0082",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 82,
+   "question": "马氏斑（McCllum's patch）位于",
+   "options": [
+    {
+     "key": "A",
+     "text": "左心房"
+    },
+    {
+     "key": "B",
+     "text": "左心室"
+    },
+    {
+     "key": "C",
+     "text": "右心房"
+    },
+    {
+     "key": "D",
+     "text": "右心室"
+    },
+    {
+     "key": "E",
+     "text": "心外膜"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "左心房"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0083",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 83,
+   "question": "动脉粥样硬化早期，哪种细胞最早迁入动脉内膜",
+   "options": [
+    {
+     "key": "A",
+     "text": "嗜酸性粒细胞"
+    },
+    {
+     "key": "B",
+     "text": "淋巴细胞"
+    },
+    {
+     "key": "C",
+     "text": "中性粒细胞"
+    },
+    {
+     "key": "D",
+     "text": "单核细胞"
+    },
+    {
+     "key": "E",
+     "text": "成纤维细胞"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "单核细胞"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0084",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 84,
+   "question": "痢疾杆菌感染，结肠发生",
+   "options": [
+    {
+     "key": "A",
+     "text": "蜂窝织炎"
+    },
+    {
+     "key": "B",
+     "text": "表面化脓"
+    },
+    {
+     "key": "C",
+     "text": "浆液性炎"
+    },
+    {
+     "key": "D",
+     "text": "假膜性炎"
+    },
+    {
+     "key": "E",
+     "text": "出血性炎"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "假膜性炎"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0085",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 85,
+   "question": "癌变率较高的大肠病变是",
+   "options": [
+    {
+     "key": "A",
+     "text": "绒毛状腺瘤"
+    },
+    {
+     "key": "B",
+     "text": "增生性息肉"
+    },
+    {
+     "key": "C",
+     "text": "锯齿状腺瘤"
+    },
+    {
+     "key": "D",
+     "text": "幼年性息肉"
+    },
+    {
+     "key": "E",
+     "text": "炎性息肉"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "绒毛状腺瘤"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0086",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 86,
+   "question": "高血压病时，细小动脉硬化的主要病理改变是",
+   "options": [
+    {
+     "key": "A",
+     "text": "内膜结缔组织增生"
+    },
+    {
+     "key": "B",
+     "text": "内膜弹力纤维增生"
+    },
+    {
+     "key": "C",
+     "text": "内膜胆固醇沉着"
+    },
+    {
+     "key": "D",
+     "text": "管壁玻璃样变"
+    },
+    {
+     "key": "E",
+     "text": "内膜下有粥样物质沉着"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "管壁玻璃样变"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0087",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 87,
+   "question": "下列哪项病变不会引起梗死",
+   "options": [
+    {
+     "key": "A",
+     "text": "血管受压"
+    },
+    {
+     "key": "B",
+     "text": "动脉痉挛"
+    },
+    {
+     "key": "C",
+     "text": "血管瘤"
+    },
+    {
+     "key": "D",
+     "text": "血栓形成"
+    },
+    {
+     "key": "E",
+     "text": "栓塞"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "血管瘤"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0088",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 88,
+   "question": "按发病率递减的顺序，食管癌最常见的部位依次是",
+   "options": [
+    {
+     "key": "A",
+     "text": "食管上段、中段、下段"
+    },
+    {
+     "key": "B",
+     "text": "食管中段、下段、上段"
+    },
+    {
+     "key": "C",
+     "text": "食管上段、下段、中段"
+    },
+    {
+     "key": "D",
+     "text": "食管中段、上段、下段"
+    },
+    {
+     "key": "E",
+     "text": "各段分布相等"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "食管中段、下段、上段"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0089",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 89,
+   "question": "下列属于肿瘤的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "错构瘤"
+    },
+    {
+     "key": "B",
+     "text": "动脉瘤"
+    },
+    {
+     "key": "C",
+     "text": "室壁瘤"
+    },
+    {
+     "key": "D",
+     "text": "创伤性神经瘤"
+    },
+    {
+     "key": "E",
+     "text": "骨软骨瘤"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "骨软骨瘤"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0090",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 90,
+   "question": "结核病的基本病变不包括",
+   "options": [
+    {
+     "key": "A",
+     "text": "渗出性病变"
+    },
+    {
+     "key": "B",
+     "text": "化脓性病变"
+    },
+    {
+     "key": "C",
+     "text": "变质性病变"
+    },
+    {
+     "key": "D",
+     "text": "增生性病变"
+    },
+    {
+     "key": "E",
+     "text": "肉芽肿性病变"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "化脓性病变"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0091",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 91,
+   "question": "炎症反应的最重要的指征是",
+   "options": [
+    {
+     "key": "A",
+     "text": "血管扩张"
+    },
+    {
+     "key": "B",
+     "text": "红细胞漏出"
+    },
+    {
+     "key": "C",
+     "text": "血浆渗出"
+    },
+    {
+     "key": "D",
+     "text": "白细胞游出"
+    },
+    {
+     "key": "E",
+     "text": "纤维素渗出"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "白细胞游出"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0092",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 92,
+   "question": "下列关于肺癌的描述哪项是错误的",
+   "options": [
+    {
+     "key": "A",
+     "text": "同一肿瘤可有不同的组织学类型"
+    },
+    {
+     "key": "B",
+     "text": "同一肿瘤的不同部位可分化程度不一"
+    },
+    {
+     "key": "C",
+     "text": "未分化腺癌可出现肉瘤样结构"
+    },
+    {
+     "key": "D",
+     "text": "转移癌的组织学类型可与原发癌不同"
+    },
+    {
+     "key": "E",
+     "text": "肺癌中最常见组织类型是小细胞癌"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "肺癌中最常见组织类型是小细胞癌"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0093",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 93,
+   "question": "组胺类介质引起血管通透性升高的机理是",
+   "options": [
+    {
+     "key": "A",
+     "text": "引起内皮细胞收缩"
+    },
+    {
+     "key": "B",
+     "text": "引起内皮细胞损伤"
+    },
+    {
+     "key": "C",
+     "text": "介导白细胞对内皮细胞的损伤"
+    },
+    {
+     "key": "D",
+     "text": "使内皮细胞的穿胞作用增强"
+    },
+    {
+     "key": "E",
+     "text": "新生毛细血管的高通透性"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "引起内皮细胞收缩"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0094",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 94,
+   "question": "下列关于乙型脑炎病理改变的描述中，正确的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "病变以小脑最为严重"
+    },
+    {
+     "key": "B",
+     "text": "病变在大脑皮层最轻微"
+    },
+    {
+     "key": "C",
+     "text": "神经细胞变性坏死为主要病变"
+    },
+    {
+     "key": "D",
+     "text": "病变累及脊髓前角神经细胞"
+    },
+    {
+     "key": "E",
+     "text": "病变组织中有中性粒细胞浸润"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "神经细胞变性坏死为主要病变"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0095",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 95,
+   "question": "下肢骨折后，石膏固定，长期不活动，使患肢变细，肌肉萎缩，属于",
+   "options": [
+    {
+     "key": "A",
+     "text": "压迫性萎缩"
+    },
+    {
+     "key": "B",
+     "text": "内分泌性萎缩"
+    },
+    {
+     "key": "C",
+     "text": "营养不良性萎缩"
+    },
+    {
+     "key": "D",
+     "text": "去神经性萎缩"
+    },
+    {
+     "key": "E",
+     "text": "失用性萎缩"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "失用性萎缩"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0096",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 96,
+   "question": "下列哪项为动脉粥样硬化早期的病理变化",
+   "options": [
+    {
+     "key": "A",
+     "text": "纤维帽形成"
+    },
+    {
+     "key": "B",
+     "text": "由于氧化LDL的毒性作用使泡沫细胞坏死"
+    },
+    {
+     "key": "C",
+     "text": "血液单核细胞迁入内膜并形成泡沫细胞"
+    },
+    {
+     "key": "D",
+     "text": "中膜平滑肌细胞迁入内膜并增生"
+    },
+    {
+     "key": "E",
+     "text": "淋巴细胞浸润心肌间质"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "血液单核细胞迁入内膜并形成泡沫细胞"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0097",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 97,
+   "question": "关于胃癌的发生，下列哪项错误",
+   "options": [
+    {
+     "key": "A",
+     "text": "来源于胃腺颈部的干细胞"
+    },
+    {
+     "key": "B",
+     "text": "与肠上皮化生有关"
+    },
+    {
+     "key": "C",
+     "text": "与假幽门腺化生关系密切"
+    },
+    {
+     "key": "D",
+     "text": "与非典型增生有关"
+    },
+    {
+     "key": "E",
+     "text": "来源于胃小凹底部的干细胞"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "来源于胃小凹底部的干细胞"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0098",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 98,
+   "question": "下列哪项是恶性肿瘤的主要特征",
+   "options": [
+    {
+     "key": "A",
+     "text": "核分裂象多见"
+    },
+    {
+     "key": "B",
+     "text": "细胞丰富"
+    },
+    {
+     "key": "C",
+     "text": "瘤巨细胞形成"
+    },
+    {
+     "key": "D",
+     "text": "浸润性生长和转移"
+    },
+    {
+     "key": "E",
+     "text": "血管丰富"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "浸润性生长和转移"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0099",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 99,
+   "question": "结核结节中的Langhans巨细胞来源于",
+   "options": [
+    {
+     "key": "A",
+     "text": "支气管上皮细胞"
+    },
+    {
+     "key": "B",
+     "text": "上皮样细胞"
+    },
+    {
+     "key": "C",
+     "text": "肺泡上皮细胞"
+    },
+    {
+     "key": "D",
+     "text": "间叶细胞"
+    },
+    {
+     "key": "E",
+     "text": "纤维母细胞"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "上皮样细胞"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0100",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 100,
+   "question": "毛细血管内增生性肾小球肾炎的肉眼变化主要呈现",
+   "options": [
+    {
+     "key": "A",
+     "text": "大白肾"
+    },
+    {
+     "key": "B",
+     "text": "大红肾"
+    },
+    {
+     "key": "C",
+     "text": "颗粒性固缩肾"
+    },
+    {
+     "key": "D",
+     "text": "瘢痕肾"
+    },
+    {
+     "key": "E",
+     "text": "多囊肾"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "大红肾"
+   ],
+   "topic": "病理学",
+   "category": "A1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0101",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 101,
+   "question": "患者，男，28岁，腹痛、腹泻3天，每日排便十余次，初为黏液稀便，后转为黏液脓血便，该患者所患疾病可能为",
+   "options": [
+    {
+     "key": "A",
+     "text": "伤寒"
+    },
+    {
+     "key": "B",
+     "text": "大肠癌"
+    },
+    {
+     "key": "C",
+     "text": "阿米巴痢疾"
+    },
+    {
+     "key": "D",
+     "text": "急性细菌性痢疾"
+    },
+    {
+     "key": "E",
+     "text": "肠真菌病"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "急性细菌性痢疾"
+   ],
+   "topic": "病理学",
+   "category": "A2",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0102",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 102,
+   "question": "死者，男，45岁，患高血压病，心脏破裂突发死亡，大体如图所示，该患者最可能合并的疾病为",
+   "options": [
+    {
+     "key": "A",
+     "text": "脑动脉粥样硬化"
+    },
+    {
+     "key": "B",
+     "text": "冠状动脉粥样硬化伴透壁性心肌梗死"
+    },
+    {
+     "key": "C",
+     "text": "冠状动脉粥样硬化伴心内膜下心肌梗死"
+    },
+    {
+     "key": "D",
+     "text": "心脏黏液瘤"
+    },
+    {
+     "key": "E",
+     "text": "主动脉粥样硬化"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "冠状动脉粥样硬化伴透壁性心肌梗死"
+   ],
+   "topic": "病理学",
+   "category": "A2",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0103",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 103,
+   "question": "患者，青年女性，停经3个月，发现阴道有结节，镜检找到变性绒毛，最大可能是",
+   "options": [
+    {
+     "key": "A",
+     "text": "宫外孕"
+    },
+    {
+     "key": "B",
+     "text": "绒毛膜癌"
+    },
+    {
+     "key": "C",
+     "text": "葡萄胎"
+    },
+    {
+     "key": "D",
+     "text": "葡萄状肉瘤"
+    },
+    {
+     "key": "E",
+     "text": "侵蚀性葡萄胎"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "侵蚀性葡萄胎"
+   ],
+   "topic": "病理学",
+   "category": "A2",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0104",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 104,
+   "question": "患者，女，发现卵巢包块，手术切除后大体如图，呈囊性，可见毛发等，镜下如图，诊断为",
+   "options": [
+    {
+     "key": "A",
+     "text": "卵巢囊肿"
+    },
+    {
+     "key": "B",
+     "text": "卵巢囊性畸胎瘤"
+    },
+    {
+     "key": "C",
+     "text": "卵巢黏液性囊腺瘤"
+    },
+    {
+     "key": "D",
+     "text": "卵巢浆液性囊腺瘤"
+    },
+    {
+     "key": "E",
+     "text": "卵巢癌"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "卵巢囊性畸胎瘤"
+   ],
+   "topic": "病理学",
+   "category": "A2",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0105",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 105,
+   "question": "患者，女，35岁，右颈淋巴结肿大1个月。病检示：淋巴结中见淀粉样物沉积，瘤细胞为大小形态较一致的上皮样细胞、梭形细胞，呈片状或束状排列。首先考虑的原发癌灶是",
+   "options": [
+    {
+     "key": "A",
+     "text": "甲状腺乳头状癌"
+    },
+    {
+     "key": "B",
+     "text": "甲状腺滤泡癌"
+    },
+    {
+     "key": "C",
+     "text": "甲状腺髓样癌"
+    },
+    {
+     "key": "D",
+     "text": "甲状腺未分化癌"
+    },
+    {
+     "key": "E",
+     "text": "甲状腺鳞状细胞癌"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "甲状腺髓样癌"
+   ],
+   "topic": "病理学",
+   "category": "A2",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0106",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 106,
+   "question": "患者，老年男性，因左锁骨上淋巴结肿大而就诊，行局部手术切除后病理证实为转移性鳞状细胞癌，推测其原发灶可能来自于",
+   "options": [
+    {
+     "key": "A",
+     "text": "胃"
+    },
+    {
+     "key": "B",
+     "text": "肛门"
+    },
+    {
+     "key": "C",
+     "text": "食管"
+    },
+    {
+     "key": "D",
+     "text": "肠"
+    },
+    {
+     "key": "E",
+     "text": "阴茎"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "食管"
+   ],
+   "topic": "病理学",
+   "category": "A2",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0107",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 107,
+   "question": "患者，男，39岁。慢性活动性肝炎病史11年，近3年来双下肢水肿，腹胀5个月，黑便3天。查体：巩膜稍黄，颜面部有蜘蛛痣，脾肋缘下3指，肝未触及。肝穿刺活检见大小较一致的假小叶形成，其间纤维间隔较窄且宽窄较一致。患者最可能患有",
+   "options": [
+    {
+     "key": "A",
+     "text": "门脉性肝硬化"
+    },
+    {
+     "key": "B",
+     "text": "坏死后性肝硬化"
+    },
+    {
+     "key": "C",
+     "text": "胆汁性肝硬化"
+    },
+    {
+     "key": "D",
+     "text": "血吸虫性肝硬化"
+    },
+    {
+     "key": "E",
+     "text": "酒精性肝硬化"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "门脉性肝硬化"
+   ],
+   "topic": "病理学",
+   "category": "A2",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0108",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 108,
+   "question": "患者，男，40岁，曾患风湿性心内膜炎，近日发热，白细胞增高，皮肤黏膜有出血点，住院治疗，医嘱绝对卧床休息。今晨患者自行起床，突感头痛，呕吐，左下肢麻木，倒地死亡。该患者最可能的死因是",
+   "options": [
+    {
+     "key": "A",
+     "text": "肺炎"
+    },
+    {
+     "key": "B",
+     "text": "脑出血"
+    },
+    {
+     "key": "C",
+     "text": "肺动脉栓塞"
+    },
+    {
+     "key": "D",
+     "text": "心肌梗死"
+    },
+    {
+     "key": "E",
+     "text": "脑动脉栓塞"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "脑动脉栓塞"
+   ],
+   "topic": "病理学",
+   "category": "A2",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0109",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 109,
+   "question": "患者，男，65岁。间歇性无痛性肉眼血尿1年。膀胱镜检：膀胱内距输尿管口0.5cm，可见2.5cm×1cm×1cm乳头状肿块，无蒂。静脉肾盂造影可见左肾轻度积水，输尿管全段轻度扩张。行膀胱部分切除后镜检如图所示，下列说法正确的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "该疾病好发部位为膀胱尖部"
+    },
+    {
+     "key": "B",
+     "text": "该疾病为膀胱透明细胞癌"
+    },
+    {
+     "key": "C",
+     "text": "该疾病手术后不易复发"
+    },
+    {
+     "key": "D",
+     "text": "常见的症状为无痛性血尿"
+    },
+    {
+     "key": "E",
+     "text": "发生在膀胱的肿瘤大部分为良性"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "常见的症状为无痛性血尿"
+   ],
+   "topic": "病理学",
+   "category": "A2",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0110",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 110,
+   "question": "患者，男，15岁，左锁骨上淋巴结肿大半年，活检淋巴结结构破坏，在炎细胞背景下，可见许多里-施细胞，该病诊断为",
+   "options": [
+    {
+     "key": "A",
+     "text": "非霍奇金淋巴瘤"
+    },
+    {
+     "key": "B",
+     "text": "霍奇金淋巴瘤"
+    },
+    {
+     "key": "C",
+     "text": "淋巴结结核"
+    },
+    {
+     "key": "D",
+     "text": "淋巴结转移癌"
+    },
+    {
+     "key": "E",
+     "text": "淋巴结反应性增生"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "霍奇金淋巴瘤"
+   ],
+   "topic": "病理学",
+   "category": "A2",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0111",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 111,
+   "question": "患者，女，25岁。肝右叶境界清楚实体肿块直径约6cm，镜下表现如图，考虑为",
+   "options": [
+    {
+     "key": "A",
+     "text": "肝细胞肝癌"
+    },
+    {
+     "key": "B",
+     "text": "胆管细胞肝癌"
+    },
+    {
+     "key": "C",
+     "text": "混合性肝癌"
+    },
+    {
+     "key": "D",
+     "text": "纤维板层样癌"
+    },
+    {
+     "key": "E",
+     "text": "肝硬化"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "纤维板层样癌"
+   ],
+   "topic": "病理学",
+   "category": "A2",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0112",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 112,
+   "question": "男性，65岁，晚期胃癌术后2年突发呕血而亡。尸检见两肺表面遍布直径0.5cm至直径1.5cm大小灰黄色结节，如图所示，死者最可能的诊断是",
+   "options": [
+    {
+     "key": "A",
+     "text": "硅沉着病"
+    },
+    {
+     "key": "B",
+     "text": "粟粒性肺结核"
+    },
+    {
+     "key": "C",
+     "text": "肺鳞状细胞癌"
+    },
+    {
+     "key": "D",
+     "text": "细支气管肺泡癌"
+    },
+    {
+     "key": "E",
+     "text": "肺转移癌"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "肺转移癌"
+   ],
+   "topic": "病理学",
+   "category": "A2",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0113",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 113,
+   "question": "患儿，男，13岁，锁骨上淋巴结大约1.5cm×2.0cm，活动。活体组织检查见表面光滑，切面细腻，无出血、坏死。镜下见淋巴结结构破坏，在大量的淋巴细胞中可见较多的R-S细胞及典型的镜影细胞。该例的正确诊断为",
+   "options": [
+    {
+     "key": "A",
+     "text": "巨大淋巴结病"
+    },
+    {
+     "key": "B",
+     "text": "血管免疫母细胞性淋巴结病"
+    },
+    {
+     "key": "C",
+     "text": "淋巴结转移性癌"
+    },
+    {
+     "key": "D",
+     "text": "霍奇金淋巴瘤"
+    },
+    {
+     "key": "E",
+     "text": "非霍奇金淋巴瘤"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "霍奇金淋巴瘤"
+   ],
+   "topic": "病理学",
+   "category": "A2",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0114",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 114,
+   "question": "图为一小孩面部发生病变，生下就有，为",
+   "options": [
+    {
+     "key": "A",
+     "text": "外生性生长"
+    },
+    {
+     "key": "B",
+     "text": "浸润生长"
+    },
+    {
+     "key": "C",
+     "text": "膨胀生长"
+    },
+    {
+     "key": "D",
+     "text": "膨胀性外生"
+    },
+    {
+     "key": "E",
+     "text": "不能判断"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "浸润生长"
+   ],
+   "topic": "病理学",
+   "category": "A2",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0115",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 115,
+   "question": "风湿性心脏病最易累及瓣膜，使瓣膜增厚、卷曲、变形或者粘连，导致瓣膜病的发生。图1示正常瓣膜，图2 示急性期瓣膜病变，有关其病变叙述错误的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "以二尖瓣最为多见"
+    },
+    {
+     "key": "B",
+     "text": "病变主要发生在瓣膜的闭锁缘"
+    },
+    {
+     "key": "C",
+     "text": "肉眼观瓣膜上赘生物呈粟粒大小，灰白色，半透明"
+    },
+    {
+     "key": "D",
+     "text": "镜下实质为混合血栓"
+    },
+    {
+     "key": "E",
+     "text": "赘生物与瓣膜粘连紧密，不易脱落"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "镜下实质为混合血栓"
+   ],
+   "topic": "病理学",
+   "category": "A2",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0116",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 116,
+   "question": "患者，男，58岁，近1个月来感到胸部胀闷，伴有气促、心慌，咳嗽，痰中带血。X线检查，左胸腔大量积液，肺门部可见直径约5cm大小的阴影，肺门淋巴结肿大。查体：患者无发热，结核菌素实验阴性。该患者最可能患的病是",
+   "options": [
+    {
+     "key": "A",
+     "text": "肺气肿"
+    },
+    {
+     "key": "B",
+     "text": "支气管扩张"
+    },
+    {
+     "key": "C",
+     "text": "肺大泡"
+    },
+    {
+     "key": "D",
+     "text": "支气管肺炎"
+    },
+    {
+     "key": "E",
+     "text": "肺癌"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "肺癌"
+   ],
+   "topic": "病理学",
+   "category": "A2",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0117",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 117,
+   "question": "患者，女，52岁，右乳外上象限肿块2年余，肿块质硬、边界不清。局部皮肤破溃，患侧乳头内陷。符合该患者疾病的诊断是",
+   "options": [
+    {
+     "key": "A",
+     "text": "乳腺增生症"
+    },
+    {
+     "key": "B",
+     "text": "乳腺癌"
+    },
+    {
+     "key": "C",
+     "text": "乳腺纤维腺瘤"
+    },
+    {
+     "key": "D",
+     "text": "乳腺导管内乳头状瘤"
+    },
+    {
+     "key": "E",
+     "text": "乳腺脓肿"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "乳腺癌"
+   ],
+   "topic": "病理学",
+   "category": "A2",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0118",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 118,
+   "question": "图为某患者左颈部淋巴结病变，此人原有胃腺上皮来源的恶性肿瘤病史，则淋巴结病变正确命名为",
+   "options": [
+    {
+     "key": "A",
+     "text": "淋巴结转移性胃腺癌"
+    },
+    {
+     "key": "B",
+     "text": "胃转移性淋巴结癌"
+    },
+    {
+     "key": "C",
+     "text": "淋巴结转移性胃肉瘤"
+    },
+    {
+     "key": "D",
+     "text": "淋巴结反应性增生"
+    },
+    {
+     "key": "E",
+     "text": "胃癌"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "淋巴结转移性胃腺癌"
+   ],
+   "topic": "病理学",
+   "category": "A2",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0119",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 119,
+   "question": "如图患者肺部病变，原有肝癌，命名为",
+   "options": [
+    {
+     "key": "A",
+     "text": "肝转移性癌"
+    },
+    {
+     "key": "B",
+     "text": "肝转移性肺癌"
+    },
+    {
+     "key": "C",
+     "text": "肺转移性肝癌"
+    },
+    {
+     "key": "D",
+     "text": "肺癌"
+    },
+    {
+     "key": "E",
+     "text": "肝癌"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "肺转移性肝癌"
+   ],
+   "topic": "病理学",
+   "category": "A2",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0120",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 120,
+   "question": "患儿，男，10岁。3周前咽痛，近1周出现腰区疼痛，水肿尿少，尿蛋白（＋），尿红细胞10～25个/HP，红细胞管型0～1个/HP。肾穿刺活检镜下如图所示。该患者所患的疾病为",
+   "options": [
+    {
+     "key": "A",
+     "text": "隐匿性肾炎"
+    },
+    {
+     "key": "B",
+     "text": "慢性肾小球肾炎"
+    },
+    {
+     "key": "C",
+     "text": "急性弥漫性增生性肾小球肾炎"
+    },
+    {
+     "key": "D",
+     "text": "急进性肾小球肾炎"
+    },
+    {
+     "key": "E",
+     "text": "急性肾盂肾炎"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "急性弥漫性增生性肾小球肾炎"
+   ],
+   "topic": "病理学",
+   "category": "A2",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0121",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 121,
+   "question": "高血压病脑出血死亡患者，心脏重550g，左心室壁厚1.6cm，乳头肌和肉柱增粗，心腔不扩张，应诊断为",
+   "options": [
+    {
+     "key": "A",
+     "text": "心脏肥大（代偿期）"
+    },
+    {
+     "key": "B",
+     "text": "心脏肥大（失代偿期）"
+    },
+    {
+     "key": "C",
+     "text": "肥厚性心肌病"
+    },
+    {
+     "key": "D",
+     "text": "心脏脂肪变性"
+    },
+    {
+     "key": "E",
+     "text": "心肌脂肪组织浸润"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "心脏肥大（代偿期）"
+   ],
+   "topic": "病理学",
+   "category": "A2",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0122",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 122,
+   "question": "患者，女，子宫颈发现菜花状肿块，显微镜下如图，诊断为",
+   "options": [
+    {
+     "key": "A",
+     "text": "子宫颈慢性炎症"
+    },
+    {
+     "key": "B",
+     "text": "子宫颈鳞状上皮化生"
+    },
+    {
+     "key": "C",
+     "text": "子宫颈息肉"
+    },
+    {
+     "key": "D",
+     "text": "子宫颈鳞状细胞癌"
+    },
+    {
+     "key": "E",
+     "text": "子宫颈腺癌"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "子宫颈鳞状细胞癌"
+   ],
+   "topic": "病理学",
+   "category": "A2",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0123",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 123,
+   "question": "如图所示，此病变感染发生在结肠，其病变性质为",
+   "options": [
+    {
+     "key": "A",
+     "text": "蜂窝织炎"
+    },
+    {
+     "key": "B",
+     "text": "脓肿"
+    },
+    {
+     "key": "C",
+     "text": "浆液性炎"
+    },
+    {
+     "key": "D",
+     "text": "假膜性炎"
+    },
+    {
+     "key": "E",
+     "text": "出血性炎"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "假膜性炎"
+   ],
+   "topic": "病理学",
+   "category": "A2",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0124",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 124,
+   "question": "患者，男，67岁，因前列腺肿大而行手术切除，镜检示腺体增生，间质中还出现灶状淋巴细胞浸润（如图）。最有可能的诊断是",
+   "options": [
+    {
+     "key": "A",
+     "text": "慢性前列腺炎"
+    },
+    {
+     "key": "B",
+     "text": "前列腺良性增生"
+    },
+    {
+     "key": "C",
+     "text": "前列腺良性增生伴慢性前列腺炎"
+    },
+    {
+     "key": "D",
+     "text": "前列腺良性增生伴急性前列腺炎"
+    },
+    {
+     "key": "E",
+     "text": "肉芽肿性前列腺炎"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "前列腺良性增生伴慢性前列腺炎"
+   ],
+   "topic": "病理学",
+   "category": "A2",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0125",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 125,
+   "question": "一老人车祸时发生左股骨粉碎性及开放性骨折，在送医院的途中突发发绀、呼吸困难，口吐白沫而死亡，图为尸检后肺部病变组织镜下观，肺泡壁血管腔内见大空泡形成。其死亡原因可能是",
+   "options": [
+    {
+     "key": "A",
+     "text": "气体栓塞"
+    },
+    {
+     "key": "B",
+     "text": "血栓栓塞"
+    },
+    {
+     "key": "C",
+     "text": "心力衰竭"
+    },
+    {
+     "key": "D",
+     "text": "脂肪栓塞"
+    },
+    {
+     "key": "E",
+     "text": "肿瘤栓塞"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "脂肪栓塞"
+   ],
+   "topic": "病理学",
+   "category": "A2",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0126",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 126,
+   "question": "患者，男，40岁，高空工作时坠落，意识清醒，以多发性骨折和失血性休克入院，手术顺利。但术后第二天患者出现呼吸困难，并进行性加重，最终死于急性呼吸衰竭。尸检发现双肺实变，重量增加。诊断为成人型呼吸窘迫综合征。该病显微镜下肺脏病变描述不正确的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "肺泡腔内有水肿液"
+    },
+    {
+     "key": "B",
+     "text": "肺泡内表面可见透明膜形成"
+    },
+    {
+     "key": "C",
+     "text": "可见小血管内透明血栓"
+    },
+    {
+     "key": "D",
+     "text": "支气管黏膜下腺体增生肥大，管壁平滑肌断裂、萎缩"
+    },
+    {
+     "key": "E",
+     "text": "肺泡及间质大量纤维素渗出"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "支气管黏膜下腺体增生肥大，管壁平滑肌断裂、萎缩"
+   ],
+   "topic": "病理学",
+   "category": "A2",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0127",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 127,
+   "question": "患者，男，33岁，厌食，进行性消瘦伴右上腹疼痛1个月。肝穿刺组织病检，镜下观如图，可见何种病变",
+   "options": [
+    {
+     "key": "A",
+     "text": "假小叶形成"
+    },
+    {
+     "key": "B",
+     "text": "肝细胞水肿"
+    },
+    {
+     "key": "C",
+     "text": "碎片状坏死"
+    },
+    {
+     "key": "D",
+     "text": "点状坏死"
+    },
+    {
+     "key": "E",
+     "text": "大块坏死"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "碎片状坏死"
+   ],
+   "topic": "病理学",
+   "category": "A2",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0128",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 128,
+   "question": "某患者，结肠布满大小不等的腺瘤性息肉，分子检测APC基因突变，可能是下列哪一种疾病",
+   "options": [
+    {
+     "key": "A",
+     "text": "增生性息肉"
+    },
+    {
+     "key": "B",
+     "text": "管状腺瘤"
+    },
+    {
+     "key": "C",
+     "text": "锯齿状腺瘤"
+    },
+    {
+     "key": "D",
+     "text": "遗传性家族性息肉病"
+    },
+    {
+     "key": "E",
+     "text": "绒毛状腺瘤"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "遗传性家族性息肉病"
+   ],
+   "topic": "病理学",
+   "category": "A2",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0129",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 129,
+   "question": "患儿，女，8岁。因头痛、呕吐、高热入院。镜下可见大量变性坏死中性粒细胞，如图所示。应诊断为",
+   "options": [
+    {
+     "key": "A",
+     "text": "流行性脑脊髓膜炎"
+    },
+    {
+     "key": "B",
+     "text": "流行性乙型脑炎"
+    },
+    {
+     "key": "C",
+     "text": "转移性癌"
+    },
+    {
+     "key": "D",
+     "text": "脑出血"
+    },
+    {
+     "key": "E",
+     "text": "脑脓肿"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "流行性脑脊髓膜炎"
+   ],
+   "topic": "病理学",
+   "category": "A2",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0130",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 130,
+   "question": "患者，男，55岁，30年吸烟史，刺激性干咳6个月。查体X线片示右肺门处不规则分叶状巨大阴影，边界不清。最有可能的诊断是",
+   "options": [
+    {
+     "key": "A",
+     "text": "肺鳞状细胞癌"
+    },
+    {
+     "key": "B",
+     "text": "大叶性肺炎"
+    },
+    {
+     "key": "C",
+     "text": "小叶性肺炎"
+    },
+    {
+     "key": "D",
+     "text": "原发性肺结核"
+    },
+    {
+     "key": "E",
+     "text": "慢性纤维空洞型肺结核"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "肺鳞状细胞癌"
+   ],
+   "topic": "病理学",
+   "category": "A2",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0131",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 131,
+   "question": "多发性内生性软骨瘤合并软组织血管瘤时可引起",
+   "options": [
+    {
+     "key": "A",
+     "text": "瘤体由软骨膜、软骨帽盖和骨性基底组成"
+    },
+    {
+     "key": "B",
+     "text": "Ollier病"
+    },
+    {
+     "key": "C",
+     "text": "Maffucci综合征"
+    },
+    {
+     "key": "D",
+     "text": "Gardner综合征"
+    },
+    {
+     "key": "E",
+     "text": "Codman三角"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "Maffucci综合征"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0132",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 132,
+   "question": "多发骨瘤合并其他部位时可引起",
+   "options": [
+    {
+     "key": "A",
+     "text": "瘤体由软骨膜、软骨帽盖和骨性基底组成"
+    },
+    {
+     "key": "B",
+     "text": "Ollier病"
+    },
+    {
+     "key": "C",
+     "text": "Maffucci综合征"
+    },
+    {
+     "key": "D",
+     "text": "Gardner综合征"
+    },
+    {
+     "key": "E",
+     "text": "Codman三角"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "Gardner综合征"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0133",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 133,
+   "question": "多发性内生性软骨瘤合并肢体发育畸形时可引起",
+   "options": [
+    {
+     "key": "A",
+     "text": "瘤体由软骨膜、软骨帽盖和骨性基底组成"
+    },
+    {
+     "key": "B",
+     "text": "Ollier病"
+    },
+    {
+     "key": "C",
+     "text": "Maffucci综合征"
+    },
+    {
+     "key": "D",
+     "text": "Gardner综合征"
+    },
+    {
+     "key": "E",
+     "text": "Codman三角"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "Ollier病"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0134",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 134,
+   "question": "骨软骨瘤",
+   "options": [
+    {
+     "key": "A",
+     "text": "瘤体由软骨膜、软骨帽盖和骨性基底组成"
+    },
+    {
+     "key": "B",
+     "text": "Ollier病"
+    },
+    {
+     "key": "C",
+     "text": "Maffucci综合征"
+    },
+    {
+     "key": "D",
+     "text": "Gardner综合征"
+    },
+    {
+     "key": "E",
+     "text": "Codman三角"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "瘤体由软骨膜、软骨帽盖和骨性基底组成"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0135",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 135,
+   "question": "慢性胃溃疡属",
+   "options": [
+    {
+     "key": "A",
+     "text": "非肿瘤性病变"
+    },
+    {
+     "key": "B",
+     "text": "癌前病变"
+    },
+    {
+     "key": "C",
+     "text": "混合瘤"
+    },
+    {
+     "key": "D",
+     "text": "良性肿瘤"
+    },
+    {
+     "key": "E",
+     "text": "恶性肿瘤"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "癌前病变"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0136",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 136,
+   "question": "多形性腺瘤又称",
+   "options": [
+    {
+     "key": "A",
+     "text": "非肿瘤性病变"
+    },
+    {
+     "key": "B",
+     "text": "癌前病变"
+    },
+    {
+     "key": "C",
+     "text": "混合瘤"
+    },
+    {
+     "key": "D",
+     "text": "良性肿瘤"
+    },
+    {
+     "key": "E",
+     "text": "恶性肿瘤"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "混合瘤"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0137",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 137,
+   "question": "黑色素瘤属",
+   "options": [
+    {
+     "key": "A",
+     "text": "非肿瘤性病变"
+    },
+    {
+     "key": "B",
+     "text": "癌前病变"
+    },
+    {
+     "key": "C",
+     "text": "混合瘤"
+    },
+    {
+     "key": "D",
+     "text": "良性肿瘤"
+    },
+    {
+     "key": "E",
+     "text": "恶性肿瘤"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "恶性肿瘤"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0138",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 138,
+   "question": "脂肪母细胞瘤属",
+   "options": [
+    {
+     "key": "A",
+     "text": "非肿瘤性病变"
+    },
+    {
+     "key": "B",
+     "text": "癌前病变"
+    },
+    {
+     "key": "C",
+     "text": "混合瘤"
+    },
+    {
+     "key": "D",
+     "text": "良性肿瘤"
+    },
+    {
+     "key": "E",
+     "text": "恶性肿瘤"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "良性肿瘤"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0139",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 139,
+   "question": "鳞状上皮化生属",
+   "options": [
+    {
+     "key": "A",
+     "text": "非肿瘤性病变"
+    },
+    {
+     "key": "B",
+     "text": "癌前病变"
+    },
+    {
+     "key": "C",
+     "text": "混合瘤"
+    },
+    {
+     "key": "D",
+     "text": "良性肿瘤"
+    },
+    {
+     "key": "E",
+     "text": "恶性肿瘤"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "非肿瘤性病变"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0140",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 140,
+   "question": "慢性阻塞性肺气肿是由于",
+   "options": [
+    {
+     "key": "A",
+     "text": "腺体肥大、增生，黏膜上皮内杯状细胞增生"
+    },
+    {
+     "key": "B",
+     "text": "支气管的黏膜上皮细胞变性、坏死脱落"
+    },
+    {
+     "key": "C",
+     "text": "小气道狭窄、阻塞或塌陷；肺泡壁破坏及弹性减弱，肺泡互相融合"
+    },
+    {
+     "key": "D",
+     "text": "急、慢性细支气管炎及细支气管周围炎"
+    },
+    {
+     "key": "E",
+     "text": "化脓菌感染引起，病变始于细支气管并向周围肺组织发展"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "小气道狭窄、阻塞或塌陷；肺泡壁破坏及弹性减弱，肺泡互相融合"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0141",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 141,
+   "question": "慢性支气管炎患者咳痰的病理基础",
+   "options": [
+    {
+     "key": "A",
+     "text": "腺体肥大、增生，黏膜上皮内杯状细胞增生"
+    },
+    {
+     "key": "B",
+     "text": "支气管的黏膜上皮细胞变性、坏死脱落"
+    },
+    {
+     "key": "C",
+     "text": "小气道狭窄、阻塞或塌陷；肺泡壁破坏及弹性减弱，肺泡互相融合"
+    },
+    {
+     "key": "D",
+     "text": "急、慢性细支气管炎及细支气管周围炎"
+    },
+    {
+     "key": "E",
+     "text": "化脓菌感染引起，病变始于细支气管并向周围肺组织发展"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "腺体肥大、增生，黏膜上皮内杯状细胞增生"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0142",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 142,
+   "question": "慢性支气管炎患者通气与换气功能障碍的病变基础",
+   "options": [
+    {
+     "key": "A",
+     "text": "腺体肥大、增生，黏膜上皮内杯状细胞增生"
+    },
+    {
+     "key": "B",
+     "text": "支气管的黏膜上皮细胞变性、坏死脱落"
+    },
+    {
+     "key": "C",
+     "text": "小气道狭窄、阻塞或塌陷；肺泡壁破坏及弹性减弱，肺泡互相融合"
+    },
+    {
+     "key": "D",
+     "text": "急、慢性细支气管炎及细支气管周围炎"
+    },
+    {
+     "key": "E",
+     "text": "化脓菌感染引起，病变始于细支气管并向周围肺组织发展"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "急、慢性细支气管炎及细支气管周围炎"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0143",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 143,
+   "question": "小叶性肺炎的病变为",
+   "options": [
+    {
+     "key": "A",
+     "text": "腺体肥大、增生，黏膜上皮内杯状细胞增生"
+    },
+    {
+     "key": "B",
+     "text": "支气管的黏膜上皮细胞变性、坏死脱落"
+    },
+    {
+     "key": "C",
+     "text": "小气道狭窄、阻塞或塌陷；肺泡壁破坏及弹性减弱，肺泡互相融合"
+    },
+    {
+     "key": "D",
+     "text": "急、慢性细支气管炎及细支气管周围炎"
+    },
+    {
+     "key": "E",
+     "text": "化脓菌感染引起，病变始于细支气管并向周围肺组织发展"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "化脓菌感染引起，病变始于细支气管并向周围肺组织发展"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0144",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 144,
+   "question": "肝细胞癌可产生",
+   "options": [
+    {
+     "key": "A",
+     "text": "甲胎蛋白（AFP）"
+    },
+    {
+     "key": "B",
+     "text": "癌胚抗原（CEA）"
+    },
+    {
+     "key": "C",
+     "text": "绒毛膜促性腺激素"
+    },
+    {
+     "key": "D",
+     "text": "酸性磷酸酶"
+    },
+    {
+     "key": "E",
+     "text": "碱性磷酸酶"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "甲胎蛋白（AFP）"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0145",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 145,
+   "question": "结肠癌可产生",
+   "options": [
+    {
+     "key": "A",
+     "text": "甲胎蛋白（AFP）"
+    },
+    {
+     "key": "B",
+     "text": "癌胚抗原（CEA）"
+    },
+    {
+     "key": "C",
+     "text": "绒毛膜促性腺激素"
+    },
+    {
+     "key": "D",
+     "text": "酸性磷酸酶"
+    },
+    {
+     "key": "E",
+     "text": "碱性磷酸酶"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "癌胚抗原（CEA）"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0146",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 146,
+   "question": "肝转移性绒癌可产生",
+   "options": [
+    {
+     "key": "A",
+     "text": "甲胎蛋白（AFP）"
+    },
+    {
+     "key": "B",
+     "text": "癌胚抗原（CEA）"
+    },
+    {
+     "key": "C",
+     "text": "绒毛膜促性腺激素"
+    },
+    {
+     "key": "D",
+     "text": "酸性磷酸酶"
+    },
+    {
+     "key": "E",
+     "text": "碱性磷酸酶"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "绒毛膜促性腺激素"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0147",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 147,
+   "question": "槟榔肝",
+   "options": [
+    {
+     "key": "A",
+     "text": "肝脏体积增大，被膜紧张，质软，淡黄色，油腻感"
+    },
+    {
+     "key": "B",
+     "text": "肝脏体积增大，表面光滑，切面可见红黄相间的槟榔状花纹"
+    },
+    {
+     "key": "C",
+     "text": "肝脏体积增大，草绿色，表面平滑或呈颗粒状，质地中等"
+    },
+    {
+     "key": "D",
+     "text": "肝脏体积缩小，质软，被膜皱缩，切面呈土黄色或暗红色"
+    },
+    {
+     "key": "E",
+     "text": "肝脏体积缩小，质地变硬，表面及切面见多个小结节"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "肝脏体积增大，表面光滑，切面可见红黄相间的槟榔状花纹"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0148",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 148,
+   "question": "胆汁性肝硬化",
+   "options": [
+    {
+     "key": "A",
+     "text": "肝脏体积增大，被膜紧张，质软，淡黄色，油腻感"
+    },
+    {
+     "key": "B",
+     "text": "肝脏体积增大，表面光滑，切面可见红黄相间的槟榔状花纹"
+    },
+    {
+     "key": "C",
+     "text": "肝脏体积增大，草绿色，表面平滑或呈颗粒状，质地中等"
+    },
+    {
+     "key": "D",
+     "text": "肝脏体积缩小，质软，被膜皱缩，切面呈土黄色或暗红色"
+    },
+    {
+     "key": "E",
+     "text": "肝脏体积缩小，质地变硬，表面及切面见多个小结节"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "肝脏体积增大，草绿色，表面平滑或呈颗粒状，质地中等"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0149",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 149,
+   "question": "门脉性肝硬化",
+   "options": [
+    {
+     "key": "A",
+     "text": "肝脏体积增大，被膜紧张，质软，淡黄色，油腻感"
+    },
+    {
+     "key": "B",
+     "text": "肝脏体积增大，表面光滑，切面可见红黄相间的槟榔状花纹"
+    },
+    {
+     "key": "C",
+     "text": "肝脏体积增大，草绿色，表面平滑或呈颗粒状，质地中等"
+    },
+    {
+     "key": "D",
+     "text": "肝脏体积缩小，质软，被膜皱缩，切面呈土黄色或暗红色"
+    },
+    {
+     "key": "E",
+     "text": "肝脏体积缩小，质地变硬，表面及切面见多个小结节"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "肝脏体积缩小，质地变硬，表面及切面见多个小结节"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0150",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 150,
+   "question": "急性重型肝炎",
+   "options": [
+    {
+     "key": "A",
+     "text": "肝脏体积增大，被膜紧张，质软，淡黄色，油腻感"
+    },
+    {
+     "key": "B",
+     "text": "肝脏体积增大，表面光滑，切面可见红黄相间的槟榔状花纹"
+    },
+    {
+     "key": "C",
+     "text": "肝脏体积增大，草绿色，表面平滑或呈颗粒状，质地中等"
+    },
+    {
+     "key": "D",
+     "text": "肝脏体积缩小，质软，被膜皱缩，切面呈土黄色或暗红色"
+    },
+    {
+     "key": "E",
+     "text": "肝脏体积缩小，质地变硬，表面及切面见多个小结节"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "肝脏体积缩小，质软，被膜皱缩，切面呈土黄色或暗红色"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0151",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 151,
+   "question": "脂肪肝",
+   "options": [
+    {
+     "key": "A",
+     "text": "肝脏体积增大，被膜紧张，质软，淡黄色，油腻感"
+    },
+    {
+     "key": "B",
+     "text": "肝脏体积增大，表面光滑，切面可见红黄相间的槟榔状花纹"
+    },
+    {
+     "key": "C",
+     "text": "肝脏体积增大，草绿色，表面平滑或呈颗粒状，质地中等"
+    },
+    {
+     "key": "D",
+     "text": "肝脏体积缩小，质软，被膜皱缩，切面呈土黄色或暗红色"
+    },
+    {
+     "key": "E",
+     "text": "肝脏体积缩小，质地变硬，表面及切面见多个小结节"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "肝脏体积增大，被膜紧张，质软，淡黄色，油腻感"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0152",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 152,
+   "question": "葡萄球菌",
+   "options": [
+    {
+     "key": "A",
+     "text": "对中性粒细胞有趋化作用"
+    },
+    {
+     "key": "B",
+     "text": "对嗜酸性粒细胞有趋化作用"
+    },
+    {
+     "key": "C",
+     "text": "对嗜碱性粒细胞有趋化作用"
+    },
+    {
+     "key": "D",
+     "text": "对单核细胞有趋化作用"
+    },
+    {
+     "key": "E",
+     "text": "对肥大细胞有趋化作用"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "对中性粒细胞有趋化作用"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0153",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 153,
+   "question": "组胺",
+   "options": [
+    {
+     "key": "A",
+     "text": "对中性粒细胞有趋化作用"
+    },
+    {
+     "key": "B",
+     "text": "对嗜酸性粒细胞有趋化作用"
+    },
+    {
+     "key": "C",
+     "text": "对嗜碱性粒细胞有趋化作用"
+    },
+    {
+     "key": "D",
+     "text": "对单核细胞有趋化作用"
+    },
+    {
+     "key": "E",
+     "text": "对肥大细胞有趋化作用"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "对嗜酸性粒细胞有趋化作用"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0154",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 154,
+   "question": "纤维蛋白降解产物",
+   "options": [
+    {
+     "key": "A",
+     "text": "对中性粒细胞有趋化作用"
+    },
+    {
+     "key": "B",
+     "text": "对嗜酸性粒细胞有趋化作用"
+    },
+    {
+     "key": "C",
+     "text": "对嗜碱性粒细胞有趋化作用"
+    },
+    {
+     "key": "D",
+     "text": "对单核细胞有趋化作用"
+    },
+    {
+     "key": "E",
+     "text": "对肥大细胞有趋化作用"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "对单核细胞有趋化作用"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0155",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 155,
+   "question": "伤寒杆菌",
+   "options": [
+    {
+     "key": "A",
+     "text": "对中性粒细胞有趋化作用"
+    },
+    {
+     "key": "B",
+     "text": "对嗜酸性粒细胞有趋化作用"
+    },
+    {
+     "key": "C",
+     "text": "对嗜碱性粒细胞有趋化作用"
+    },
+    {
+     "key": "D",
+     "text": "对单核细胞有趋化作用"
+    },
+    {
+     "key": "E",
+     "text": "对肥大细胞有趋化作用"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "对单核细胞有趋化作用"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0156",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 156,
+   "question": "主动脉瓣狭窄",
+   "options": [
+    {
+     "key": "A",
+     "text": "心尖部收缩期吹风样杂音"
+    },
+    {
+     "key": "B",
+     "text": "心尖部舒张期隆隆样杂音"
+    },
+    {
+     "key": "C",
+     "text": "主动脉瓣舒张期吹风样杂音"
+    },
+    {
+     "key": "D",
+     "text": "主动脉瓣收缩期吹风样杂音"
+    },
+    {
+     "key": "E",
+     "text": "胸骨左缘第3肋间收缩期吹风样杂音"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "主动脉瓣收缩期吹风样杂音"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0157",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 157,
+   "question": "二尖瓣狭窄",
+   "options": [
+    {
+     "key": "A",
+     "text": "心尖部收缩期吹风样杂音"
+    },
+    {
+     "key": "B",
+     "text": "心尖部舒张期隆隆样杂音"
+    },
+    {
+     "key": "C",
+     "text": "主动脉瓣舒张期吹风样杂音"
+    },
+    {
+     "key": "D",
+     "text": "主动脉瓣收缩期吹风样杂音"
+    },
+    {
+     "key": "E",
+     "text": "胸骨左缘第3肋间收缩期吹风样杂音"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "心尖部舒张期隆隆样杂音"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0158",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 158,
+   "question": "室间隔缺损",
+   "options": [
+    {
+     "key": "A",
+     "text": "心尖部收缩期吹风样杂音"
+    },
+    {
+     "key": "B",
+     "text": "心尖部舒张期隆隆样杂音"
+    },
+    {
+     "key": "C",
+     "text": "主动脉瓣舒张期吹风样杂音"
+    },
+    {
+     "key": "D",
+     "text": "主动脉瓣收缩期吹风样杂音"
+    },
+    {
+     "key": "E",
+     "text": "胸骨左缘第3肋间收缩期吹风样杂音"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "胸骨左缘第3肋间收缩期吹风样杂音"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0159",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 159,
+   "question": "二尖瓣关闭不全",
+   "options": [
+    {
+     "key": "A",
+     "text": "心尖部收缩期吹风样杂音"
+    },
+    {
+     "key": "B",
+     "text": "心尖部舒张期隆隆样杂音"
+    },
+    {
+     "key": "C",
+     "text": "主动脉瓣舒张期吹风样杂音"
+    },
+    {
+     "key": "D",
+     "text": "主动脉瓣收缩期吹风样杂音"
+    },
+    {
+     "key": "E",
+     "text": "胸骨左缘第3肋间收缩期吹风样杂音"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "心尖部收缩期吹风样杂音"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0160",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 160,
+   "question": "主动脉瓣闭锁不全",
+   "options": [
+    {
+     "key": "A",
+     "text": "心尖部收缩期吹风样杂音"
+    },
+    {
+     "key": "B",
+     "text": "心尖部舒张期隆隆样杂音"
+    },
+    {
+     "key": "C",
+     "text": "主动脉瓣舒张期吹风样杂音"
+    },
+    {
+     "key": "D",
+     "text": "主动脉瓣收缩期吹风样杂音"
+    },
+    {
+     "key": "E",
+     "text": "胸骨左缘第3肋间收缩期吹风样杂音"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "心尖部舒张期隆隆样杂音"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0161",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 161,
+   "question": "进入体内的金属片",
+   "options": [
+    {
+     "key": "A",
+     "text": "分离排出"
+    },
+    {
+     "key": "B",
+     "text": "溶解吸收"
+    },
+    {
+     "key": "C",
+     "text": "机化"
+    },
+    {
+     "key": "D",
+     "text": "包裹"
+    },
+    {
+     "key": "E",
+     "text": "肉芽组织填补"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "包裹"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0162",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 162,
+   "question": "肠黏膜的溃疡",
+   "options": [
+    {
+     "key": "A",
+     "text": "分离排出"
+    },
+    {
+     "key": "B",
+     "text": "溶解吸收"
+    },
+    {
+     "key": "C",
+     "text": "机化"
+    },
+    {
+     "key": "D",
+     "text": "包裹"
+    },
+    {
+     "key": "E",
+     "text": "肉芽组织填补"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "肉芽组织填补"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0163",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 163,
+   "question": "肠黏膜面的纤维素渗出所形成的假膜",
+   "options": [
+    {
+     "key": "A",
+     "text": "分离排出"
+    },
+    {
+     "key": "B",
+     "text": "溶解吸收"
+    },
+    {
+     "key": "C",
+     "text": "机化"
+    },
+    {
+     "key": "D",
+     "text": "包裹"
+    },
+    {
+     "key": "E",
+     "text": "肉芽组织填补"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "分离排出"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0164",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 164,
+   "question": "肠浆膜面的厚层纤维素渗出物",
+   "options": [
+    {
+     "key": "A",
+     "text": "分离排出"
+    },
+    {
+     "key": "B",
+     "text": "溶解吸收"
+    },
+    {
+     "key": "C",
+     "text": "机化"
+    },
+    {
+     "key": "D",
+     "text": "包裹"
+    },
+    {
+     "key": "E",
+     "text": "肉芽组织填补"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "机化"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0165",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 165,
+   "question": "肺泡腔内少量纤维素渗出物",
+   "options": [
+    {
+     "key": "A",
+     "text": "分离排出"
+    },
+    {
+     "key": "B",
+     "text": "溶解吸收"
+    },
+    {
+     "key": "C",
+     "text": "机化"
+    },
+    {
+     "key": "D",
+     "text": "包裹"
+    },
+    {
+     "key": "E",
+     "text": "肉芽组织填补"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "溶解吸收"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0166",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 166,
+   "question": "符合膜增生性肾小球肾炎Ⅰ型表现的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "内皮下有沉积物"
+    },
+    {
+     "key": "B",
+     "text": "基底膜致密层有沉积物"
+    },
+    {
+     "key": "C",
+     "text": "基底膜和脏层上皮细胞间有沉积物，呈驼峰状"
+    },
+    {
+     "key": "D",
+     "text": "基底膜和脏层上皮细胞间有沉积物，被基底膜钉状突起分隔"
+    },
+    {
+     "key": "E",
+     "text": "没有沉积物"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "内皮下有沉积物"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0167",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 167,
+   "question": "符合膜性肾小球肾炎表现的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "内皮下有沉积物"
+    },
+    {
+     "key": "B",
+     "text": "基底膜致密层有沉积物"
+    },
+    {
+     "key": "C",
+     "text": "基底膜和脏层上皮细胞间有沉积物，呈驼峰状"
+    },
+    {
+     "key": "D",
+     "text": "基底膜和脏层上皮细胞间有沉积物，被基底膜钉状突起分隔"
+    },
+    {
+     "key": "E",
+     "text": "没有沉积物"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "基底膜和脏层上皮细胞间有沉积物，被基底膜钉状突起分隔"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0168",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 168,
+   "question": "符合微小病变性肾小球肾炎表现的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "内皮下有沉积物"
+    },
+    {
+     "key": "B",
+     "text": "基底膜致密层有沉积物"
+    },
+    {
+     "key": "C",
+     "text": "基底膜和脏层上皮细胞间有沉积物，呈驼峰状"
+    },
+    {
+     "key": "D",
+     "text": "基底膜和脏层上皮细胞间有沉积物，被基底膜钉状突起分隔"
+    },
+    {
+     "key": "E",
+     "text": "没有沉积物"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "没有沉积物"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0169",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 169,
+   "question": "符合膜增生性肾小球肾炎Ⅱ型表现的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "内皮下有沉积物"
+    },
+    {
+     "key": "B",
+     "text": "基底膜致密层有沉积物"
+    },
+    {
+     "key": "C",
+     "text": "基底膜和脏层上皮细胞间有沉积物，呈驼峰状"
+    },
+    {
+     "key": "D",
+     "text": "基底膜和脏层上皮细胞间有沉积物，被基底膜钉状突起分隔"
+    },
+    {
+     "key": "E",
+     "text": "没有沉积物"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "基底膜致密层有沉积物"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0170",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 170,
+   "question": "符合急性弥漫性增生性肾小球肾炎表现的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "内皮下有沉积物"
+    },
+    {
+     "key": "B",
+     "text": "基底膜致密层有沉积物"
+    },
+    {
+     "key": "C",
+     "text": "基底膜和脏层上皮细胞间有沉积物，呈驼峰状"
+    },
+    {
+     "key": "D",
+     "text": "基底膜和脏层上皮细胞间有沉积物，被基底膜钉状突起分隔"
+    },
+    {
+     "key": "E",
+     "text": "没有沉积物"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "基底膜和脏层上皮细胞间有沉积物，呈驼峰状"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0171",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 171,
+   "question": "透明血栓",
+   "options": [
+    {
+     "key": "A",
+     "text": "血小板血栓"
+    },
+    {
+     "key": "B",
+     "text": "延续性血栓尾部"
+    },
+    {
+     "key": "C",
+     "text": "机化"
+    },
+    {
+     "key": "D",
+     "text": "层状血栓"
+    },
+    {
+     "key": "E",
+     "text": "纤维素性血栓"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "纤维素性血栓"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0172",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 172,
+   "question": "血栓的结局",
+   "options": [
+    {
+     "key": "A",
+     "text": "血小板血栓"
+    },
+    {
+     "key": "B",
+     "text": "延续性血栓尾部"
+    },
+    {
+     "key": "C",
+     "text": "机化"
+    },
+    {
+     "key": "D",
+     "text": "层状血栓"
+    },
+    {
+     "key": "E",
+     "text": "纤维素性血栓"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "机化"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0173",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 173,
+   "question": "白色血栓",
+   "options": [
+    {
+     "key": "A",
+     "text": "血小板血栓"
+    },
+    {
+     "key": "B",
+     "text": "延续性血栓尾部"
+    },
+    {
+     "key": "C",
+     "text": "机化"
+    },
+    {
+     "key": "D",
+     "text": "层状血栓"
+    },
+    {
+     "key": "E",
+     "text": "纤维素性血栓"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "血小板血栓"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0174",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 174,
+   "question": "红色血栓",
+   "options": [
+    {
+     "key": "A",
+     "text": "血小板血栓"
+    },
+    {
+     "key": "B",
+     "text": "延续性血栓尾部"
+    },
+    {
+     "key": "C",
+     "text": "机化"
+    },
+    {
+     "key": "D",
+     "text": "层状血栓"
+    },
+    {
+     "key": "E",
+     "text": "纤维素性血栓"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "延续性血栓尾部"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0175",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 175,
+   "question": "混合血栓",
+   "options": [
+    {
+     "key": "A",
+     "text": "血小板血栓"
+    },
+    {
+     "key": "B",
+     "text": "延续性血栓尾部"
+    },
+    {
+     "key": "C",
+     "text": "机化"
+    },
+    {
+     "key": "D",
+     "text": "层状血栓"
+    },
+    {
+     "key": "E",
+     "text": "纤维素性血栓"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "层状血栓"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0176",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 176,
+   "question": "支气管黏膜上皮由纤毛柱状上皮转化为鳞状上皮，属于",
+   "options": [
+    {
+     "key": "A",
+     "text": "化生"
+    },
+    {
+     "key": "B",
+     "text": "增生"
+    },
+    {
+     "key": "C",
+     "text": "再生"
+    },
+    {
+     "key": "D",
+     "text": "机化"
+    },
+    {
+     "key": "E",
+     "text": "钙化"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "化生"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0177",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 177,
+   "question": "骨化性肌炎病灶中形成骨组织，属于",
+   "options": [
+    {
+     "key": "A",
+     "text": "化生"
+    },
+    {
+     "key": "B",
+     "text": "增生"
+    },
+    {
+     "key": "C",
+     "text": "再生"
+    },
+    {
+     "key": "D",
+     "text": "机化"
+    },
+    {
+     "key": "E",
+     "text": "钙化"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "化生"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0178",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 178,
+   "question": "坏死组织被新生的肉芽组织取代的过程，属于",
+   "options": [
+    {
+     "key": "A",
+     "text": "化生"
+    },
+    {
+     "key": "B",
+     "text": "增生"
+    },
+    {
+     "key": "C",
+     "text": "再生"
+    },
+    {
+     "key": "D",
+     "text": "机化"
+    },
+    {
+     "key": "E",
+     "text": "钙化"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "机化"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0179",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 179,
+   "question": "“静脉石”是由静脉内血栓发生哪项变化形成的",
+   "options": [
+    {
+     "key": "A",
+     "text": "化生"
+    },
+    {
+     "key": "B",
+     "text": "增生"
+    },
+    {
+     "key": "C",
+     "text": "再生"
+    },
+    {
+     "key": "D",
+     "text": "机化"
+    },
+    {
+     "key": "E",
+     "text": "钙化"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "钙化"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0180",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 180,
+   "question": "葡萄胎中可出现",
+   "options": [
+    {
+     "key": "A",
+     "text": "不典型增生"
+    },
+    {
+     "key": "B",
+     "text": "水泡状结构"
+    },
+    {
+     "key": "C",
+     "text": "血肿"
+    },
+    {
+     "key": "D",
+     "text": "粉刺癌"
+    },
+    {
+     "key": "E",
+     "text": "炎性息肉"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "水泡状结构"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0181",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 181,
+   "question": "子宫绒癌中可出现",
+   "options": [
+    {
+     "key": "A",
+     "text": "不典型增生"
+    },
+    {
+     "key": "B",
+     "text": "水泡状结构"
+    },
+    {
+     "key": "C",
+     "text": "血肿"
+    },
+    {
+     "key": "D",
+     "text": "粉刺癌"
+    },
+    {
+     "key": "E",
+     "text": "炎性息肉"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "血肿"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0182",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 182,
+   "question": "慢性宫颈炎中可出现",
+   "options": [
+    {
+     "key": "A",
+     "text": "不典型增生"
+    },
+    {
+     "key": "B",
+     "text": "水泡状结构"
+    },
+    {
+     "key": "C",
+     "text": "血肿"
+    },
+    {
+     "key": "D",
+     "text": "粉刺癌"
+    },
+    {
+     "key": "E",
+     "text": "炎性息肉"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "炎性息肉"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0183",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 183,
+   "question": "乳腺癌中可出现",
+   "options": [
+    {
+     "key": "A",
+     "text": "不典型增生"
+    },
+    {
+     "key": "B",
+     "text": "水泡状结构"
+    },
+    {
+     "key": "C",
+     "text": "血肿"
+    },
+    {
+     "key": "D",
+     "text": "粉刺癌"
+    },
+    {
+     "key": "E",
+     "text": "炎性息肉"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "不典型增生"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0184",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 184,
+   "question": "细支气管肺泡癌（原位腺癌）可起源于",
+   "options": [
+    {
+     "key": "A",
+     "text": "段以上支气管黏膜上皮"
+    },
+    {
+     "key": "B",
+     "text": "较小支气管黏膜上皮"
+    },
+    {
+     "key": "C",
+     "text": "支气管上皮的具有多种分化潜能的干细胞"
+    },
+    {
+     "key": "D",
+     "text": "支气管黏膜上皮的kulchitsky细胞"
+    },
+    {
+     "key": "E",
+     "text": "Ⅱ型肺泡上皮细胞"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "Ⅱ型肺泡上皮细胞"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0185",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 185,
+   "question": "小细胞癌起源于",
+   "options": [
+    {
+     "key": "A",
+     "text": "段以上支气管黏膜上皮"
+    },
+    {
+     "key": "B",
+     "text": "较小支气管黏膜上皮"
+    },
+    {
+     "key": "C",
+     "text": "支气管上皮的具有多种分化潜能的干细胞"
+    },
+    {
+     "key": "D",
+     "text": "支气管黏膜上皮的kulchitsky细胞"
+    },
+    {
+     "key": "E",
+     "text": "Ⅱ型肺泡上皮细胞"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "支气管黏膜上皮的kulchitsky细胞"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0186",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 186,
+   "question": "肺鳞状细胞癌多发生于",
+   "options": [
+    {
+     "key": "A",
+     "text": "段以上支气管黏膜上皮"
+    },
+    {
+     "key": "B",
+     "text": "较小支气管黏膜上皮"
+    },
+    {
+     "key": "C",
+     "text": "支气管上皮的具有多种分化潜能的干细胞"
+    },
+    {
+     "key": "D",
+     "text": "支气管黏膜上皮的kulchitsky细胞"
+    },
+    {
+     "key": "E",
+     "text": "Ⅱ型肺泡上皮细胞"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "段以上支气管黏膜上皮"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0187",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 187,
+   "question": "腺癌多发生于",
+   "options": [
+    {
+     "key": "A",
+     "text": "段以上支气管黏膜上皮"
+    },
+    {
+     "key": "B",
+     "text": "较小支气管黏膜上皮"
+    },
+    {
+     "key": "C",
+     "text": "支气管上皮的具有多种分化潜能的干细胞"
+    },
+    {
+     "key": "D",
+     "text": "支气管黏膜上皮的kulchitsky细胞"
+    },
+    {
+     "key": "E",
+     "text": "Ⅱ型肺泡上皮细胞"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "较小支气管黏膜上皮"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0188",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 188,
+   "question": "腺鳞癌起源于",
+   "options": [
+    {
+     "key": "A",
+     "text": "段以上支气管黏膜上皮"
+    },
+    {
+     "key": "B",
+     "text": "较小支气管黏膜上皮"
+    },
+    {
+     "key": "C",
+     "text": "支气管上皮的具有多种分化潜能的干细胞"
+    },
+    {
+     "key": "D",
+     "text": "支气管黏膜上皮的kulchitsky细胞"
+    },
+    {
+     "key": "E",
+     "text": "Ⅱ型肺泡上皮细胞"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "支气管上皮的具有多种分化潜能的干细胞"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0189",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 189,
+   "question": "肺气肿破坏肺小叶间隔可引起肺泡融合扩张，发生",
+   "options": [
+    {
+     "key": "A",
+     "text": "代偿性肺气肿"
+    },
+    {
+     "key": "B",
+     "text": "老年性肺气肿"
+    },
+    {
+     "key": "C",
+     "text": "间质性肺气肿"
+    },
+    {
+     "key": "D",
+     "text": "腺泡中央型肺气肿"
+    },
+    {
+     "key": "E",
+     "text": "肺大疱"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "肺大疱"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0190",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 190,
+   "question": "慢性支气管炎可以引起",
+   "options": [
+    {
+     "key": "A",
+     "text": "代偿性肺气肿"
+    },
+    {
+     "key": "B",
+     "text": "老年性肺气肿"
+    },
+    {
+     "key": "C",
+     "text": "间质性肺气肿"
+    },
+    {
+     "key": "D",
+     "text": "腺泡中央型肺气肿"
+    },
+    {
+     "key": "E",
+     "text": "肺大疱"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "腺泡中央型肺气肿"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0191",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 191,
+   "question": "由于肺泡壁及呼吸性细支气管破裂而产生",
+   "options": [
+    {
+     "key": "A",
+     "text": "代偿性肺气肿"
+    },
+    {
+     "key": "B",
+     "text": "老年性肺气肿"
+    },
+    {
+     "key": "C",
+     "text": "间质性肺气肿"
+    },
+    {
+     "key": "D",
+     "text": "腺泡中央型肺气肿"
+    },
+    {
+     "key": "E",
+     "text": "肺大疱"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "间质性肺气肿"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0192",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 192,
+   "question": "肺癌切除术后，残存肺组织代偿性膨胀，导致",
+   "options": [
+    {
+     "key": "A",
+     "text": "代偿性肺气肿"
+    },
+    {
+     "key": "B",
+     "text": "老年性肺气肿"
+    },
+    {
+     "key": "C",
+     "text": "间质性肺气肿"
+    },
+    {
+     "key": "D",
+     "text": "腺泡中央型肺气肿"
+    },
+    {
+     "key": "E",
+     "text": "肺大疱"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "代偿性肺气肿"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0193",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 193,
+   "question": "由肺组织生理性退行性改变所致",
+   "options": [
+    {
+     "key": "A",
+     "text": "代偿性肺气肿"
+    },
+    {
+     "key": "B",
+     "text": "老年性肺气肿"
+    },
+    {
+     "key": "C",
+     "text": "间质性肺气肿"
+    },
+    {
+     "key": "D",
+     "text": "腺泡中央型肺气肿"
+    },
+    {
+     "key": "E",
+     "text": "肺大疱"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "老年性肺气肿"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0194",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 194,
+   "question": "病毒性肝炎为",
+   "options": [
+    {
+     "key": "A",
+     "text": "变质性炎"
+    },
+    {
+     "key": "B",
+     "text": "蜂窝织炎"
+    },
+    {
+     "key": "C",
+     "text": "纤维素性炎"
+    },
+    {
+     "key": "D",
+     "text": "卡他性炎"
+    },
+    {
+     "key": "E",
+     "text": "浆液性炎"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "变质性炎"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0195",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 195,
+   "question": "皮肤Ⅱ度烧伤出现的水泡为",
+   "options": [
+    {
+     "key": "A",
+     "text": "变质性炎"
+    },
+    {
+     "key": "B",
+     "text": "蜂窝织炎"
+    },
+    {
+     "key": "C",
+     "text": "纤维素性炎"
+    },
+    {
+     "key": "D",
+     "text": "卡他性炎"
+    },
+    {
+     "key": "E",
+     "text": "浆液性炎"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "浆液性炎"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0196",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 196,
+   "question": "白喉和细菌性痢疾常为",
+   "options": [
+    {
+     "key": "A",
+     "text": "变质性炎"
+    },
+    {
+     "key": "B",
+     "text": "蜂窝织炎"
+    },
+    {
+     "key": "C",
+     "text": "纤维素性炎"
+    },
+    {
+     "key": "D",
+     "text": "卡他性炎"
+    },
+    {
+     "key": "E",
+     "text": "浆液性炎"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "纤维素性炎"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0197",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 197,
+   "question": "溶血性链球菌感染时常为",
+   "options": [
+    {
+     "key": "A",
+     "text": "变质性炎"
+    },
+    {
+     "key": "B",
+     "text": "蜂窝织炎"
+    },
+    {
+     "key": "C",
+     "text": "纤维素性炎"
+    },
+    {
+     "key": "D",
+     "text": "卡他性炎"
+    },
+    {
+     "key": "E",
+     "text": "浆液性炎"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "蜂窝织炎"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0198",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 198,
+   "question": "中晚期食管癌",
+   "options": [
+    {
+     "key": "A",
+     "text": "临床上无明显症状，癌组织局限在黏膜层或黏膜下层"
+    },
+    {
+     "key": "B",
+     "text": "临床上出现吞咽困难等症状，癌组织浸润到肌层"
+    },
+    {
+     "key": "C",
+     "text": "癌结节直径在3cm以下"
+    },
+    {
+     "key": "D",
+     "text": "癌结节直径在3cm以上"
+    },
+    {
+     "key": "E",
+     "text": "食管下段静脉丛曲张"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "临床上出现吞咽困难等症状，癌组织浸润到肌层"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0199",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 199,
+   "question": "早期肝癌",
+   "options": [
+    {
+     "key": "A",
+     "text": "临床上无明显症状，癌组织局限在黏膜层或黏膜下层"
+    },
+    {
+     "key": "B",
+     "text": "临床上出现吞咽困难等症状，癌组织浸润到肌层"
+    },
+    {
+     "key": "C",
+     "text": "癌结节直径在3cm以下"
+    },
+    {
+     "key": "D",
+     "text": "癌结节直径在3cm以上"
+    },
+    {
+     "key": "E",
+     "text": "食管下段静脉丛曲张"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "癌结节直径在3cm以下"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0200",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 200,
+   "question": "早期食管癌",
+   "options": [
+    {
+     "key": "A",
+     "text": "临床上无明显症状，癌组织局限在黏膜层或黏膜下层"
+    },
+    {
+     "key": "B",
+     "text": "临床上出现吞咽困难等症状，癌组织浸润到肌层"
+    },
+    {
+     "key": "C",
+     "text": "癌结节直径在3cm以下"
+    },
+    {
+     "key": "D",
+     "text": "癌结节直径在3cm以上"
+    },
+    {
+     "key": "E",
+     "text": "食管下段静脉丛曲张"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "临床上无明显症状，癌组织局限在黏膜层或黏膜下层"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0201",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 201,
+   "question": "与溃疡形成有关的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "深部脓肿向体表或空腔脏器穿破"
+    },
+    {
+     "key": "B",
+     "text": "皮肤或黏膜的化脓性炎破溃"
+    },
+    {
+     "key": "C",
+     "text": "深部脓肿通过自然管道排出"
+    },
+    {
+     "key": "D",
+     "text": "链激酶与透明质酸酶"
+    },
+    {
+     "key": "E",
+     "text": "血浆凝固酶"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "皮肤或黏膜的化脓性炎破溃"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0202",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 202,
+   "question": "与空洞形成有关的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "深部脓肿向体表或空腔脏器穿破"
+    },
+    {
+     "key": "B",
+     "text": "皮肤或黏膜的化脓性炎破溃"
+    },
+    {
+     "key": "C",
+     "text": "深部脓肿通过自然管道排出"
+    },
+    {
+     "key": "D",
+     "text": "链激酶与透明质酸酶"
+    },
+    {
+     "key": "E",
+     "text": "血浆凝固酶"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "深部脓肿通过自然管道排出"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0203",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 203,
+   "question": "与窦道或瘘管形成有关的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "深部脓肿向体表或空腔脏器穿破"
+    },
+    {
+     "key": "B",
+     "text": "皮肤或黏膜的化脓性炎破溃"
+    },
+    {
+     "key": "C",
+     "text": "深部脓肿通过自然管道排出"
+    },
+    {
+     "key": "D",
+     "text": "链激酶与透明质酸酶"
+    },
+    {
+     "key": "E",
+     "text": "血浆凝固酶"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "深部脓肿向体表或空腔脏器穿破"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0204",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 204,
+   "question": "肠结核溃疡特点",
+   "options": [
+    {
+     "key": "A",
+     "text": "椭圆形溃疡，其长轴与肠管平行"
+    },
+    {
+     "key": "B",
+     "text": "带状溃疡，其长径与肠的长轴垂直"
+    },
+    {
+     "key": "C",
+     "text": "溃疡形状不规则，呈表浅地图状"
+    },
+    {
+     "key": "D",
+     "text": "烧瓶状溃疡"
+    },
+    {
+     "key": "E",
+     "text": "溃疡大，形状不规则，边缘隆起"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "带状溃疡，其长径与肠的长轴垂直"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0205",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 205,
+   "question": "急性细菌性痢疾溃疡特点",
+   "options": [
+    {
+     "key": "A",
+     "text": "椭圆形溃疡，其长轴与肠管平行"
+    },
+    {
+     "key": "B",
+     "text": "带状溃疡，其长径与肠的长轴垂直"
+    },
+    {
+     "key": "C",
+     "text": "溃疡形状不规则，呈表浅地图状"
+    },
+    {
+     "key": "D",
+     "text": "烧瓶状溃疡"
+    },
+    {
+     "key": "E",
+     "text": "溃疡大，形状不规则，边缘隆起"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "溃疡形状不规则，呈表浅地图状"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0206",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 206,
+   "question": "阿米巴痢疾急性期溃疡特点",
+   "options": [
+    {
+     "key": "A",
+     "text": "椭圆形溃疡，其长轴与肠管平行"
+    },
+    {
+     "key": "B",
+     "text": "带状溃疡，其长径与肠的长轴垂直"
+    },
+    {
+     "key": "C",
+     "text": "溃疡形状不规则，呈表浅地图状"
+    },
+    {
+     "key": "D",
+     "text": "烧瓶状溃疡"
+    },
+    {
+     "key": "E",
+     "text": "溃疡大，形状不规则，边缘隆起"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "烧瓶状溃疡"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0207",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 207,
+   "question": "大肠癌溃疡特点",
+   "options": [
+    {
+     "key": "A",
+     "text": "椭圆形溃疡，其长轴与肠管平行"
+    },
+    {
+     "key": "B",
+     "text": "带状溃疡，其长径与肠的长轴垂直"
+    },
+    {
+     "key": "C",
+     "text": "溃疡形状不规则，呈表浅地图状"
+    },
+    {
+     "key": "D",
+     "text": "烧瓶状溃疡"
+    },
+    {
+     "key": "E",
+     "text": "溃疡大，形状不规则，边缘隆起"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "溃疡大，形状不规则，边缘隆起"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0208",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 208,
+   "question": "肠伤寒溃疡特点",
+   "options": [
+    {
+     "key": "A",
+     "text": "椭圆形溃疡，其长轴与肠管平行"
+    },
+    {
+     "key": "B",
+     "text": "带状溃疡，其长径与肠的长轴垂直"
+    },
+    {
+     "key": "C",
+     "text": "溃疡形状不规则，呈表浅地图状"
+    },
+    {
+     "key": "D",
+     "text": "烧瓶状溃疡"
+    },
+    {
+     "key": "E",
+     "text": "溃疡大，形状不规则，边缘隆起"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "椭圆形溃疡，其长轴与肠管平行"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0209",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 209,
+   "question": "镜影细胞是诊断上述哪种疾病的重要依据",
+   "options": [
+    {
+     "key": "A",
+     "text": "B细胞型淋巴瘤"
+    },
+    {
+     "key": "B",
+     "text": "T细胞型淋巴瘤"
+    },
+    {
+     "key": "C",
+     "text": "组织细胞型淋巴瘤"
+    },
+    {
+     "key": "D",
+     "text": "霍奇金病"
+    },
+    {
+     "key": "E",
+     "text": "Burkitt淋巴瘤"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "霍奇金病"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0210",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 210,
+   "question": "最常见的淋巴瘤是",
+   "options": [
+    {
+     "key": "A",
+     "text": "B细胞型淋巴瘤"
+    },
+    {
+     "key": "B",
+     "text": "T细胞型淋巴瘤"
+    },
+    {
+     "key": "C",
+     "text": "组织细胞型淋巴瘤"
+    },
+    {
+     "key": "D",
+     "text": "霍奇金病"
+    },
+    {
+     "key": "E",
+     "text": "Burkitt淋巴瘤"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "B细胞型淋巴瘤"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0211",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 211,
+   "question": "非霍奇金淋巴瘤中很少见的类型是",
+   "options": [
+    {
+     "key": "A",
+     "text": "B细胞型淋巴瘤"
+    },
+    {
+     "key": "B",
+     "text": "T细胞型淋巴瘤"
+    },
+    {
+     "key": "C",
+     "text": "组织细胞型淋巴瘤"
+    },
+    {
+     "key": "D",
+     "text": "霍奇金病"
+    },
+    {
+     "key": "E",
+     "text": "Burkitt淋巴瘤"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "组织细胞型淋巴瘤"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0212",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 212,
+   "question": "蕈样霉菌病属于",
+   "options": [
+    {
+     "key": "A",
+     "text": "B细胞型淋巴瘤"
+    },
+    {
+     "key": "B",
+     "text": "T细胞型淋巴瘤"
+    },
+    {
+     "key": "C",
+     "text": "组织细胞型淋巴瘤"
+    },
+    {
+     "key": "D",
+     "text": "霍奇金病"
+    },
+    {
+     "key": "E",
+     "text": "Burkitt淋巴瘤"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "T细胞型淋巴瘤"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0213",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 213,
+   "question": "满天星图像是上述哪种疾病的病变特点之一",
+   "options": [
+    {
+     "key": "A",
+     "text": "B细胞型淋巴瘤"
+    },
+    {
+     "key": "B",
+     "text": "T细胞型淋巴瘤"
+    },
+    {
+     "key": "C",
+     "text": "组织细胞型淋巴瘤"
+    },
+    {
+     "key": "D",
+     "text": "霍奇金病"
+    },
+    {
+     "key": "E",
+     "text": "Burkitt淋巴瘤"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "Burkitt淋巴瘤"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0214",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 214,
+   "question": "病变主要累及系膜的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "膜性肾小球肾炎"
+    },
+    {
+     "key": "B",
+     "text": "快速进行性肾小球肾炎"
+    },
+    {
+     "key": "C",
+     "text": "膜增生性肾小球肾炎"
+    },
+    {
+     "key": "D",
+     "text": "系膜增生性肾小球肾炎"
+    },
+    {
+     "key": "E",
+     "text": "轻微病变性肾小球肾炎"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "系膜增生性肾小球肾炎"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0215",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 215,
+   "question": "肾小球囊内新月体形成，多见于",
+   "options": [
+    {
+     "key": "A",
+     "text": "膜性肾小球肾炎"
+    },
+    {
+     "key": "B",
+     "text": "快速进行性肾小球肾炎"
+    },
+    {
+     "key": "C",
+     "text": "膜增生性肾小球肾炎"
+    },
+    {
+     "key": "D",
+     "text": "系膜增生性肾小球肾炎"
+    },
+    {
+     "key": "E",
+     "text": "轻微病变性肾小球肾炎"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "快速进行性肾小球肾炎"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0216",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 216,
+   "question": "毛细血管壁呈双轨状，多见于",
+   "options": [
+    {
+     "key": "A",
+     "text": "膜性肾小球肾炎"
+    },
+    {
+     "key": "B",
+     "text": "快速进行性肾小球肾炎"
+    },
+    {
+     "key": "C",
+     "text": "膜增生性肾小球肾炎"
+    },
+    {
+     "key": "D",
+     "text": "系膜增生性肾小球肾炎"
+    },
+    {
+     "key": "E",
+     "text": "轻微病变性肾小球肾炎"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "膜增生性肾小球肾炎"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0217",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 217,
+   "question": "光镜下肾小球大致正常，肾小管上皮细胞内可见脂滴，多见于",
+   "options": [
+    {
+     "key": "A",
+     "text": "膜性肾小球肾炎"
+    },
+    {
+     "key": "B",
+     "text": "快速进行性肾小球肾炎"
+    },
+    {
+     "key": "C",
+     "text": "膜增生性肾小球肾炎"
+    },
+    {
+     "key": "D",
+     "text": "系膜增生性肾小球肾炎"
+    },
+    {
+     "key": "E",
+     "text": "轻微病变性肾小球肾炎"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "轻微病变性肾小球肾炎"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0218",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 218,
+   "question": "基底膜伸出钉状突起与其垂直相连，形似梳齿，多见于",
+   "options": [
+    {
+     "key": "A",
+     "text": "膜性肾小球肾炎"
+    },
+    {
+     "key": "B",
+     "text": "快速进行性肾小球肾炎"
+    },
+    {
+     "key": "C",
+     "text": "膜增生性肾小球肾炎"
+    },
+    {
+     "key": "D",
+     "text": "系膜增生性肾小球肾炎"
+    },
+    {
+     "key": "E",
+     "text": "轻微病变性肾小球肾炎"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "膜性肾小球肾炎"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0219",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 219,
+   "question": "神经节细胞属于",
+   "options": [
+    {
+     "key": "A",
+     "text": "不稳定细胞"
+    },
+    {
+     "key": "B",
+     "text": "稳定细胞"
+    },
+    {
+     "key": "C",
+     "text": "未分化细胞"
+    },
+    {
+     "key": "D",
+     "text": "永久性细胞"
+    },
+    {
+     "key": "E",
+     "text": "内分泌细胞"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "永久性细胞"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0220",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 220,
+   "question": "表皮细胞属于",
+   "options": [
+    {
+     "key": "A",
+     "text": "不稳定细胞"
+    },
+    {
+     "key": "B",
+     "text": "稳定细胞"
+    },
+    {
+     "key": "C",
+     "text": "未分化细胞"
+    },
+    {
+     "key": "D",
+     "text": "永久性细胞"
+    },
+    {
+     "key": "E",
+     "text": "内分泌细胞"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "不稳定细胞"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0221",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 221,
+   "question": "平滑肌细胞属于",
+   "options": [
+    {
+     "key": "A",
+     "text": "不稳定细胞"
+    },
+    {
+     "key": "B",
+     "text": "稳定细胞"
+    },
+    {
+     "key": "C",
+     "text": "未分化细胞"
+    },
+    {
+     "key": "D",
+     "text": "永久性细胞"
+    },
+    {
+     "key": "E",
+     "text": "内分泌细胞"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "稳定细胞"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0222",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 222,
+   "question": "肾小管上皮细胞属于",
+   "options": [
+    {
+     "key": "A",
+     "text": "不稳定细胞"
+    },
+    {
+     "key": "B",
+     "text": "稳定细胞"
+    },
+    {
+     "key": "C",
+     "text": "未分化细胞"
+    },
+    {
+     "key": "D",
+     "text": "永久性细胞"
+    },
+    {
+     "key": "E",
+     "text": "内分泌细胞"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "稳定细胞"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0223",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 223,
+   "question": "间皮细胞属于",
+   "options": [
+    {
+     "key": "A",
+     "text": "不稳定细胞"
+    },
+    {
+     "key": "B",
+     "text": "稳定细胞"
+    },
+    {
+     "key": "C",
+     "text": "未分化细胞"
+    },
+    {
+     "key": "D",
+     "text": "永久性细胞"
+    },
+    {
+     "key": "E",
+     "text": "内分泌细胞"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "不稳定细胞"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0224",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 224,
+   "question": "肝脏体积缩小如图，质地变硬，表面及切面可见大小不等圆形和类圆形结节，其间有纤维间隔包绕，且宽窄不一",
+   "options": [
+    {
+     "key": "A",
+     "text": "急性重型肝炎"
+    },
+    {
+     "key": "B",
+     "text": "脂肪肝"
+    },
+    {
+     "key": "C",
+     "text": "门脉性肝硬化"
+    },
+    {
+     "key": "D",
+     "text": "坏死后性肝硬化"
+    },
+    {
+     "key": "E",
+     "text": "亚急性重型肝炎"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "坏死后性肝硬化"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0225",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 225,
+   "question": "肝脏体积缩小如图，质硬表面及切面均见大小较一致的结节，纤维间隔较窄",
+   "options": [
+    {
+     "key": "A",
+     "text": "急性重型肝炎"
+    },
+    {
+     "key": "B",
+     "text": "脂肪肝"
+    },
+    {
+     "key": "C",
+     "text": "门脉性肝硬化"
+    },
+    {
+     "key": "D",
+     "text": "坏死后性肝硬化"
+    },
+    {
+     "key": "E",
+     "text": "亚急性重型肝炎"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "门脉性肝硬化"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0226",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 226,
+   "question": "肝脏体积缩小，被膜皱缩，质地变软，切面土黄色",
+   "options": [
+    {
+     "key": "A",
+     "text": "急性重型肝炎"
+    },
+    {
+     "key": "B",
+     "text": "脂肪肝"
+    },
+    {
+     "key": "C",
+     "text": "门脉性肝硬化"
+    },
+    {
+     "key": "D",
+     "text": "坏死后性肝硬化"
+    },
+    {
+     "key": "E",
+     "text": "亚急性重型肝炎"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "急性重型肝炎"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0227",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 227,
+   "question": "肝脏体积缩小，被膜皱缩，切面可见结节，呈黄绿色",
+   "options": [
+    {
+     "key": "A",
+     "text": "急性重型肝炎"
+    },
+    {
+     "key": "B",
+     "text": "脂肪肝"
+    },
+    {
+     "key": "C",
+     "text": "门脉性肝硬化"
+    },
+    {
+     "key": "D",
+     "text": "坏死后性肝硬化"
+    },
+    {
+     "key": "E",
+     "text": "亚急性重型肝炎"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "亚急性重型肝炎"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0228",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 228,
+   "question": "肝脏体积增大如图，被膜紧张，质软，淡黄色，油腻感",
+   "options": [
+    {
+     "key": "A",
+     "text": "急性重型肝炎"
+    },
+    {
+     "key": "B",
+     "text": "脂肪肝"
+    },
+    {
+     "key": "C",
+     "text": "门脉性肝硬化"
+    },
+    {
+     "key": "D",
+     "text": "坏死后性肝硬化"
+    },
+    {
+     "key": "E",
+     "text": "亚急性重型肝炎"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "脂肪肝"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0229",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 229,
+   "question": "侵蚀性葡萄胎表现为",
+   "options": [
+    {
+     "key": "A",
+     "text": "分泌雌激素"
+    },
+    {
+     "key": "B",
+     "text": "无绒毛，hCG增高"
+    },
+    {
+     "key": "C",
+     "text": "无绒毛，hPL增高"
+    },
+    {
+     "key": "D",
+     "text": "紫褐色结节"
+    },
+    {
+     "key": "E",
+     "text": "有绒毛，阴道紫蓝色结节"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "有绒毛，阴道紫蓝色结节"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0230",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 230,
+   "question": "绒毛膜癌表现为",
+   "options": [
+    {
+     "key": "A",
+     "text": "分泌雌激素"
+    },
+    {
+     "key": "B",
+     "text": "无绒毛，hCG增高"
+    },
+    {
+     "key": "C",
+     "text": "无绒毛，hPL增高"
+    },
+    {
+     "key": "D",
+     "text": "紫褐色结节"
+    },
+    {
+     "key": "E",
+     "text": "有绒毛，阴道紫蓝色结节"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "无绒毛，hCG增高"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0231",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 231,
+   "question": "胎盘部位滋养细胞肿瘤表现为",
+   "options": [
+    {
+     "key": "A",
+     "text": "分泌雌激素"
+    },
+    {
+     "key": "B",
+     "text": "无绒毛，hCG增高"
+    },
+    {
+     "key": "C",
+     "text": "无绒毛，hPL增高"
+    },
+    {
+     "key": "D",
+     "text": "紫褐色结节"
+    },
+    {
+     "key": "E",
+     "text": "有绒毛，阴道紫蓝色结节"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "无绒毛，hPL增高"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0232",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 232,
+   "question": "颗粒细胞瘤表现为",
+   "options": [
+    {
+     "key": "A",
+     "text": "分泌雌激素"
+    },
+    {
+     "key": "B",
+     "text": "无绒毛，hCG增高"
+    },
+    {
+     "key": "C",
+     "text": "无绒毛，hPL增高"
+    },
+    {
+     "key": "D",
+     "text": "紫褐色结节"
+    },
+    {
+     "key": "E",
+     "text": "有绒毛，阴道紫蓝色结节"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "分泌雌激素"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0233",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 233,
+   "question": "肠结核的好发部位是",
+   "options": [
+    {
+     "key": "A",
+     "text": "乙状结肠、直肠"
+    },
+    {
+     "key": "B",
+     "text": "回肠末端"
+    },
+    {
+     "key": "C",
+     "text": "直肠"
+    },
+    {
+     "key": "D",
+     "text": "盲肠、升结肠"
+    },
+    {
+     "key": "E",
+     "text": "回盲部"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "回盲部"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0234",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 234,
+   "question": "肠伤寒的好发部位是",
+   "options": [
+    {
+     "key": "A",
+     "text": "乙状结肠、直肠"
+    },
+    {
+     "key": "B",
+     "text": "回肠末端"
+    },
+    {
+     "key": "C",
+     "text": "直肠"
+    },
+    {
+     "key": "D",
+     "text": "盲肠、升结肠"
+    },
+    {
+     "key": "E",
+     "text": "回盲部"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "回肠末端"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0235",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 235,
+   "question": "菌痢的好发部位是",
+   "options": [
+    {
+     "key": "A",
+     "text": "乙状结肠、直肠"
+    },
+    {
+     "key": "B",
+     "text": "回肠末端"
+    },
+    {
+     "key": "C",
+     "text": "直肠"
+    },
+    {
+     "key": "D",
+     "text": "盲肠、升结肠"
+    },
+    {
+     "key": "E",
+     "text": "回盲部"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "乙状结肠、直肠"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0236",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 236,
+   "question": "大肠癌的好发部位是",
+   "options": [
+    {
+     "key": "A",
+     "text": "乙状结肠、直肠"
+    },
+    {
+     "key": "B",
+     "text": "回肠末端"
+    },
+    {
+     "key": "C",
+     "text": "直肠"
+    },
+    {
+     "key": "D",
+     "text": "盲肠、升结肠"
+    },
+    {
+     "key": "E",
+     "text": "回盲部"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "直肠"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0237",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 237,
+   "question": "阿米巴痢疾的好发部位是",
+   "options": [
+    {
+     "key": "A",
+     "text": "乙状结肠、直肠"
+    },
+    {
+     "key": "B",
+     "text": "回肠末端"
+    },
+    {
+     "key": "C",
+     "text": "直肠"
+    },
+    {
+     "key": "D",
+     "text": "盲肠、升结肠"
+    },
+    {
+     "key": "E",
+     "text": "回盲部"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "盲肠、升结肠"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0238",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 238,
+   "question": "急性重型肝炎",
+   "options": [
+    {
+     "key": "A",
+     "text": "点状坏死"
+    },
+    {
+     "key": "B",
+     "text": "桥接坏死和碎片状坏死"
+    },
+    {
+     "key": "C",
+     "text": "大片坏死"
+    },
+    {
+     "key": "D",
+     "text": "亚大片坏死"
+    },
+    {
+     "key": "E",
+     "text": "网状或羽毛状坏死"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "大片坏死"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0239",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 239,
+   "question": "亚急性重型肝炎",
+   "options": [
+    {
+     "key": "A",
+     "text": "点状坏死"
+    },
+    {
+     "key": "B",
+     "text": "桥接坏死和碎片状坏死"
+    },
+    {
+     "key": "C",
+     "text": "大片坏死"
+    },
+    {
+     "key": "D",
+     "text": "亚大片坏死"
+    },
+    {
+     "key": "E",
+     "text": "网状或羽毛状坏死"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "亚大片坏死"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0240",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 240,
+   "question": "中、重度慢性肝炎",
+   "options": [
+    {
+     "key": "A",
+     "text": "点状坏死"
+    },
+    {
+     "key": "B",
+     "text": "桥接坏死和碎片状坏死"
+    },
+    {
+     "key": "C",
+     "text": "大片坏死"
+    },
+    {
+     "key": "D",
+     "text": "亚大片坏死"
+    },
+    {
+     "key": "E",
+     "text": "网状或羽毛状坏死"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "桥接坏死和碎片状坏死"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0241",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 241,
+   "question": "急性普通型肝炎",
+   "options": [
+    {
+     "key": "A",
+     "text": "点状坏死"
+    },
+    {
+     "key": "B",
+     "text": "桥接坏死和碎片状坏死"
+    },
+    {
+     "key": "C",
+     "text": "大片坏死"
+    },
+    {
+     "key": "D",
+     "text": "亚大片坏死"
+    },
+    {
+     "key": "E",
+     "text": "网状或羽毛状坏死"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "点状坏死"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0242",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 242,
+   "question": "局灶型肺结核",
+   "options": [
+    {
+     "key": "A",
+     "text": "X线示肺门哑铃状阴影"
+    },
+    {
+     "key": "B",
+     "text": "X线示边缘模糊的云雾状阴影"
+    },
+    {
+     "key": "C",
+     "text": "X线示肺尖部单个结节状病灶"
+    },
+    {
+     "key": "D",
+     "text": "X线示肺上叶2～5cm的孤立结节，边缘光滑"
+    },
+    {
+     "key": "E",
+     "text": "X线示肺内多个空洞，壁较厚"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "X线示肺尖部单个结节状病灶"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0243",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 243,
+   "question": "浸润型肺结核",
+   "options": [
+    {
+     "key": "A",
+     "text": "X线示肺门哑铃状阴影"
+    },
+    {
+     "key": "B",
+     "text": "X线示边缘模糊的云雾状阴影"
+    },
+    {
+     "key": "C",
+     "text": "X线示肺尖部单个结节状病灶"
+    },
+    {
+     "key": "D",
+     "text": "X线示肺上叶2～5cm的孤立结节，边缘光滑"
+    },
+    {
+     "key": "E",
+     "text": "X线示肺内多个空洞，壁较厚"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "X线示边缘模糊的云雾状阴影"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0244",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 244,
+   "question": "纤维空洞型肺结核",
+   "options": [
+    {
+     "key": "A",
+     "text": "X线示肺门哑铃状阴影"
+    },
+    {
+     "key": "B",
+     "text": "X线示边缘模糊的云雾状阴影"
+    },
+    {
+     "key": "C",
+     "text": "X线示肺尖部单个结节状病灶"
+    },
+    {
+     "key": "D",
+     "text": "X线示肺上叶2～5cm的孤立结节，边缘光滑"
+    },
+    {
+     "key": "E",
+     "text": "X线示肺内多个空洞，壁较厚"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "X线示肺内多个空洞，壁较厚"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0245",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 245,
+   "question": "结核瘤",
+   "options": [
+    {
+     "key": "A",
+     "text": "X线示肺门哑铃状阴影"
+    },
+    {
+     "key": "B",
+     "text": "X线示边缘模糊的云雾状阴影"
+    },
+    {
+     "key": "C",
+     "text": "X线示肺尖部单个结节状病灶"
+    },
+    {
+     "key": "D",
+     "text": "X线示肺上叶2～5cm的孤立结节，边缘光滑"
+    },
+    {
+     "key": "E",
+     "text": "X线示肺内多个空洞，壁较厚"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "X线示肺上叶2～5cm的孤立结节，边缘光滑"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0246",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 246,
+   "question": "肺原发综合征",
+   "options": [
+    {
+     "key": "A",
+     "text": "X线示肺门哑铃状阴影"
+    },
+    {
+     "key": "B",
+     "text": "X线示边缘模糊的云雾状阴影"
+    },
+    {
+     "key": "C",
+     "text": "X线示肺尖部单个结节状病灶"
+    },
+    {
+     "key": "D",
+     "text": "X线示肺上叶2～5cm的孤立结节，边缘光滑"
+    },
+    {
+     "key": "E",
+     "text": "X线示肺内多个空洞，壁较厚"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "X线示肺门哑铃状阴影"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0247",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 247,
+   "question": "由严重烧伤引起的血管通透性升高属",
+   "options": [
+    {
+     "key": "A",
+     "text": "速发短暂反应"
+    },
+    {
+     "key": "B",
+     "text": "速发持续反应"
+    },
+    {
+     "key": "C",
+     "text": "迟发持续短暂反应"
+    },
+    {
+     "key": "D",
+     "text": "白细胞介导的内皮细胞损伤"
+    },
+    {
+     "key": "E",
+     "text": "内皮细胞连接发育不成熟"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "速发持续反应"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0248",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 248,
+   "question": "由X线损伤引起的血管通透性升高属",
+   "options": [
+    {
+     "key": "A",
+     "text": "速发短暂反应"
+    },
+    {
+     "key": "B",
+     "text": "速发持续反应"
+    },
+    {
+     "key": "C",
+     "text": "迟发持续短暂反应"
+    },
+    {
+     "key": "D",
+     "text": "白细胞介导的内皮细胞损伤"
+    },
+    {
+     "key": "E",
+     "text": "内皮细胞连接发育不成熟"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "迟发持续短暂反应"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0249",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 249,
+   "question": "由血管活性胺引起的血管通透性升高属",
+   "options": [
+    {
+     "key": "A",
+     "text": "速发短暂反应"
+    },
+    {
+     "key": "B",
+     "text": "速发持续反应"
+    },
+    {
+     "key": "C",
+     "text": "迟发持续短暂反应"
+    },
+    {
+     "key": "D",
+     "text": "白细胞介导的内皮细胞损伤"
+    },
+    {
+     "key": "E",
+     "text": "内皮细胞连接发育不成熟"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "速发短暂反应"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0250",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 250,
+   "question": "膜性肾小球肾炎又称为",
+   "options": [
+    {
+     "key": "A",
+     "text": "反流性肾病"
+    },
+    {
+     "key": "B",
+     "text": "致密沉积物病"
+    },
+    {
+     "key": "C",
+     "text": "肺出血肾炎综合征"
+    },
+    {
+     "key": "D",
+     "text": "脂性肾病"
+    },
+    {
+     "key": "E",
+     "text": "膜性肾病"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "膜性肾病"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0251",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 251,
+   "question": "微小病变病又称为",
+   "options": [
+    {
+     "key": "A",
+     "text": "反流性肾病"
+    },
+    {
+     "key": "B",
+     "text": "致密沉积物病"
+    },
+    {
+     "key": "C",
+     "text": "肺出血肾炎综合征"
+    },
+    {
+     "key": "D",
+     "text": "脂性肾病"
+    },
+    {
+     "key": "E",
+     "text": "膜性肾病"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "脂性肾病"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0252",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 252,
+   "question": "肾小球内有新月体形成伴有肺泡基底膜损伤者称为",
+   "options": [
+    {
+     "key": "A",
+     "text": "反流性肾病"
+    },
+    {
+     "key": "B",
+     "text": "致密沉积物病"
+    },
+    {
+     "key": "C",
+     "text": "肺出血肾炎综合征"
+    },
+    {
+     "key": "D",
+     "text": "脂性肾病"
+    },
+    {
+     "key": "E",
+     "text": "膜性肾病"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "肺出血肾炎综合征"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0253",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 253,
+   "question": "伴有尿液反流的慢性肾盂肾炎称为",
+   "options": [
+    {
+     "key": "A",
+     "text": "反流性肾病"
+    },
+    {
+     "key": "B",
+     "text": "致密沉积物病"
+    },
+    {
+     "key": "C",
+     "text": "肺出血肾炎综合征"
+    },
+    {
+     "key": "D",
+     "text": "脂性肾病"
+    },
+    {
+     "key": "E",
+     "text": "膜性肾病"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "反流性肾病"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0254",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 254,
+   "question": "癌组织仅浸润至黏膜和黏膜下层，考虑为",
+   "options": [
+    {
+     "key": "A",
+     "text": "胃慢性溃疡"
+    },
+    {
+     "key": "B",
+     "text": "胃溃疡癌变"
+    },
+    {
+     "key": "C",
+     "text": "早期胃癌"
+    },
+    {
+     "key": "D",
+     "text": "进展期胃癌"
+    },
+    {
+     "key": "E",
+     "text": "胃癌，溃疡型"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "早期胃癌"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0255",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 255,
+   "question": "胃小弯溃疡，直径＜1.5cm，圆形，边缘整齐，底部平坦，考虑为",
+   "options": [
+    {
+     "key": "A",
+     "text": "胃慢性溃疡"
+    },
+    {
+     "key": "B",
+     "text": "胃溃疡癌变"
+    },
+    {
+     "key": "C",
+     "text": "早期胃癌"
+    },
+    {
+     "key": "D",
+     "text": "进展期胃癌"
+    },
+    {
+     "key": "E",
+     "text": "胃癌，溃疡型"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "胃慢性溃疡"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0256",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 256,
+   "question": "胃窦溃疡，直径＞3cm，边缘黏膜隆起，底部高低不平，考虑为",
+   "options": [
+    {
+     "key": "A",
+     "text": "胃慢性溃疡"
+    },
+    {
+     "key": "B",
+     "text": "胃溃疡癌变"
+    },
+    {
+     "key": "C",
+     "text": "早期胃癌"
+    },
+    {
+     "key": "D",
+     "text": "进展期胃癌"
+    },
+    {
+     "key": "E",
+     "text": "胃癌，溃疡型"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "胃癌，溃疡型"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0257",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 257,
+   "question": "癌组织浸润至浆膜下层以外，考虑为",
+   "options": [
+    {
+     "key": "A",
+     "text": "胃慢性溃疡"
+    },
+    {
+     "key": "B",
+     "text": "胃溃疡癌变"
+    },
+    {
+     "key": "C",
+     "text": "早期胃癌"
+    },
+    {
+     "key": "D",
+     "text": "进展期胃癌"
+    },
+    {
+     "key": "E",
+     "text": "胃癌，溃疡型"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "进展期胃癌"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0258",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 258,
+   "question": "血浆渗出",
+   "options": [
+    {
+     "key": "A",
+     "text": "可稀释毒素"
+    },
+    {
+     "key": "B",
+     "text": "可使炎症局限"
+    },
+    {
+     "key": "C",
+     "text": "可加重组织损伤"
+    },
+    {
+     "key": "D",
+     "text": "可吞噬致炎因子"
+    },
+    {
+     "key": "E",
+     "text": "可起调理素的作用"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "可稀释毒素"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0259",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 259,
+   "question": "C3b渗出",
+   "options": [
+    {
+     "key": "A",
+     "text": "可稀释毒素"
+    },
+    {
+     "key": "B",
+     "text": "可使炎症局限"
+    },
+    {
+     "key": "C",
+     "text": "可加重组织损伤"
+    },
+    {
+     "key": "D",
+     "text": "可吞噬致炎因子"
+    },
+    {
+     "key": "E",
+     "text": "可起调理素的作用"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "可起调理素的作用"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0260",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 260,
+   "question": "纤维蛋白渗出",
+   "options": [
+    {
+     "key": "A",
+     "text": "可稀释毒素"
+    },
+    {
+     "key": "B",
+     "text": "可使炎症局限"
+    },
+    {
+     "key": "C",
+     "text": "可加重组织损伤"
+    },
+    {
+     "key": "D",
+     "text": "可吞噬致炎因子"
+    },
+    {
+     "key": "E",
+     "text": "可起调理素的作用"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "可使炎症局限"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0261",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 261,
+   "question": "白细胞渗出",
+   "options": [
+    {
+     "key": "A",
+     "text": "可稀释毒素"
+    },
+    {
+     "key": "B",
+     "text": "可使炎症局限"
+    },
+    {
+     "key": "C",
+     "text": "可加重组织损伤"
+    },
+    {
+     "key": "D",
+     "text": "可吞噬致炎因子"
+    },
+    {
+     "key": "E",
+     "text": "可起调理素的作用"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "可吞噬致炎因子"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0262",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 262,
+   "question": "溶酶体酶的溢出",
+   "options": [
+    {
+     "key": "A",
+     "text": "可稀释毒素"
+    },
+    {
+     "key": "B",
+     "text": "可使炎症局限"
+    },
+    {
+     "key": "C",
+     "text": "可加重组织损伤"
+    },
+    {
+     "key": "D",
+     "text": "可吞噬致炎因子"
+    },
+    {
+     "key": "E",
+     "text": "可起调理素的作用"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "可加重组织损伤"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0263",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 263,
+   "question": "葡萄胎最重要的病变是",
+   "options": [
+    {
+     "key": "A",
+     "text": "滋养层细胞增生"
+    },
+    {
+     "key": "B",
+     "text": "绒毛间质水肿"
+    },
+    {
+     "key": "C",
+     "text": "间质血管消失"
+    },
+    {
+     "key": "D",
+     "text": "病变侵入肌层"
+    },
+    {
+     "key": "E",
+     "text": "胚胎早期死亡"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "滋养层细胞增生"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0264",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 264,
+   "question": "侵蚀性葡萄胎和葡萄胎的不同处是",
+   "options": [
+    {
+     "key": "A",
+     "text": "滋养层细胞增生"
+    },
+    {
+     "key": "B",
+     "text": "绒毛间质水肿"
+    },
+    {
+     "key": "C",
+     "text": "间质血管消失"
+    },
+    {
+     "key": "D",
+     "text": "病变侵入肌层"
+    },
+    {
+     "key": "E",
+     "text": "胚胎早期死亡"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "病变侵入肌层"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0265",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 265,
+   "question": "胃溃疡病的病理改变是",
+   "options": [
+    {
+     "key": "A",
+     "text": "溃疡直径多在2cm以内，溃疡边缘整齐，周围黏膜皱襞向溃疡集中"
+    },
+    {
+     "key": "B",
+     "text": "溃疡一般较小而浅，直径多在1cm以内，并发出血较多见"
+    },
+    {
+     "key": "C",
+     "text": "溃疡大且不规则，常呈火山口状，周围皱襞中断，呈结节状肥厚"
+    },
+    {
+     "key": "D",
+     "text": "溃疡呈环状与肠的长轴平行"
+    },
+    {
+     "key": "E",
+     "text": "溃疡呈环状与肠的长轴垂直"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "溃疡直径多在2cm以内，溃疡边缘整齐，周围黏膜皱襞向溃疡集中"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0266",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 266,
+   "question": "十二指肠溃疡的病理改变是",
+   "options": [
+    {
+     "key": "A",
+     "text": "溃疡直径多在2cm以内，溃疡边缘整齐，周围黏膜皱襞向溃疡集中"
+    },
+    {
+     "key": "B",
+     "text": "溃疡一般较小而浅，直径多在1cm以内，并发出血较多见"
+    },
+    {
+     "key": "C",
+     "text": "溃疡大且不规则，常呈火山口状，周围皱襞中断，呈结节状肥厚"
+    },
+    {
+     "key": "D",
+     "text": "溃疡呈环状与肠的长轴平行"
+    },
+    {
+     "key": "E",
+     "text": "溃疡呈环状与肠的长轴垂直"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "溃疡一般较小而浅，直径多在1cm以内，并发出血较多见"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0267",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 267,
+   "question": "溃疡型胃癌的病理改变是",
+   "options": [
+    {
+     "key": "A",
+     "text": "溃疡直径多在2cm以内，溃疡边缘整齐，周围黏膜皱襞向溃疡集中"
+    },
+    {
+     "key": "B",
+     "text": "溃疡一般较小而浅，直径多在1cm以内，并发出血较多见"
+    },
+    {
+     "key": "C",
+     "text": "溃疡大且不规则，常呈火山口状，周围皱襞中断，呈结节状肥厚"
+    },
+    {
+     "key": "D",
+     "text": "溃疡呈环状与肠的长轴平行"
+    },
+    {
+     "key": "E",
+     "text": "溃疡呈环状与肠的长轴垂直"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "溃疡大且不规则，常呈火山口状，周围皱襞中断，呈结节状肥厚"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0268",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 268,
+   "question": "（  ）最易发生血道转移",
+   "options": [
+    {
+     "key": "A",
+     "text": "肺癌"
+    },
+    {
+     "key": "B",
+     "text": "胃癌"
+    },
+    {
+     "key": "C",
+     "text": "肝癌"
+    },
+    {
+     "key": "D",
+     "text": "前列腺癌"
+    },
+    {
+     "key": "E",
+     "text": "绒毛膜上皮癌"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "绒毛膜上皮癌"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0269",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 269,
+   "question": "（  ）常转移到骨",
+   "options": [
+    {
+     "key": "A",
+     "text": "肺癌"
+    },
+    {
+     "key": "B",
+     "text": "胃癌"
+    },
+    {
+     "key": "C",
+     "text": "肝癌"
+    },
+    {
+     "key": "D",
+     "text": "前列腺癌"
+    },
+    {
+     "key": "E",
+     "text": "绒毛膜上皮癌"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "前列腺癌"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0270",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 270,
+   "question": "（  ）容易发生种植性转移",
+   "options": [
+    {
+     "key": "A",
+     "text": "肺癌"
+    },
+    {
+     "key": "B",
+     "text": "胃癌"
+    },
+    {
+     "key": "C",
+     "text": "肝癌"
+    },
+    {
+     "key": "D",
+     "text": "前列腺癌"
+    },
+    {
+     "key": "E",
+     "text": "绒毛膜上皮癌"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "胃癌"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0271",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 271,
+   "question": "异型上皮占上皮层的下1/3区，属于",
+   "options": [
+    {
+     "key": "A",
+     "text": "子宫颈上皮轻度不典型增生"
+    },
+    {
+     "key": "B",
+     "text": "子宫颈上皮重度不典型增生"
+    },
+    {
+     "key": "C",
+     "text": "子宫颈原位癌"
+    },
+    {
+     "key": "D",
+     "text": "子宫颈原位癌累及腺体"
+    },
+    {
+     "key": "E",
+     "text": "子宫颈浸润癌"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "子宫颈上皮轻度不典型增生"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0272",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 272,
+   "question": "基底膜下间质内发现癌组织，属于",
+   "options": [
+    {
+     "key": "A",
+     "text": "子宫颈上皮轻度不典型增生"
+    },
+    {
+     "key": "B",
+     "text": "子宫颈上皮重度不典型增生"
+    },
+    {
+     "key": "C",
+     "text": "子宫颈原位癌"
+    },
+    {
+     "key": "D",
+     "text": "子宫颈原位癌累及腺体"
+    },
+    {
+     "key": "E",
+     "text": "子宫颈浸润癌"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "子宫颈浸润癌"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0273",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 273,
+   "question": "慢性子宫颈炎时，可以见到的病变是",
+   "options": [
+    {
+     "key": "A",
+     "text": "子宫颈上皮轻度不典型增生"
+    },
+    {
+     "key": "B",
+     "text": "子宫颈上皮重度不典型增生"
+    },
+    {
+     "key": "C",
+     "text": "子宫颈原位癌"
+    },
+    {
+     "key": "D",
+     "text": "子宫颈原位癌累及腺体"
+    },
+    {
+     "key": "E",
+     "text": "子宫颈浸润癌"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "子宫颈上皮轻度不典型增生"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0274",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 274,
+   "question": "关于前列腺增生正确的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "常发生于冠状沟处"
+    },
+    {
+     "key": "B",
+     "text": "对放疗敏感"
+    },
+    {
+     "key": "C",
+     "text": "睾丸进行性肿大，疼痛"
+    },
+    {
+     "key": "D",
+     "text": "晚期很少侵犯直肠"
+    },
+    {
+     "key": "E",
+     "text": "囊状扩张的腺腔内可见淀粉样小体或钙化的小结节"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "囊状扩张的腺腔内可见淀粉样小体或钙化的小结节"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0275",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 275,
+   "question": "关于前列腺癌正确的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "常发生于冠状沟处"
+    },
+    {
+     "key": "B",
+     "text": "对放疗敏感"
+    },
+    {
+     "key": "C",
+     "text": "睾丸进行性肿大，疼痛"
+    },
+    {
+     "key": "D",
+     "text": "晚期很少侵犯直肠"
+    },
+    {
+     "key": "E",
+     "text": "囊状扩张的腺腔内可见淀粉样小体或钙化的小结节"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "晚期很少侵犯直肠"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0276",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 276,
+   "question": "关于胚胎性癌正确的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "常发生于冠状沟处"
+    },
+    {
+     "key": "B",
+     "text": "对放疗敏感"
+    },
+    {
+     "key": "C",
+     "text": "睾丸进行性肿大，疼痛"
+    },
+    {
+     "key": "D",
+     "text": "晚期很少侵犯直肠"
+    },
+    {
+     "key": "E",
+     "text": "囊状扩张的腺腔内可见淀粉样小体或钙化的小结节"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "睾丸进行性肿大，疼痛"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0277",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 277,
+   "question": "关于无性细胞瘤正确的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "常发生于冠状沟处"
+    },
+    {
+     "key": "B",
+     "text": "对放疗敏感"
+    },
+    {
+     "key": "C",
+     "text": "睾丸进行性肿大，疼痛"
+    },
+    {
+     "key": "D",
+     "text": "晚期很少侵犯直肠"
+    },
+    {
+     "key": "E",
+     "text": "囊状扩张的腺腔内可见淀粉样小体或钙化的小结节"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "对放疗敏感"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0278",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 278,
+   "question": "肺癌侵犯纵隔压迫上腔静脉可引起",
+   "options": [
+    {
+     "key": "A",
+     "text": "肺组织局限萎缩、肺气肿"
+    },
+    {
+     "key": "B",
+     "text": "眼睑下垂、瞳孔缩小、胸部皮肤无汗"
+    },
+    {
+     "key": "C",
+     "text": "支气管痉挛、阵发性心动过速、水样腹泻、皮肤潮红"
+    },
+    {
+     "key": "D",
+     "text": "面部、颈部水肿及颈胸部静脉曲张"
+    },
+    {
+     "key": "E",
+     "text": "刺激性咳嗽、痰中带血"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "面部、颈部水肿及颈胸部静脉曲张"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0279",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 279,
+   "question": "肺尖部的肺癌侵犯交感神经链可引起",
+   "options": [
+    {
+     "key": "A",
+     "text": "肺组织局限萎缩、肺气肿"
+    },
+    {
+     "key": "B",
+     "text": "眼睑下垂、瞳孔缩小、胸部皮肤无汗"
+    },
+    {
+     "key": "C",
+     "text": "支气管痉挛、阵发性心动过速、水样腹泻、皮肤潮红"
+    },
+    {
+     "key": "D",
+     "text": "面部、颈部水肿及颈胸部静脉曲张"
+    },
+    {
+     "key": "E",
+     "text": "刺激性咳嗽、痰中带血"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "眼睑下垂、瞳孔缩小、胸部皮肤无汗"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0280",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 280,
+   "question": "肺小细胞癌可引起",
+   "options": [
+    {
+     "key": "A",
+     "text": "肺组织局限萎缩、肺气肿"
+    },
+    {
+     "key": "B",
+     "text": "眼睑下垂、瞳孔缩小、胸部皮肤无汗"
+    },
+    {
+     "key": "C",
+     "text": "支气管痉挛、阵发性心动过速、水样腹泻、皮肤潮红"
+    },
+    {
+     "key": "D",
+     "text": "面部、颈部水肿及颈胸部静脉曲张"
+    },
+    {
+     "key": "E",
+     "text": "刺激性咳嗽、痰中带血"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "支气管痉挛、阵发性心动过速、水样腹泻、皮肤潮红"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0281",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 281,
+   "question": "肺癌压迫支气管可引起",
+   "options": [
+    {
+     "key": "A",
+     "text": "肺组织局限萎缩、肺气肿"
+    },
+    {
+     "key": "B",
+     "text": "眼睑下垂、瞳孔缩小、胸部皮肤无汗"
+    },
+    {
+     "key": "C",
+     "text": "支气管痉挛、阵发性心动过速、水样腹泻、皮肤潮红"
+    },
+    {
+     "key": "D",
+     "text": "面部、颈部水肿及颈胸部静脉曲张"
+    },
+    {
+     "key": "E",
+     "text": "刺激性咳嗽、痰中带血"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "肺组织局限萎缩、肺气肿"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0282",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 282,
+   "question": "肺鳞癌可引起症状",
+   "options": [
+    {
+     "key": "A",
+     "text": "肺组织局限萎缩、肺气肿"
+    },
+    {
+     "key": "B",
+     "text": "眼睑下垂、瞳孔缩小、胸部皮肤无汗"
+    },
+    {
+     "key": "C",
+     "text": "支气管痉挛、阵发性心动过速、水样腹泻、皮肤潮红"
+    },
+    {
+     "key": "D",
+     "text": "面部、颈部水肿及颈胸部静脉曲张"
+    },
+    {
+     "key": "E",
+     "text": "刺激性咳嗽、痰中带血"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "刺激性咳嗽、痰中带血"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0283",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 283,
+   "question": "儿童反复发作的镜下或肉眼血尿最常见的原因是",
+   "options": [
+    {
+     "key": "A",
+     "text": "肾病综合征"
+    },
+    {
+     "key": "B",
+     "text": "IgA肾病"
+    },
+    {
+     "key": "C",
+     "text": "反流性肾病"
+    },
+    {
+     "key": "D",
+     "text": "脂性肾病"
+    },
+    {
+     "key": "E",
+     "text": "膜性肾病"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "IgA肾病"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0284",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 284,
+   "question": "儿童肾病综合征的最常见的原因是",
+   "options": [
+    {
+     "key": "A",
+     "text": "肾病综合征"
+    },
+    {
+     "key": "B",
+     "text": "IgA肾病"
+    },
+    {
+     "key": "C",
+     "text": "反流性肾病"
+    },
+    {
+     "key": "D",
+     "text": "脂性肾病"
+    },
+    {
+     "key": "E",
+     "text": "膜性肾病"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "脂性肾病"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0285",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 285,
+   "question": "肺泡内透明膜形成",
+   "options": [
+    {
+     "key": "A",
+     "text": "肺结核"
+    },
+    {
+     "key": "B",
+     "text": "肺脓肿"
+    },
+    {
+     "key": "C",
+     "text": "肺癌"
+    },
+    {
+     "key": "D",
+     "text": "硅沉着病"
+    },
+    {
+     "key": "E",
+     "text": "呼吸窘迫综合征"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "呼吸窘迫综合征"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0286",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 286,
+   "question": "大叶性肺炎的并发症之一",
+   "options": [
+    {
+     "key": "A",
+     "text": "肺结核"
+    },
+    {
+     "key": "B",
+     "text": "肺脓肿"
+    },
+    {
+     "key": "C",
+     "text": "肺癌"
+    },
+    {
+     "key": "D",
+     "text": "硅沉着病"
+    },
+    {
+     "key": "E",
+     "text": "呼吸窘迫综合征"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "肺脓肿"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0287",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 287,
+   "question": "如图食管癌的组织学类型为",
+   "options": [
+    {
+     "key": "A",
+     "text": "鳞状细胞癌Ⅰ级"
+    },
+    {
+     "key": "B",
+     "text": "鳞状细胞癌Ⅱ级"
+    },
+    {
+     "key": "C",
+     "text": "腺癌"
+    },
+    {
+     "key": "D",
+     "text": "腺鳞癌"
+    },
+    {
+     "key": "E",
+     "text": "印戒细胞癌"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "鳞状细胞癌Ⅱ级"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0288",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 288,
+   "question": "如图胃癌的组织学类型为",
+   "options": [
+    {
+     "key": "A",
+     "text": "鳞状细胞癌Ⅰ级"
+    },
+    {
+     "key": "B",
+     "text": "鳞状细胞癌Ⅱ级"
+    },
+    {
+     "key": "C",
+     "text": "腺癌"
+    },
+    {
+     "key": "D",
+     "text": "腺鳞癌"
+    },
+    {
+     "key": "E",
+     "text": "印戒细胞癌"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "印戒细胞癌"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0289",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 289,
+   "question": "如图肠癌的组织学类型为",
+   "options": [
+    {
+     "key": "A",
+     "text": "鳞状细胞癌Ⅰ级"
+    },
+    {
+     "key": "B",
+     "text": "鳞状细胞癌Ⅱ级"
+    },
+    {
+     "key": "C",
+     "text": "腺癌"
+    },
+    {
+     "key": "D",
+     "text": "腺鳞癌"
+    },
+    {
+     "key": "E",
+     "text": "印戒细胞癌"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "腺癌"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0290",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 290,
+   "question": "间质常有淀粉样物质沉着",
+   "options": [
+    {
+     "key": "A",
+     "text": "甲状腺乳头状腺癌"
+    },
+    {
+     "key": "B",
+     "text": "甲状腺滤泡性腺癌"
+    },
+    {
+     "key": "C",
+     "text": "甲状腺髓样癌"
+    },
+    {
+     "key": "D",
+     "text": "甲状腺未分化癌"
+    },
+    {
+     "key": "E",
+     "text": "甲状腺嗜酸性细胞腺瘤"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "甲状腺髓样癌"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0291",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 291,
+   "question": "癌细胞核呈毛玻璃样",
+   "options": [
+    {
+     "key": "A",
+     "text": "甲状腺乳头状腺癌"
+    },
+    {
+     "key": "B",
+     "text": "甲状腺滤泡性腺癌"
+    },
+    {
+     "key": "C",
+     "text": "甲状腺髓样癌"
+    },
+    {
+     "key": "D",
+     "text": "甲状腺未分化癌"
+    },
+    {
+     "key": "E",
+     "text": "甲状腺嗜酸性细胞腺瘤"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "甲状腺乳头状腺癌"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0292",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 292,
+   "question": "癌细胞分泌降钙素",
+   "options": [
+    {
+     "key": "A",
+     "text": "甲状腺乳头状腺癌"
+    },
+    {
+     "key": "B",
+     "text": "甲状腺滤泡性腺癌"
+    },
+    {
+     "key": "C",
+     "text": "甲状腺髓样癌"
+    },
+    {
+     "key": "D",
+     "text": "甲状腺未分化癌"
+    },
+    {
+     "key": "E",
+     "text": "甲状腺嗜酸性细胞腺瘤"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "甲状腺髓样癌"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0293",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 293,
+   "question": "上述哪项属于生理性再生",
+   "options": [
+    {
+     "key": "A",
+     "text": "肠上皮化生"
+    },
+    {
+     "key": "B",
+     "text": "鳞状上皮化生"
+    },
+    {
+     "key": "C",
+     "text": "单纯性外伤性骨折愈合"
+    },
+    {
+     "key": "D",
+     "text": "瘢痕组织的形成"
+    },
+    {
+     "key": "E",
+     "text": "子宫内膜周期性脱落与修复"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "子宫内膜周期性脱落与修复"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0294",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 294,
+   "question": "上述哪项属于纤维性修复",
+   "options": [
+    {
+     "key": "A",
+     "text": "肠上皮化生"
+    },
+    {
+     "key": "B",
+     "text": "鳞状上皮化生"
+    },
+    {
+     "key": "C",
+     "text": "单纯性外伤性骨折愈合"
+    },
+    {
+     "key": "D",
+     "text": "瘢痕组织的形成"
+    },
+    {
+     "key": "E",
+     "text": "子宫内膜周期性脱落与修复"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "瘢痕组织的形成"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0295",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 295,
+   "question": "上述哪项属于完全性修复",
+   "options": [
+    {
+     "key": "A",
+     "text": "肠上皮化生"
+    },
+    {
+     "key": "B",
+     "text": "鳞状上皮化生"
+    },
+    {
+     "key": "C",
+     "text": "单纯性外伤性骨折愈合"
+    },
+    {
+     "key": "D",
+     "text": "瘢痕组织的形成"
+    },
+    {
+     "key": "E",
+     "text": "子宫内膜周期性脱落与修复"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "单纯性外伤性骨折愈合"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0296",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 296,
+   "question": "符合膜增生性肾小球肾炎表现的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "肾小球系膜细胞增生伴基质增多，基底膜增厚呈双轨状"
+    },
+    {
+     "key": "B",
+     "text": "肾小球内皮细胞、系膜细胞增生"
+    },
+    {
+     "key": "C",
+     "text": "肾小球壁层上皮细胞增生"
+    },
+    {
+     "key": "D",
+     "text": "肾小球系膜细胞增生伴基质增多"
+    },
+    {
+     "key": "E",
+     "text": "肾小球毛细血管基底膜增厚，基底膜物质呈钉状突起"
+    }
+   ],
+   "answerKeys": [
+    "A"
+   ],
+   "answerText": [
+    "肾小球系膜细胞增生伴基质增多，基底膜增厚呈双轨状"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0297",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 297,
+   "question": "符合系膜增生性肾小球肾炎表现的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "肾小球系膜细胞增生伴基质增多，基底膜增厚呈双轨状"
+    },
+    {
+     "key": "B",
+     "text": "肾小球内皮细胞、系膜细胞增生"
+    },
+    {
+     "key": "C",
+     "text": "肾小球壁层上皮细胞增生"
+    },
+    {
+     "key": "D",
+     "text": "肾小球系膜细胞增生伴基质增多"
+    },
+    {
+     "key": "E",
+     "text": "肾小球毛细血管基底膜增厚，基底膜物质呈钉状突起"
+    }
+   ],
+   "answerKeys": [
+    "D"
+   ],
+   "answerText": [
+    "肾小球系膜细胞增生伴基质增多"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0298",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 298,
+   "question": "符合急性弥漫性增生性肾小球肾炎表现的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "肾小球系膜细胞增生伴基质增多，基底膜增厚呈双轨状"
+    },
+    {
+     "key": "B",
+     "text": "肾小球内皮细胞、系膜细胞增生"
+    },
+    {
+     "key": "C",
+     "text": "肾小球壁层上皮细胞增生"
+    },
+    {
+     "key": "D",
+     "text": "肾小球系膜细胞增生伴基质增多"
+    },
+    {
+     "key": "E",
+     "text": "肾小球毛细血管基底膜增厚，基底膜物质呈钉状突起"
+    }
+   ],
+   "answerKeys": [
+    "B"
+   ],
+   "answerText": [
+    "肾小球内皮细胞、系膜细胞增生"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0299",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 299,
+   "question": "符合膜性肾小球肾炎表现的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "肾小球系膜细胞增生伴基质增多，基底膜增厚呈双轨状"
+    },
+    {
+     "key": "B",
+     "text": "肾小球内皮细胞、系膜细胞增生"
+    },
+    {
+     "key": "C",
+     "text": "肾小球壁层上皮细胞增生"
+    },
+    {
+     "key": "D",
+     "text": "肾小球系膜细胞增生伴基质增多"
+    },
+    {
+     "key": "E",
+     "text": "肾小球毛细血管基底膜增厚，基底膜物质呈钉状突起"
+    }
+   ],
+   "answerKeys": [
+    "E"
+   ],
+   "answerText": [
+    "肾小球毛细血管基底膜增厚，基底膜物质呈钉状突起"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  },
+  {
+   "id": "pathology-3a-single-0300",
+   "volume": 1,
+   "type": "single",
+   "typeLabel": "单选题",
+   "number": 300,
+   "question": "符合新月体性肾小球肾炎表现的是",
+   "options": [
+    {
+     "key": "A",
+     "text": "肾小球系膜细胞增生伴基质增多，基底膜增厚呈双轨状"
+    },
+    {
+     "key": "B",
+     "text": "肾小球内皮细胞、系膜细胞增生"
+    },
+    {
+     "key": "C",
+     "text": "肾小球壁层上皮细胞增生"
+    },
+    {
+     "key": "D",
+     "text": "肾小球系膜细胞增生伴基质增多"
+    },
+    {
+     "key": "E",
+     "text": "肾小球毛细血管基底膜增厚，基底膜物质呈钉状突起"
+    }
+   ],
+   "answerKeys": [
+    "C"
+   ],
+   "answerText": [
+    "肾小球壁层上皮细胞增生"
+   ],
+   "topic": "病理学",
+   "category": "B1",
+   "score": 1,
+   "analysis": ""
+  }
+ ]
+}

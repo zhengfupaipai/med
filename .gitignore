@@ -1,0 +1,8 @@
+api.txt
+*.log
+__pycache__/
+*.pyc
+__test*
+data.js.bak
+.DS_Store
+Thumbs.db
