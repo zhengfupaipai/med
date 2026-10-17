@@ -14,15 +14,21 @@
       <stop offset=".5" stop-color="#fff" stop-opacity=".15"/>
       <stop offset="1" stop-color="#fff" stop-opacity=".5"/>
     </linearGradient>
-    <clipPath id="clip">
-      <rect x="3" y="3" width="58" height="58" rx="16"/>
-    </clipPath>
+    <clipPath id="clip"><rect x="3" y="3" width="58" height="58" rx="16"/></clipPath>
   </defs>
   <rect x="3" y="3" width="58" height="58" rx="16" fill="url(#bg)"/>
   <g clip-path="url(#clip)">
     <path d="M5 21C10 11 20 5 32 5c9 0 17 3 23 8-8 1-15 6-22 13-7 7-12 15-14 25C8 44 5 33 5 21Z" fill="url(#sheen)"/>
   </g>
   <rect x="3.75" y="3.75" width="56.5" height="56.5" rx="15.25" fill="none" stroke="url(#rim)" stroke-width="1.5"/>
-  <circle cx="31" cy="29" r="13" fill="none" stroke="#fff" stroke-width="7.5"/>
-  <path d="M38 40l9.5 9.5" stroke="#fff" stroke-width="7.5" stroke-linecap="round"/>
+  <g fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 50h36"/>
+    <path d="M18 40h20"/>
+    <path d="M26 40v10"/>
+    <path d="M43 50c4-7 3-15-2-20"/>
+    <path d="M22 17l13 14" stroke-width="9"/>
+    <path d="M19 14l5 5" stroke-width="6"/>
+    <path d="M36 37v3" stroke-width="5"/>
+  </g>
+  <circle cx="37" cy="34" r="4.2" fill="#fff"/>
 </svg>
