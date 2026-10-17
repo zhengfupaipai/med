@@ -6,3 +6,4 @@ __test*
 data.js.bak
 .DS_Store
 Thumbs.db
+analysis_progress.json
