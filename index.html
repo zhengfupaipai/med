@@ -1264,6 +1264,77 @@
     .mobile-dock .pos { min-width: 60px; font-size: 12px; }
   }
 
+  .chapter-bar .auto-next-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: auto;
+    color: var(--muted);
+    font-size: 12.5px;
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+  }
+  .chapter-bar .auto-next-toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+  }
+  .auto-next-track {
+    position: relative;
+    flex: 0 0 auto;
+    width: 36px;
+    height: 20px;
+    border-radius: 999px;
+    background: rgba(148, 163, 184, .35);
+    border: 1px solid rgba(255, 255, 255, .45);
+    transition: background-color .18s, border-color .18s;
+  }
+  .auto-next-thumb {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(15, 23, 42, .25);
+    transition: transform .18s var(--ease);
+  }
+  .auto-next-toggle input:checked + .auto-next-track {
+    background: var(--accent);
+    border-color: transparent;
+  }
+  .auto-next-toggle input:checked + .auto-next-track .auto-next-thumb {
+    transform: translateX(16px);
+  }
+  .auto-next-toggle input:focus-visible + .auto-next-track {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+  html[data-theme="green"] .auto-next-track { background: rgba(47, 84, 56, .18); border-color: rgba(47, 84, 56, .15); }
+  html[data-theme="green"] .auto-next-thumb { background: #fff; }
+  html[data-theme="dark"] .auto-next-track { background: rgba(255, 255, 255, .14); border-color: rgba(255, 255, 255, .18); }
+  html[data-theme="dark"] .auto-next-thumb { background: #e6ece2; }
+
+  @media (max-width: 760px) {
+    .chapter-bar {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 6px 10px;
+    }
+    .chapter-bar > label[for="chapterSelect"] { grid-column: 1; grid-row: 1; }
+    .chapter-bar select { grid-column: 1 / -1; grid-row: 2; width: 100%; max-width: none; }
+    .chapter-bar .auto-next-toggle {
+      grid-column: 2;
+      grid-row: 1;
+      margin-left: 0;
+      justify-self: end;
+    }
+  }
+
   .meta .image-badge { background: #fef3c7; color: #92400e; border-color: rgba(245, 158, 11, .35); }
   .image-warning {
     margin: -6px 0 16px;
@@ -1320,6 +1391,11 @@
   <section class="chapter-bar">
     <label for="chapterSelect">章节</label>
     <select id="chapterSelect"></select>
+    <label class="auto-next-toggle" for="autoNextToggle">
+      <input type="checkbox" id="autoNextToggle" checked>
+      <span class="auto-next-track" aria-hidden="true"><span class="auto-next-thumb"></span></span>
+      <span>答对自动下一题</span>
+    </label>
   </section>
 
   <section class="toolbar">
@@ -1491,6 +1567,7 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
   var els = {
     bankTabs: document.getElementById('bankTabs'),
     chapterSelect: document.getElementById('chapterSelect'),
+    autoNextToggle: document.getElementById('autoNextToggle'),
     modeButtons: document.getElementById('modeButtons'),
     statAnswered: document.getElementById('statAnswered'),
     statCorrect: document.getElementById('statCorrect'),
@@ -1563,6 +1640,31 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
   if (!state || typeof state !== 'object') state = { bankId: null, sessions: {} };
   if (!state.sessions || typeof state.sessions !== 'object') state.sessions = {};
   if (!state.memorize || typeof state.memorize !== 'object') state.memorize = {};
+
+  var AUTO_NEXT_STORE = 'patho-auto-next-v1';
+  var autoNextEnabled = load(AUTO_NEXT_STORE, true);
+  if (typeof autoNextEnabled !== 'boolean') autoNextEnabled = true;
+  var autoNextTimer = null;
+
+  function clearAutoNext() {
+    if (autoNextTimer) {
+      clearTimeout(autoNextTimer);
+      autoNextTimer = null;
+    }
+  }
+
+  function scheduleAutoNext(question) {
+    clearAutoNext();
+    autoNextTimer = setTimeout(function () {
+      autoNextTimer = null;
+      if (!autoNextEnabled || isMemorize()) return;
+      var ctx = currentQuestion();
+      if (!ctx || ctx.q.id !== question.id) return;
+      var answer = ctx.session.answers[question.id];
+      if (answer === undefined || !isCorrect(ctx.q, answer)) return;
+      move(1);
+    }, 1000);
+  }
 
   var wrongs = load(LS_WRONG, {});
   if (!wrongs || typeof wrongs !== 'object' || Array.isArray(wrongs)) wrongs = {};
@@ -1710,6 +1812,7 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
   }
 
   function openAiSettings(message) {
+    clearAutoNext();
     els.aiKeyInput.value = aiSettings.key || '';
     els.aiModelInput.value = aiSettings.model || 'deepseek-flash';
     els.aiBaseInput.value = aiSettings.baseUrl || 'https://api.deepseek.com';
@@ -1834,6 +1937,7 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
   }
 
   function toggleMemorize() {
+    clearAutoNext();
     state.memorize[state.bankId] = !state.memorize[state.bankId];
     save();
     render();
@@ -1864,16 +1968,24 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
 
   function choose(key) {
     if (isMemorize()) return;
+    clearAutoNext();
     var ctx = currentQuestion();
     if (!ctx) return;
     var q = ctx.q;
     var s = ctx.session;
     if (s.answers[q.id] !== undefined) return;
+    var correctNow = isCorrect(q, key);
     s.answers[q.id] = key;
-    if (isCorrect(q, key)) removeWrong(ctx.bank.id, q.id);
+    if (correctNow) removeWrong(ctx.bank.id, q.id);
     else addWrong(ctx.bank.id, q.id);
     save();
     render();
+    if (correctNow && autoNextEnabled) {
+      var session = getSession(state.bankId, null);
+      if (session.index < session.order.length - 1) {
+        scheduleAutoNext(q);
+      }
+    }
   }
 
   function restoreScroll(y) {
@@ -1885,6 +1997,7 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
   }
 
   function move(delta) {
+    clearAutoNext();
     var ctx = currentQuestion();
     if (!ctx) return;
     var next = ctx.session.index + delta;
@@ -2000,6 +2113,7 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
 
   function openQuestionList() {
     if (els.quiz.hidden) return;
+    clearAutoNext();
     qlistOpen = true;
     document.body.classList.add('list-open');
     els.qlistOverlay.hidden = false;
@@ -2021,6 +2135,7 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
   function jumpToQuestion(index) {
     var s = getSession(state.bankId, null);
     if (index < 0 || index >= s.order.length) return;
+    clearAutoNext();
     var scrollY = window.scrollY || window.pageYOffset || 0;
     s.index = index;
     save();
@@ -2030,6 +2145,7 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
   }
 
   function switchMode(mode) {
+    clearAutoNext();
     var bankId = state.bankId;
     var s = getSession(bankId, null);
     state.sessions[bankId] = createSession(bankId, mode, s.chapter);
@@ -2039,6 +2155,7 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
   }
 
   function changeChapter(chapter) {
+    clearAutoNext();
     var bankId = state.bankId;
     var s = getSession(bankId, null);
     state.sessions[bankId] = createSession(bankId, s.mode, chapter);
@@ -2052,6 +2169,7 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
     var s = getSession(state.bankId, null);
     var answered = Object.keys(s.answers).length;
     if (answered && !window.confirm('确定重新开始？本轮作答记录将清空。')) return;
+    clearAutoNext();
     state.sessions[state.bankId] = createSession(state.bankId, s.mode, s.chapter);
     save();
     render();
@@ -2072,6 +2190,7 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
       btn.appendChild(count);
       btn.addEventListener('click', function () {
         if (state.bankId === bank.id) return;
+        clearAutoNext();
         state.bankId = bank.id;
         save();
         render();
@@ -2429,6 +2548,13 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
     });
   }
   applyTheme(currentTheme());
+
+  els.autoNextToggle.checked = autoNextEnabled;
+  els.autoNextToggle.addEventListener('change', function () {
+    autoNextEnabled = !!els.autoNextToggle.checked;
+    try { localStorage.setItem(AUTO_NEXT_STORE, JSON.stringify(autoNextEnabled)); } catch (e) {}
+    if (!autoNextEnabled) clearAutoNext();
+  });
 
   var deferredInstallPrompt = null;
   var isStandalone = window.matchMedia('(display-mode: standalone)').matches ||
