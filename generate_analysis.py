@@ -104,8 +104,11 @@ def load_bank():
     raise SystemExit("bank %s not found" % BANK_ID)
 
 
-def selected_questions(bank):
-    return [q for q in bank.get("questions", []) if q.get("chapter") in CHAPTERS]
+def selected_questions(bank, all_questions=False):
+    questions = bank.get("questions", [])
+    if all_questions:
+        return questions
+    return [q for q in questions if q.get("chapter") in CHAPTERS]
 
 
 def load_progress():
@@ -189,20 +192,78 @@ def call_api(key, model, messages, timeout, max_tokens):
     return content, reasoning, choices[0].get("finish_reason"), body.get("usage") or {}
 
 
+def clean_text(text):
+    text = re.sub(r"```[A-Za-z]*", "", text)
+    text = text.replace("```", "")
+    text = text.replace("**", "").replace("__", "")
+    text = re.sub(r"(?m)^\s*#{1,6}\s*", "", text)
+    return text.strip()
+
+
+def validate_analysis(text, question):
+    text = clean_text(text)
+    if len(text) < 250:
+        return False, "too short (%d chars)" % len(text)
+    if len(text) > 3000:
+        return False, "too long (%d chars)" % len(text)
+    for section in ("答案", "核心考点", "解析", "选项分析", "易混点"):
+        if section not in text:
+            return False, "missing section: %s" % section
+
+    answer_match = re.search(r"答案\s*[:：]\s*([A-Ea-e][A-Ea-e、,，\s]*)", text)
+    if not answer_match:
+        return False, "missing answer line"
+    found_answers = set(re.findall(r"[A-E]", answer_match.group(1).upper()))
+    expected = set(str(k).upper() for k in question.get("answerKeys", []) or [])
+    if expected and found_answers != expected:
+        return False, "answer mismatch: %s != %s" % (
+            "".join(sorted(found_answers)), "".join(sorted(expected)))
+
+    option_keys = [str(o.get("key", "")).upper() for o in question.get("options", []) or []]
+    analyzed = {}
+    for line in text.splitlines():
+        match = re.match(r"\s*([A-E])\s*[.、．:：]?\s*(正确|错误)", line)
+        if match and match.group(1) not in analyzed:
+            analyzed[match.group(1)] = match.group(2)
+    missing_options = [key for key in option_keys if key not in analyzed]
+    if missing_options:
+        return False, "missing option analysis: %s" % ",".join(missing_options)
+    if option_keys and not any(analyzed.get(key) == "正确" for key in option_keys):
+        return False, "no option marked correct"
+    if len(option_keys) > 1 and not any(analyzed.get(key) == "错误" for key in option_keys):
+        return False, "no option marked wrong"
+    return True, ""
+
+
 def generate_one(question, key, args):
-    messages = analysis_messages(question)
+    base_messages = analysis_messages(question)
     max_tokens = args.max_tokens
     errors = []
+    quality_reason = ""
     for attempt in range(args.retries + 1):
+        messages = base_messages
+        if quality_reason:
+            messages = base_messages + [{
+                "role": "user",
+                "content": "上一次输出未通过质量检查：%s。请重新输出完整解析，严格包含答案、核心考点、解析、逐个选项的正确/错误分析以及易混点。" % quality_reason,
+            }]
         try:
             content, reasoning, finish, usage = call_api(
                 key, args.model, messages, args.timeout, max_tokens)
-            text = content or reasoning
+            text = clean_text(content or reasoning or "")
             if text:
-                return text.strip(), errors, usage
-            errors.append("empty content (finish=%s)" % finish)
-            if finish == "length":
-                max_tokens = min(max_tokens * 2, 16384)
+                ok, reason = validate_analysis(text, question)
+                if ok:
+                    return text, errors, usage
+                quality_reason = reason
+                errors.append("quality: " + reason)
+                print("[quality] %s %s" % (question.get("id"), reason), flush=True)
+                if finish == "length":
+                    max_tokens = min(max_tokens * 2, 16384)
+            else:
+                errors.append("empty content (finish=%s)" % finish)
+                if finish == "length":
+                    max_tokens = min(max_tokens * 2, 16384)
         except urllib.error.HTTPError as exc:
             detail = ""
             try:
@@ -228,24 +289,40 @@ def generate_one(question, key, args):
 def run_generate(args):
     key = read_key()
     bank = load_bank()
-    questions = selected_questions(bank)
+    questions = selected_questions(bank, args.all)
     progress = load_progress()
     if progress.get("model") != args.model and progress.get("results"):
         print("warning: progress model is %s, now using %s" %
               (progress.get("model"), args.model), flush=True)
     progress["model"] = args.model
+    progress["chapters"] = "all" if args.all else CHAPTERS
     results = progress["results"]
+    invalid = []
+    for question in questions:
+        text = results.get(question["id"])
+        if not text:
+            continue
+        ok, reason = validate_analysis(text, question)
+        if not ok:
+            invalid.append((question["id"], reason))
+            del results[question["id"]]
+    if invalid:
+        save_progress(progress)
+        print("removed %d existing result(s) failing quality" % len(invalid), flush=True)
+        for qid, reason in invalid[:10]:
+            print("  %s %s" % (qid, reason), flush=True)
     missing = [q for q in questions if not results.get(q["id"])]
     if args.limit:
         missing = missing[:args.limit]
     if not missing:
-        print("nothing to do: %d/%d selected questions already have analyses" %
-              (len(results), len(questions)), flush=True)
+        print("nothing to do: %d/%d selected questions already have valid analyses" %
+              (sum(1 for q in questions if results.get(q["id"])), len(questions)), flush=True)
         return 0
 
     done_count = sum(1 for q in questions if results.get(q["id"]))
+    label = "all" if args.all else str(CHAPTERS)
     print("bank=%s chapters=%s selected=%d done=%d missing=%d workers=%d model=%s" % (
-        BANK_ID, CHAPTERS, len(questions), done_count, len(missing),
+        BANK_ID, label, len(questions), done_count, len(missing),
         args.workers, args.model), flush=True)
 
     lock = threading.Lock()
@@ -293,16 +370,33 @@ def run_generate(args):
 
 def show_status(args):
     bank = load_bank()
-    questions = selected_questions(bank)
+    questions = selected_questions(bank, args.all)
     progress = load_progress()
     results = progress.get("results", {})
     done = [q for q in questions if results.get(q["id"])]
+    valid = 0
+    invalid = []
+    for q in done:
+        ok, reason = validate_analysis(results[q["id"]], q)
+        if ok:
+            valid += 1
+        else:
+            invalid.append((q["id"], reason))
+    names = {}
+    for q in questions:
+        chapter = q.get("chapter")
+        if chapter and chapter not in names:
+            names[chapter] = q.get("chapterName") or CHAPTER_NAMES.get(chapter, "")
+    chapters = sorted(names)
     print("bank: %s" % BANK_ID)
-    print("chapters: %s" % ", ".join("%d %s" % (n, CHAPTER_NAMES[n]) for n in CHAPTERS))
+    print("chapters: %s" % ("all" if args.all else ", ".join(
+        "%d %s" % (n, CHAPTER_NAMES.get(n, "")) for n in CHAPTERS)))
     print("selected: %d" % len(questions))
     print("generated: %d" % len(done))
+    print("valid: %d" % valid)
+    print("invalid: %d" % len(invalid))
     print("missing: %d" % (len(questions) - len(done)))
-    by_chapter = {n: [0, 0] for n in CHAPTERS}
+    by_chapter = {n: [0, 0] for n in chapters}
     for q in questions:
         chapter = q.get("chapter")
         if chapter not in by_chapter:
@@ -310,9 +404,13 @@ def show_status(args):
         by_chapter[chapter][0] += 1
         if results.get(q.get("id")):
             by_chapter[chapter][1] += 1
-    for n in CHAPTERS:
+    for n in chapters:
         total, generated = by_chapter[n]
-        print("  ch%-2d %-16s %d/%d" % (n, CHAPTER_NAMES[n], generated, total))
+        print("  ch%-2d %-18s %d/%d" % (n, names.get(n, ""), generated, total))
+    if invalid:
+        print("invalid results:")
+        for qid, reason in invalid[:15]:
+            print("  %s %s" % (qid, reason))
     if PROGRESS_FILE.exists():
         print("progress: %s" % PROGRESS_FILE.name)
     return 0
@@ -351,30 +449,42 @@ def apply_results(args):
     banks = json.loads(raw[eq + 1:semi].strip())
     total = 0
     applied = 0
-    by_chapter = {n: 0 for n in CHAPTERS}
+    skipped = []
+    counts = {}
+    names = {}
     for bank in banks:
         if bank.get("id") != BANK_ID:
             continue
         for question in bank.get("questions", []):
             total += 1
             text = results.get(question.get("id"))
-            if text:
-                question["analysis"] = text
-                applied += 1
-                if question.get("chapter") in by_chapter:
-                    by_chapter[question.get("chapter")] += 1
+            if not text:
+                continue
+            ok, reason = validate_analysis(text, question)
+            if not ok:
+                skipped.append((question.get("id"), reason))
+                continue
+            question["analysis"] = text
+            applied += 1
+            chapter = question.get("chapter")
+            counts[chapter] = counts.get(chapter, 0) + 1
+            names[chapter] = question.get("chapterName") or CHAPTER_NAMES.get(chapter, "")
     json_text = json.dumps(banks, ensure_ascii=False, separators=(",", ":"))
     output = "window.QUESTION_BANKS = " + json_text + ";\n"
     tmp = DATA_JS.with_suffix(".js.tmp")
     tmp.write_text(output, encoding="utf-8")
     os.replace(tmp, DATA_JS)
-    print("updated %s: %d/%d questions have analyses" % (DATA_JS.name, applied, total))
+    print("updated %s: %d/%d questions have valid analyses" % (DATA_JS.name, applied, total))
     if embed_into_index(json_text):
         print("updated %s with embedded analyses" % INDEX_HTML.name)
     else:
         print("warning: could not update embedded data in %s" % INDEX_HTML.name)
-    for n in CHAPTERS:
-        print("  ch%-2d %-16s %d" % (n, CHAPTER_NAMES[n], by_chapter[n]))
+    for chapter in sorted(counts, key=lambda value: (value is None, value)):
+        print("  ch%-2s %-18s %d" % (chapter, names.get(chapter, ""), counts[chapter]))
+    if skipped:
+        print("skipped %d invalid result(s):" % len(skipped))
+        for qid, reason in skipped[:15]:
+            print("  %s %s" % (qid, reason))
     return 0
 
 
@@ -401,6 +511,7 @@ def build_parser():
     parser.add_argument("--backoff", type=int, default=5)
     parser.add_argument("--max-tokens", type=int, default=8192)
     parser.add_argument("--limit", type=int, default=0)
+    parser.add_argument("--all", action="store_true")
     parser.add_argument("--status", action="store_true")
     parser.add_argument("--apply", action="store_true")
     parser.add_argument("--reset", action="store_true")
