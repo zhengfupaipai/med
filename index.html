@@ -1371,7 +1371,7 @@
   <header class="top">
     <div class="brand">
       <h1>病理学刷题</h1>
-      <p>本地题库 · 即时判题 · 错题复习</p>
+      <p>本地题库 · 即时判题 · 错题练习</p>
       <div class="theme-switch" role="group" aria-label="主题">
         <button type="button" data-theme-btn="light">浅色</button>
         <button type="button" data-theme-btn="green">豆沙绿</button>
@@ -1402,14 +1402,12 @@
     <div class="modes" id="modeButtons">
       <button type="button" data-mode="seq">顺序练习</button>
       <button type="button" data-mode="random">随机练习</button>
-      <button type="button" data-mode="wrong">错题复习</button>
+      <button type="button" data-mode="wrong">错题练习</button>
       <button type="button" id="btnMemorize" class="memorize-toggle" aria-pressed="false">背题模式</button>
     </div>
     <div class="actions">
       <button type="button" id="btnAiSettings" class="ghost">AI 设置</button>
-      <button type="button" id="btnInstall" class="ghost" hidden>安装应用</button>
       <button type="button" id="btnRestart" class="ghost">重新开始</button>
-      <button type="button" id="btnClearWrong" class="ghost danger">清空错题</button>
     </div>
   </section>
 
@@ -1590,10 +1588,8 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
     btnPrev: document.getElementById('btnPrev'),
     btnNext: document.getElementById('btnNext'),
     btnRestart: document.getElementById('btnRestart'),
-    btnClearWrong: document.getElementById('btnClearWrong'),
     btnMemorize: document.getElementById('btnMemorize'),
     btnAiSettings: document.getElementById('btnAiSettings'),
-    btnInstall: document.getElementById('btnInstall'),
     aiModal: document.getElementById('aiModal'),
     aiKeyInput: document.getElementById('aiKeyInput'),
     aiModelInput: document.getElementById('aiModelInput'),
@@ -1640,6 +1636,19 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
   if (!state || typeof state !== 'object') state = { bankId: null, sessions: {} };
   if (!state.sessions || typeof state.sessions !== 'object') state.sessions = {};
   if (!state.memorize || typeof state.memorize !== 'object') state.memorize = {};
+  if (!state.wrongSessions || typeof state.wrongSessions !== 'object') state.wrongSessions = {};
+  if (!state.modes || typeof state.modes !== 'object') state.modes = {};
+  Object.keys(state.sessions).forEach(function (bankId) {
+    var saved = state.sessions[bankId];
+    if (!saved || typeof saved !== 'object') return;
+    if (saved.mode === 'wrong') {
+      if (!state.wrongSessions[bankId]) state.wrongSessions[bankId] = saved;
+      delete state.sessions[bankId];
+      if (!state.modes[bankId]) state.modes[bankId] = 'wrong';
+    } else if ((saved.mode === 'seq' || saved.mode === 'random') && !state.modes[bankId]) {
+      state.modes[bankId] = saved.mode;
+    }
+  });
 
   var AUTO_NEXT_STORE = 'patho-auto-next-v1';
   var autoNextEnabled = load(AUTO_NEXT_STORE, true);
@@ -1902,7 +1911,7 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
     return arr;
   }
 
-  function createSession(bankId, mode, chapter) {
+  function createSession(bankId, mode, chapter, answers) {
     var bank = getBank(bankId);
     chapter = Number(chapter) || 0;
     var order = [];
@@ -1916,20 +1925,69 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
       (wrongs[bankId] || []).forEach(function (id) { set[id] = true; });
       order = order.filter(function (i) { return set[bank.questions[i].id]; });
     }
-    return { mode: mode || 'seq', chapter: chapter, order: order, index: 0, answers: {} };
+    return {
+      mode: mode || 'seq',
+      chapter: chapter,
+      order: order,
+      index: 0,
+      answers: answers && typeof answers === 'object' ? answers : {}
+    };
+  }
+
+  function sessionValid(s, bankId) {
+    var bank = getBank(bankId);
+    return !!s && typeof s === 'object' &&
+      Array.isArray(s.order) &&
+      typeof s.index === 'number' &&
+      s.answers && typeof s.answers === 'object' &&
+      !s.order.some(function (i) { return i < 0 || i >= bank.questions.length; });
+  }
+
+  function getMainSession(bankId) {
+    var s = state.sessions[bankId];
+    var wrong = state.wrongSessions[bankId];
+    var chapter = s && typeof s.chapter === 'number' ? s.chapter :
+      (wrong && typeof wrong.chapter === 'number' ? wrong.chapter : 0);
+    if (s && s.mode !== 'wrong' && sessionValid(s, bankId)) {
+      s.chapter = Number(s.chapter) || 0;
+      state.sessions[bankId] = s;
+      return s;
+    }
+    if (s) chapter = typeof s.chapter === 'number' ? s.chapter : chapter;
+    var mode = s && s.mode === 'random' ? 'random' : 'seq';
+    var answers = s && s.answers && typeof s.answers === 'object' ? s.answers : {};
+    var created = createSession(bankId, mode, chapter, answers);
+    state.sessions[bankId] = created;
+    return created;
   }
 
   function getSession(bankId, mode) {
-    var s = state.sessions[bankId];
-    var chapter = s && typeof s.chapter === 'number' ? s.chapter : 0;
-    if (s && mode && s.mode !== mode) s = null;
-    if (s && (!Array.isArray(s.order) || typeof s.index !== 'number' || !s.answers || typeof s.answers !== 'object')) s = null;
-    var bank = getBank(bankId);
-    if (s && s.order.some(function (i) { return i < 0 || i >= bank.questions.length; })) s = null;
-    if (!s) s = createSession(bankId, mode || 'seq', chapter);
-    s.chapter = Number(s.chapter) || 0;
-    state.sessions[bankId] = s;
-    return s;
+    if (mode === 'seq' || mode === 'random' || mode === 'wrong') {
+      state.modes[bankId] = mode;
+    }
+    var active = state.modes[bankId];
+    if (active !== 'seq' && active !== 'random' && active !== 'wrong') {
+      var stored = state.sessions[bankId];
+      active = stored && stored.mode === 'random' ? 'random' : 'seq';
+    }
+    var main = getMainSession(bankId);
+    if (active === 'wrong') {
+      var chapter = main.chapter || 0;
+      var ws = state.wrongSessions[bankId];
+      if (!sessionValid(ws, bankId) || ws.mode !== 'wrong' || ws.chapter !== chapter) {
+        ws = createSession(bankId, 'wrong', chapter);
+        state.wrongSessions[bankId] = ws;
+      }
+      state.modes[bankId] = 'wrong';
+      return ws;
+    }
+    if (main.mode !== active) {
+      var next = createSession(bankId, active, main.chapter, main.answers);
+      state.sessions[bankId] = next;
+      main = next;
+    }
+    state.modes[bankId] = main.mode;
+    return main;
   }
 
   function isMemorize() {
@@ -2145,10 +2203,41 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
   }
 
   function switchMode(mode) {
-    clearAutoNext();
     var bankId = state.bankId;
-    var s = getSession(bankId, null);
-    state.sessions[bankId] = createSession(bankId, mode, s.chapter);
+    var active = state.modes[bankId] || 'seq';
+    if (mode === active) return;
+    clearAutoNext();
+    var current = getSession(bankId, null);
+    var chapter = current.chapter || 0;
+    var bank = getBank(bankId);
+    if (mode === 'wrong') {
+      var main = getMainSession(bankId);
+      var mainNext = main.chapter === chapter ? main :
+        createSession(bankId, main.mode === 'random' ? 'random' : 'seq', chapter, main.answers);
+      state.sessions[bankId] = mainNext;
+      state.wrongSessions[bankId] = createSession(bankId, 'wrong', chapter);
+      state.modes[bankId] = 'wrong';
+    } else {
+      if (mode !== 'seq' && mode !== 'random') mode = 'seq';
+      var main2 = getMainSession(bankId);
+      var currentQid = null;
+      if (current.order && current.order.length) {
+        var idx = Math.max(0, Math.min(current.index, current.order.length - 1));
+        var q = bank.questions[current.order[idx]];
+        if (q) currentQid = q.id;
+      }
+      var next = createSession(bankId, mode, chapter, main2.answers);
+      if (currentQid) {
+        for (var i = 0; i < next.order.length; i++) {
+          if (bank.questions[next.order[i]].id === currentQid) {
+            next.index = i;
+            break;
+          }
+        }
+      }
+      state.sessions[bankId] = next;
+      state.modes[bankId] = mode;
+    }
     save();
     render();
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -2157,20 +2246,44 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
   function changeChapter(chapter) {
     clearAutoNext();
     var bankId = state.bankId;
-    var s = getSession(bankId, null);
-    state.sessions[bankId] = createSession(bankId, s.mode, chapter);
+    chapter = Number(chapter) || 0;
+    var current = getSession(bankId, null);
+    var main = getMainSession(bankId);
+    var mainMode = main.mode === 'random' ? 'random' : 'seq';
+    var nextMain = createSession(bankId, mainMode, chapter, main.answers);
+    state.sessions[bankId] = nextMain;
+    if (current.mode === 'wrong') {
+      state.wrongSessions[bankId] = createSession(bankId, 'wrong', chapter);
+      state.modes[bankId] = 'wrong';
+    } else {
+      state.modes[bankId] = mainMode;
+    }
     save();
     render();
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   function restart() {
-    var ctx = currentQuestion();
-    var s = getSession(state.bankId, null);
-    var answered = Object.keys(s.answers).length;
-    if (answered && !window.confirm('确定重新开始？本轮作答记录将清空。')) return;
     clearAutoNext();
-    state.sessions[state.bankId] = createSession(state.bankId, s.mode, s.chapter);
+    var bankId = state.bankId;
+    var s = getSession(bankId, null);
+    var bank = getBank(bankId);
+    var answered = s.order.filter(function (i) {
+      return s.answers[bank.questions[i].id] !== undefined;
+    }).length;
+    if (answered && !window.confirm('确定重新开始？本章节的作答记录将清空。')) return;
+    var chapter = s.chapter || 0;
+    if (s.mode === 'wrong') {
+      state.wrongSessions[bankId] = createSession(bankId, 'wrong', chapter);
+      state.modes[bankId] = 'wrong';
+    } else {
+      var remaining = {};
+      Object.keys(s.answers).forEach(function (qid) { remaining[qid] = s.answers[qid]; });
+      s.order.forEach(function (i) { delete remaining[bank.questions[i].id]; });
+      var mode = s.mode === 'random' ? 'random' : 'seq';
+      state.sessions[bankId] = createSession(bankId, mode, chapter, remaining);
+      state.modes[bankId] = mode;
+    }
     save();
     render();
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -2268,11 +2381,7 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
         } else {
           renderEmpty('错题本是空的', '在练习中答错的题目会自动收录到这里。', true);
           els.emptyAction.textContent = '去顺序练习';
-          els.emptyAction.onclick = function () {
-            state.sessions[state.bankId] = createSession(state.bankId, 'seq', 0);
-            save();
-            render();
-          };
+          els.emptyAction.onclick = function () { switchMode('seq'); };
         }
       } else if (s.chapter) {
         renderEmpty('本章暂无题目', '「第' + s.chapter + '章 ' + CHAPTER_NAMES[s.chapter] + '」在当前题库中没有题目。', true);
@@ -2450,17 +2559,6 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
   els.btnRestart.addEventListener('click', restart);
   document.getElementById('doneRestart').addEventListener('click', restart);
 
-  els.btnClearWrong.addEventListener('click', function () {
-    if (!window.confirm('确定清空当前题库的错题记录？')) return;
-    var s = getSession(state.bankId, null);
-    wrongs[state.bankId] = [];
-    if (s.mode === 'wrong') {
-      state.sessions[state.bankId] = createSession(state.bankId, 'wrong', s.chapter);
-    }
-    save();
-    render();
-  });
-
   els.btnAiSettings.addEventListener('click', function () { openAiSettings(''); });
   els.aiClose.addEventListener('click', closeAiSettings);
   els.aiCancel.addEventListener('click', closeAiSettings);
@@ -2554,29 +2652,6 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
     autoNextEnabled = !!els.autoNextToggle.checked;
     try { localStorage.setItem(AUTO_NEXT_STORE, JSON.stringify(autoNextEnabled)); } catch (e) {}
     if (!autoNextEnabled) clearAutoNext();
-  });
-
-  var deferredInstallPrompt = null;
-  var isStandalone = window.matchMedia('(display-mode: standalone)').matches ||
-    window.navigator.standalone === true;
-  window.addEventListener('beforeinstallprompt', function (event) {
-    event.preventDefault();
-    deferredInstallPrompt = event;
-    if (!isStandalone) els.btnInstall.hidden = false;
-  });
-  els.btnInstall.addEventListener('click', function () {
-    if (!deferredInstallPrompt) return;
-    var promptEvent = deferredInstallPrompt;
-    deferredInstallPrompt = null;
-    els.btnInstall.hidden = true;
-    promptEvent.prompt();
-    if (promptEvent.userChoice && promptEvent.userChoice.catch) {
-      promptEvent.userChoice.catch(function () {});
-    }
-  });
-  window.addEventListener('appinstalled', function () {
-    deferredInstallPrompt = null;
-    els.btnInstall.hidden = true;
   });
 
   save();
