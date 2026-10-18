@@ -45,6 +45,7 @@ INDEX_HTML = BASE / "index.html"
 PROGRESS_FILE = BASE / "analysis_progress.json"
 
 BANK_ID = "pathology-2a"
+BANK_CHOICES = ["pathology-2a", "pathology-3a", "pathology-a"]
 CHAPTERS = [3, 6, 9]
 CHAPTER_NAMES = {
     3: "局部血液循环障碍",
@@ -89,6 +90,11 @@ def read_key():
     if not key:
         raise SystemExit("api.txt is empty")
     return key
+
+
+def set_bank(bank):
+    global BANK_ID
+    BANK_ID = bank
 
 
 def load_bank():
@@ -192,16 +198,20 @@ def call_api(key, model, messages, timeout, max_tokens):
     return content, reasoning, choices[0].get("finish_reason"), body.get("usage") or {}
 
 
-def clean_text(text):
+def clean_text(text, question=None):
     text = re.sub(r"```[A-Za-z]*", "", text)
     text = text.replace("```", "")
     text = text.replace("**", "").replace("__", "")
     text = re.sub(r"(?m)^\s*#{1,6}\s*", "", text)
+    if question is not None and not question.get("needsImage"):
+        text = re.sub(r"[^。\n]*图片未提供[^。\n]*。?", "", text)
+        text = re.sub(r"[^。\n]*未提供图片[^。\n]*。?", "", text)
+        text = re.sub(r"\n{3,}", "\n\n", text)
     return text.strip()
 
 
 def validate_analysis(text, question):
-    text = clean_text(text)
+    text = clean_text(text, question)
     if len(text) < 250:
         return False, "too short (%d chars)" % len(text)
     if len(text) > 3000:
@@ -250,7 +260,7 @@ def generate_one(question, key, args):
         try:
             content, reasoning, finish, usage = call_api(
                 key, args.model, messages, args.timeout, max_tokens)
-            text = clean_text(content or reasoning or "")
+            text = clean_text(content or reasoning or "", question)
             if text:
                 ok, reason = validate_analysis(text, question)
                 if ok:
@@ -298,19 +308,27 @@ def run_generate(args):
     progress["chapters"] = "all" if args.all else CHAPTERS
     results = progress["results"]
     invalid = []
+    cleaned_count = 0
     for question in questions:
         text = results.get(question["id"])
         if not text:
             continue
-        ok, reason = validate_analysis(text, question)
+        cleaned = clean_text(text, question)
+        ok, reason = validate_analysis(cleaned, question)
         if not ok:
             invalid.append((question["id"], reason))
             del results[question["id"]]
-    if invalid:
+        elif cleaned != text:
+            results[question["id"]] = cleaned
+            cleaned_count += 1
+    if invalid or cleaned_count:
         save_progress(progress)
+    if invalid:
         print("removed %d existing result(s) failing quality" % len(invalid), flush=True)
         for qid, reason in invalid[:10]:
             print("  %s %s" % (qid, reason), flush=True)
+    if cleaned_count:
+        print("cleaned %d existing result(s)" % cleaned_count, flush=True)
     missing = [q for q in questions if not results.get(q["id"])]
     if args.limit:
         missing = missing[:args.limit]
@@ -460,11 +478,12 @@ def apply_results(args):
             text = results.get(question.get("id"))
             if not text:
                 continue
-            ok, reason = validate_analysis(text, question)
+            cleaned = clean_text(text, question)
+            ok, reason = validate_analysis(cleaned, question)
             if not ok:
                 skipped.append((question.get("id"), reason))
                 continue
-            question["analysis"] = text
+            question["analysis"] = cleaned
             applied += 1
             chapter = question.get("chapter")
             counts[chapter] = counts.get(chapter, 0) + 1
@@ -504,6 +523,7 @@ def run_reset(args):
 
 def build_parser():
     parser = argparse.ArgumentParser(description="Generate built-in pathology analyses")
+    parser.add_argument("--bank", default="pathology-2a", choices=BANK_CHOICES)
     parser.add_argument("--model", default=DEFAULT_MODEL)
     parser.add_argument("--workers", type=int, default=4)
     parser.add_argument("--timeout", type=int, default=180)
@@ -521,6 +541,7 @@ def build_parser():
 
 def main():
     args = build_parser().parse_args()
+    set_bank(args.bank)
     if args.status:
         return show_status(args)
     if args.apply:
