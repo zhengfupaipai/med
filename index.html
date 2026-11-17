@@ -1407,6 +1407,7 @@
     </div>
     <div class="actions">
       <button type="button" id="btnAiSettings" class="ghost">AI 设置</button>
+      <button type="button" id="btnClearWrong" class="ghost danger">清空错题</button>
       <button type="button" id="btnRestart" class="ghost">重新开始</button>
     </div>
   </section>
@@ -1598,6 +1599,7 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
     btnPrev: document.getElementById('btnPrev'),
     btnNext: document.getElementById('btnNext'),
     btnRestart: document.getElementById('btnRestart'),
+    btnClearWrong: document.getElementById('btnClearWrong'),
     btnMemorize: document.getElementById('btnMemorize'),
     btnAiSettings: document.getElementById('btnAiSettings'),
     aiModal: document.getElementById('aiModal'),
@@ -2052,10 +2054,33 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
     if (wrongs[bankId].indexOf(qid) === -1) wrongs[bankId].push(qid);
   }
 
-  function removeWrong(bankId, qid) {
-    if (!Array.isArray(wrongs[bankId])) return;
-    var i = wrongs[bankId].indexOf(qid);
-    if (i !== -1) wrongs[bankId].splice(i, 1);
+  function clearWrongBook() {
+    var bankId = state.bankId;
+    var bank = getBank(bankId);
+    if (!bank) return;
+    var s = getSession(bankId, null);
+    var chapter = s.chapter || 0;
+    var chapterIds = {};
+    if (chapter) {
+      bank.questions.forEach(function (q) {
+        if (Number(q.chapter) === chapter) chapterIds[q.id] = true;
+      });
+    }
+    var scope = (wrongs[bankId] || []).filter(function (qid) {
+      return !chapter || chapterIds[qid];
+    });
+    if (!scope.length) {
+      window.alert(chapter ? '当前章节还没有错题。' : '当前题库还没有错题。');
+      return;
+    }
+    var label = chapter ? '「' + bankChapterLabel(bank, chapter) + '」' : '「' + bank.name + '」';
+    if (!window.confirm('确定清空' + label + '的错题吗？清空后需要重新积累错题。')) return;
+    var drop = {};
+    scope.forEach(function (qid) { drop[qid] = true; });
+    wrongs[bankId] = (wrongs[bankId] || []).filter(function (qid) { return !drop[qid]; });
+    delete state.wrongSessions[bankId];
+    save();
+    render();
   }
 
   function currentQuestion() {
@@ -2076,8 +2101,8 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
     if (s.answers[q.id] !== undefined) return;
     var correctNow = isCorrect(q, key);
     s.answers[q.id] = key;
-    if (correctNow) removeWrong(ctx.bank.id, q.id);
-    else addWrong(ctx.bank.id, q.id);
+    // 错题只增不减：答对也保留在错题本，由“清空错题”按钮手动清空
+    if (!correctNow) addWrong(ctx.bank.id, q.id);
     save();
     render();
     if (correctNow && autoNextEnabled) {
@@ -2554,7 +2579,8 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
     els.doneBanner.hidden = !allDone;
     if (allDone) {
       var rate = Math.round(correctList.length / total * 100);
-      els.doneText.textContent = '本轮完成：答对 ' + correctList.length + ' / ' + total + ' 题（' + rate + '%）';
+      els.doneText.textContent = '本轮完成：答对 ' + correctList.length + ' / ' + total + ' 题（' + rate + '%）' +
+        (s.mode === 'wrong' ? '；错题已保留，可点「再来一轮」反复练习，或点「清空错题」手动清空' : '');
     }
 
     els.qPos.textContent = (s.index + 1) + ' / ' + total;
@@ -2600,6 +2626,7 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
     jumpToQuestion(Number(item.getAttribute('data-qindex')));
   });
   els.btnRestart.addEventListener('click', restart);
+  els.btnClearWrong.addEventListener('click', clearWrongBook);
   document.getElementById('doneRestart').addEventListener('click', restart);
 
   els.btnAiSettings.addEventListener('click', function () { openAiSettings(''); });
