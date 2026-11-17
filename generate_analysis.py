@@ -45,7 +45,7 @@ INDEX_HTML = BASE / "index.html"
 PROGRESS_FILE = BASE / "analysis_progress.json"
 
 BANK_ID = "pathology-2a"
-BANK_CHOICES = ["pathology-2a", "pathology-3a", "pathology-a"]
+BANK_CHOICES = ["pathology-2a", "pathology-3a", "pathology-a", "pharmacology"]
 CHAPTERS = [3, 6, 9]
 CHAPTER_NAMES = {
     3: "局部血液循环障碍",
@@ -95,6 +95,11 @@ def read_key():
 def set_bank(bank):
     global BANK_ID
     BANK_ID = bank
+
+
+def set_chapters(chapters):
+    global CHAPTERS
+    CHAPTERS = chapters
 
 
 def load_bank():
@@ -408,7 +413,7 @@ def show_status(args):
     chapters = sorted(names)
     print("bank: %s" % BANK_ID)
     print("chapters: %s" % ("all" if args.all else ", ".join(
-        "%d %s" % (n, CHAPTER_NAMES.get(n, "")) for n in CHAPTERS)))
+        "%d %s" % (n, names.get(n, "")) for n in CHAPTERS)))
     print("selected: %d" % len(questions))
     print("generated: %d" % len(done))
     print("valid: %d" % valid)
@@ -532,6 +537,7 @@ def build_parser():
     parser.add_argument("--max-tokens", type=int, default=8192)
     parser.add_argument("--limit", type=int, default=0)
     parser.add_argument("--all", action="store_true")
+    parser.add_argument("--chapters", default="")
     parser.add_argument("--status", action="store_true")
     parser.add_argument("--apply", action="store_true")
     parser.add_argument("--reset", action="store_true")
@@ -542,6 +548,13 @@ def build_parser():
 def main():
     args = build_parser().parse_args()
     set_bank(args.bank)
+    if args.chapters:
+        try:
+            chapters = [int(item) for item in re.split(r"[,\s]+", args.chapters.strip()) if item]
+        except ValueError:
+            raise SystemExit("invalid --chapters value")
+        if chapters:
+            set_chapters(chapters)
     if args.status:
         return show_status(args)
     if args.apply:
