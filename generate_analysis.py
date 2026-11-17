@@ -45,7 +45,7 @@ INDEX_HTML = BASE / "index.html"
 PROGRESS_FILE = BASE / "analysis_progress.json"
 
 BANK_ID = "pathology-2a"
-BANK_CHOICES = ["pathology-2a", "pathology-3a", "pathology-a", "pharmacology"]
+BANK_CHOICES = ["pathology-2a", "pathology-3a", "pathology-a", "pharmacology", "pathophysiology"]
 CHAPTERS = [3, 6, 9]
 CHAPTER_NAMES = {
     3: "局部血液循环障碍",
