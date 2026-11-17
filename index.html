@@ -1392,7 +1392,7 @@
   <header class="top">
     <div class="brand">
       <h1>病理学刷题</h1>
-      <p>本地题库 · 即时判题 · 错题练习</p>
+      <p>本地题库 · 即时判题 · 错题本</p>
       <div class="theme-switch" role="group" aria-label="主题">
         <button type="button" data-theme-btn="light">浅色</button>
         <button type="button" data-theme-btn="green">豆沙绿</button>
@@ -1423,14 +1423,13 @@
     <div class="modes" id="modeButtons">
       <button type="button" data-mode="seq">顺序练习</button>
       <button type="button" data-mode="random">随机练习</button>
-      <button type="button" data-mode="wrong">错题练习</button>
+      <button type="button" data-mode="wrong">错题本</button>
       <button type="button" data-mode="starred">收藏</button>
       <button type="button" data-mode="slashed">斩题库</button>
       <button type="button" id="btnMemorize" class="memorize-toggle" aria-pressed="false">背题模式</button>
     </div>
     <div class="actions">
       <button type="button" id="btnAiSettings" class="ghost">AI 设置</button>
-      <button type="button" id="btnClearWrong" class="ghost danger">清空错题</button>
       <button type="button" id="btnRestart" class="ghost">重新开始</button>
     </div>
   </section>
@@ -1629,7 +1628,6 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
     btnStar: document.getElementById('btnStar'),
     btnSlash: document.getElementById('btnSlash'),
     btnRestart: document.getElementById('btnRestart'),
-    btnClearWrong: document.getElementById('btnClearWrong'),
     btnMemorize: document.getElementById('btnMemorize'),
     btnAiSettings: document.getElementById('btnAiSettings'),
     aiModal: document.getElementById('aiModal'),
@@ -2191,35 +2189,6 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
     else render();
   }
 
-  function clearWrongBook() {
-    var bankId = state.bankId;
-    var bank = getBank(bankId);
-    if (!bank) return;
-    var s = getSession(bankId, null);
-    var chapter = s.chapter || 0;
-    var chapterIds = {};
-    if (chapter) {
-      bank.questions.forEach(function (q) {
-        if (Number(q.chapter) === chapter) chapterIds[q.id] = true;
-      });
-    }
-    var scope = (wrongs[bankId] || []).filter(function (qid) {
-      return !chapter || chapterIds[qid];
-    });
-    if (!scope.length) {
-      window.alert(chapter ? '当前章节还没有错题。' : '当前题库还没有错题。');
-      return;
-    }
-    var label = chapter ? '「' + bankChapterLabel(bank, chapter) + '」' : '「' + bank.name + '」';
-    if (!window.confirm('确定清空' + label + '的错题吗？清空后需要重新积累错题。')) return;
-    var drop = {};
-    scope.forEach(function (qid) { drop[qid] = true; });
-    wrongs[bankId] = (wrongs[bankId] || []).filter(function (qid) { return !drop[qid]; });
-    delete state.wrongSessions[bankId];
-    save();
-    render();
-  }
-
   function currentQuestion() {
     var bank = getBank(state.bankId);
     var s = getSession(state.bankId, null);
@@ -2238,7 +2207,7 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
     if (s.answers[q.id] !== undefined) return;
     var correctNow = isCorrect(q, key);
     s.answers[q.id] = key;
-    // 错题只增不减：答对也保留在错题本，由“清空错题”按钮手动清空
+    // 错题只增不减，错题本可反复练习
     if (!correctNow) addWrong(ctx.bank.id, q.id);
     save();
     render();
@@ -2784,7 +2753,7 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
     if (allDone) {
       var rate = Math.round(correctList.length / total * 100);
       els.doneText.textContent = '本轮完成：答对 ' + correctList.length + ' / ' + total + ' 题（' + rate + '%）' +
-        (s.mode === 'wrong' ? '；错题已保留，可点「再来一轮」反复练习，或点「清空错题」手动清空' : '');
+        (s.mode === 'wrong' ? '；错题已保留，可点「再来一轮」反复练习' : '');
     }
 
     els.qPos.textContent = (s.index + 1) + ' / ' + total;
@@ -2832,7 +2801,6 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
     jumpToQuestion(Number(item.getAttribute('data-qindex')));
   });
   els.btnRestart.addEventListener('click', restart);
-  els.btnClearWrong.addEventListener('click', clearWrongBook);
   document.getElementById('doneRestart').addEventListener('click', restart);
 
   els.btnAiSettings.addEventListener('click', function () { openAiSettings(''); });
