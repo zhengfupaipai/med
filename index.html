@@ -1364,6 +1364,27 @@
   html[data-theme="dark"] .meta .image-badge { background: rgba(245, 158, 11, .18); color: #fcd34d; border-color: rgba(245, 158, 11, .35); }
   html[data-theme="dark"] .image-warning { background: rgba(120, 80, 20, .28); border-color: rgba(245, 158, 11, .35); color: #fcd34d; }
   html[data-theme="dark"] .qlist-flag { background: rgba(245, 158, 11, .18); color: #fcd34d; border-color: rgba(245, 158, 11, .35); }
+
+  .q-tools { display: flex; justify-content: flex-end; gap: 8px; margin: -8px 0 12px; }
+  .mark-btn {
+    border: 1px solid var(--line);
+    background: var(--card);
+    color: var(--muted);
+    border-radius: 999px;
+    padding: 5px 13px;
+    font-size: 12.5px;
+    cursor: pointer;
+    transition: .15s;
+  }
+  .mark-btn:hover { border-color: #cbd5e1; color: var(--text); }
+  #btnStar.on { color: #b45309; border-color: #fcd34d; background: #fffbeb; }
+  #btnSlash.on { color: var(--bad); border-color: #fca5a5; background: #fef2f2; }
+  html[data-theme="green"] .mark-btn { background: rgba(255, 255, 255, .8); border-color: rgba(255, 255, 255, .9); color: #3d5a43; }
+  html[data-theme="green"] #btnStar.on { color: #8a5a13; border-color: rgba(180, 120, 20, .35); background: rgba(255, 247, 224, .92); }
+  html[data-theme="green"] #btnSlash.on { color: #a92e26; border-color: #d99a94; background: #fbe4e1; }
+  html[data-theme="dark"] .mark-btn { background: rgba(255, 255, 255, .06); border-color: rgba(255, 255, 255, .14); color: var(--muted); }
+  html[data-theme="dark"] #btnStar.on { color: #fcd34d; border-color: rgba(245, 158, 11, .4); background: rgba(245, 158, 11, .16); }
+  html[data-theme="dark"] #btnSlash.on { color: #fca5a5; border-color: rgba(248, 113, 113, .45); background: rgba(220, 38, 38, .2); }
 </style>
 </head>
 <body>
@@ -1403,6 +1424,8 @@
       <button type="button" data-mode="seq">顺序练习</button>
       <button type="button" data-mode="random">随机练习</button>
       <button type="button" data-mode="wrong">错题练习</button>
+      <button type="button" data-mode="starred">收藏</button>
+      <button type="button" data-mode="slashed">斩题库</button>
       <button type="button" id="btnMemorize" class="memorize-toggle" aria-pressed="false">背题模式</button>
     </div>
     <div class="actions">
@@ -1427,6 +1450,10 @@
         <button type="button" id="doneRestart" class="primary small">再来一轮</button>
       </div>
       <div class="meta" id="qMeta"></div>
+      <div class="q-tools">
+        <button type="button" id="btnStar" class="mark-btn">☆ 收藏</button>
+        <button type="button" id="btnSlash" class="mark-btn">斩题</button>
+      </div>
       <div class="qtext" id="qText"></div>
       <div class="image-warning" id="qImageWarning" hidden></div>
       <div class="options" id="qOptions"></div>
@@ -1511,6 +1538,7 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
 
   var LS_STATE = 'patho-quiz-state-v1';
   var LS_WRONG = 'patho-quiz-wrong-v1';
+  var LS_MARKS = 'patho-quiz-marks-v1';
 
   var CHAPTER_NAMES = {
     1: '细胞和组织的适应与损伤',
@@ -1598,6 +1626,8 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
     qPos: document.getElementById('qPos'),
     btnPrev: document.getElementById('btnPrev'),
     btnNext: document.getElementById('btnNext'),
+    btnStar: document.getElementById('btnStar'),
+    btnSlash: document.getElementById('btnSlash'),
     btnRestart: document.getElementById('btnRestart'),
     btnClearWrong: document.getElementById('btnClearWrong'),
     btnMemorize: document.getElementById('btnMemorize'),
@@ -1641,6 +1671,7 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
     try {
       localStorage.setItem(LS_STATE, JSON.stringify(state));
       localStorage.setItem(LS_WRONG, JSON.stringify(wrongs));
+      localStorage.setItem(LS_MARKS, JSON.stringify(marks));
     } catch (e) {}
   }
 
@@ -1649,6 +1680,8 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
   if (!state.sessions || typeof state.sessions !== 'object') state.sessions = {};
   if (!state.memorize || typeof state.memorize !== 'object') state.memorize = {};
   if (!state.wrongSessions || typeof state.wrongSessions !== 'object') state.wrongSessions = {};
+  if (!state.starSessions || typeof state.starSessions !== 'object') state.starSessions = {};
+  if (!state.slashSessions || typeof state.slashSessions !== 'object') state.slashSessions = {};
   if (!state.modes || typeof state.modes !== 'object') state.modes = {};
   Object.keys(state.sessions).forEach(function (bankId) {
     var saved = state.sessions[bankId];
@@ -1689,6 +1722,9 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
 
   var wrongs = load(LS_WRONG, {});
   if (!wrongs || typeof wrongs !== 'object' || Array.isArray(wrongs)) wrongs = {};
+
+  var marks = load(LS_MARKS, {});
+  if (!marks || typeof marks !== 'object' || Array.isArray(marks)) marks = {};
 
   var AI_STORE = 'patho-ai-analysis-v1';
   var aiCache = load(AI_STORE, {});
@@ -1959,8 +1995,20 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
     var bank = getBank(bankId);
     chapter = Number(chapter) || 0;
     var order = [];
+    var marked = marksFor(bankId);
+    var starredSet = {};
+    marked.starred.forEach(function (id) { starredSet[id] = true; });
+    var slashedSet = {};
+    marked.slashed.forEach(function (id) { slashedSet[id] = true; });
     bank.questions.forEach(function (q, i) {
-      if (!chapter || Number(q.chapter) === chapter) order.push(i);
+      if (chapter && Number(q.chapter) !== chapter) return;
+      if (mode === 'slashed') {
+        if (!slashedSet[q.id]) return;
+      } else if (slashedSet[q.id]) {
+        return;
+      }
+      if (mode === 'starred' && !starredSet[q.id]) return;
+      order.push(i);
     });
     if (mode === 'random') {
       shuffle(order);
@@ -2006,11 +2054,11 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
   }
 
   function getSession(bankId, mode) {
-    if (mode === 'seq' || mode === 'random' || mode === 'wrong') {
+    if (mode === 'seq' || mode === 'random' || mode === 'wrong' || mode === 'starred' || mode === 'slashed') {
       state.modes[bankId] = mode;
     }
     var active = state.modes[bankId];
-    if (active !== 'seq' && active !== 'random' && active !== 'wrong') {
+    if (active !== 'seq' && active !== 'random' && active !== 'wrong' && active !== 'starred' && active !== 'slashed') {
       var stored = state.sessions[bankId];
       active = stored && stored.mode === 'random' ? 'random' : 'seq';
     }
@@ -2024,6 +2072,19 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
       }
       state.modes[bankId] = 'wrong';
       return ws;
+    }
+    if (active === 'starred' || active === 'slashed') {
+      var specialChapter = main.chapter || 0;
+      var slot = active === 'starred' ? state.starSessions : state.slashSessions;
+      var special = slot[bankId];
+      if (!sessionValid(special, bankId) || special.mode !== active || special.chapter !== specialChapter) {
+        special = createSession(bankId, active, specialChapter, main.answers);
+        slot[bankId] = special;
+      } else {
+        special.answers = main.answers;
+      }
+      state.modes[bankId] = active;
+      return special;
     }
     if (main.mode !== active) {
       var next = createSession(bankId, active, main.chapter, main.answers);
@@ -2052,6 +2113,82 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
   function addWrong(bankId, qid) {
     if (!Array.isArray(wrongs[bankId])) wrongs[bankId] = [];
     if (wrongs[bankId].indexOf(qid) === -1) wrongs[bankId].push(qid);
+  }
+
+  function marksFor(bankId) {
+    var m = marks[bankId];
+    if (!m || typeof m !== 'object') m = marks[bankId] = {};
+    if (!Array.isArray(m.starred)) m.starred = [];
+    if (!Array.isArray(m.slashed)) m.slashed = [];
+    return m;
+  }
+
+  function isStarred(bankId, qid) {
+    return marksFor(bankId).starred.indexOf(qid) !== -1;
+  }
+
+  function isSlashed(bankId, qid) {
+    return marksFor(bankId).slashed.indexOf(qid) !== -1;
+  }
+
+  function storeSession(bankId, session) {
+    if (session.mode === 'wrong') state.wrongSessions[bankId] = session;
+    else if (session.mode === 'starred') state.starSessions[bankId] = session;
+    else if (session.mode === 'slashed') state.slashSessions[bankId] = session;
+    else state.sessions[bankId] = session;
+  }
+
+  function rebuildActiveSession(keepId) {
+    var bankId = state.bankId;
+    var current = getSession(bankId, null);
+    var mode = current.mode;
+    var bank = getBank(bankId);
+    var order = current.order.filter(function (i) {
+      var q = bank.questions[i];
+      if (mode === 'slashed') return isSlashed(bankId, q.id);
+      if (isSlashed(bankId, q.id)) return false;
+      if (mode === 'starred') return isStarred(bankId, q.id);
+      if (mode === 'wrong') return (wrongs[bankId] || []).indexOf(q.id) !== -1;
+      return true;
+    });
+    var index = current.index;
+    if (keepId) {
+      for (var j = 0; j < order.length; j++) {
+        if (bank.questions[order[j]].id === keepId) { index = j; break; }
+      }
+    }
+    index = Math.max(0, Math.min(index, Math.max(order.length - 1, 0)));
+    storeSession(bankId, {
+      mode: mode,
+      chapter: current.chapter || 0,
+      order: order,
+      index: index,
+      answers: current.answers
+    });
+    state.modes[bankId] = mode;
+    save();
+    render();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function toggleMark(kind) {
+    var ctx = currentQuestion();
+    if (!ctx) return;
+    var bankId = ctx.bank.id;
+    var qid = ctx.q.id;
+    var list = marksFor(bankId)[kind];
+    var index = list.indexOf(qid);
+    var wasMarked = index !== -1;
+    if (kind === 'slashed' && wasMarked && !window.confirm('确定将这道题移回题库吗？')) return;
+    clearAutoNext();
+    if (wasMarked) list.splice(index, 1);
+    else list.push(qid);
+    save();
+    var mode = ctx.session.mode;
+    var hides = (kind === 'starred' && mode === 'starred' && wasMarked) ||
+      (kind === 'slashed' && ((mode === 'slashed' && wasMarked) || (mode !== 'slashed' && !wasMarked)));
+    if (hides) rebuildActiveSession('');
+    else render();
   }
 
   function clearWrongBook() {
@@ -2277,6 +2414,12 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
     var current = getSession(bankId, null);
     var chapter = current.chapter || 0;
     var bank = getBank(bankId);
+    var currentQid = null;
+    if (current.order && current.order.length) {
+      var idx = Math.max(0, Math.min(current.index, current.order.length - 1));
+      var q = bank.questions[current.order[idx]];
+      if (q) currentQid = q.id;
+    }
     if (mode === 'wrong') {
       var main = getMainSession(bankId);
       var mainNext = main.chapter === chapter ? main :
@@ -2284,15 +2427,25 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
       state.sessions[bankId] = mainNext;
       state.wrongSessions[bankId] = createSession(bankId, 'wrong', chapter);
       state.modes[bankId] = 'wrong';
+    } else if (mode === 'starred' || mode === 'slashed') {
+      var mainSpecial = getMainSession(bankId);
+      var mainForSpecial = mainSpecial.chapter === chapter ? mainSpecial :
+        createSession(bankId, mainSpecial.mode === 'random' ? 'random' : 'seq', chapter, mainSpecial.answers);
+      state.sessions[bankId] = mainForSpecial;
+      var special = createSession(bankId, mode, chapter, mainForSpecial.answers);
+      if (currentQid) {
+        for (var si = 0; si < special.order.length; si++) {
+          if (bank.questions[special.order[si]].id === currentQid) {
+            special.index = si;
+            break;
+          }
+        }
+      }
+      storeSession(bankId, special);
+      state.modes[bankId] = mode;
     } else {
       if (mode !== 'seq' && mode !== 'random') mode = 'seq';
       var main2 = getMainSession(bankId);
-      var currentQid = null;
-      if (current.order && current.order.length) {
-        var idx = Math.max(0, Math.min(current.index, current.order.length - 1));
-        var q = bank.questions[current.order[idx]];
-        if (q) currentQid = q.id;
-      }
       var next = createSession(bankId, mode, chapter, main2.answers);
       if (currentQid) {
         for (var i = 0; i < next.order.length; i++) {
@@ -2322,6 +2475,9 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
     if (current.mode === 'wrong') {
       state.wrongSessions[bankId] = createSession(bankId, 'wrong', chapter);
       state.modes[bankId] = 'wrong';
+    } else if (current.mode === 'starred' || current.mode === 'slashed') {
+      storeSession(bankId, createSession(bankId, current.mode, chapter, nextMain.answers));
+      state.modes[bankId] = current.mode;
     } else {
       state.modes[bankId] = mainMode;
     }
@@ -2343,6 +2499,11 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
     if (s.mode === 'wrong') {
       state.wrongSessions[bankId] = createSession(bankId, 'wrong', chapter);
       state.modes[bankId] = 'wrong';
+    } else if (s.mode === 'starred' || s.mode === 'slashed') {
+      var mainRestart = getMainSession(bankId);
+      s.order.forEach(function (i) { delete mainRestart.answers[bank.questions[i].id]; });
+      storeSession(bankId, createSession(bankId, s.mode, chapter, mainRestart.answers));
+      state.modes[bankId] = s.mode;
     } else {
       var remaining = {};
       Object.keys(s.answers).forEach(function (qid) { remaining[qid] = s.answers[qid]; });
@@ -2430,7 +2591,9 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
     var correctList = answeredList.filter(function (q) { return isCorrect(q, s.answers[q.id]); });
     var answeredCount = answeredList.length;
     var total = questions.length;
-    var wrongCount = (wrongs[bank.id] || []).length;
+    var wrongCount = (wrongs[bank.id] || []).filter(function (qid) {
+      return !isSlashed(bank.id, qid);
+    }).length;
 
     els.statAnswered.textContent = answeredCount;
     els.statCorrect.textContent = correctList.length;
@@ -2441,7 +2604,9 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
 
     if (!total) {
       if (s.mode === 'wrong') {
-        var wrongTotal = (wrongs[bank.id] || []).length;
+        var wrongTotal = (wrongs[bank.id] || []).filter(function (qid) {
+          return !isSlashed(bank.id, qid);
+        }).length;
         if (s.chapter && wrongTotal) {
           renderEmpty('本章暂无错题', '当前章节在错题本中还没有题目。', true);
           els.emptyAction.textContent = '查看全部错题';
@@ -2451,10 +2616,40 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
           els.emptyAction.textContent = '去顺序练习';
           els.emptyAction.onclick = function () { switchMode('seq'); };
         }
+      } else if (s.mode === 'starred' || s.mode === 'slashed') {
+        var bankMarks = s.mode === 'starred'
+          ? marksFor(bank.id).starred.filter(function (qid) { return !isSlashed(bank.id, qid); })
+          : marksFor(bank.id).slashed;
+        if (s.chapter && bankMarks.length) {
+          renderEmpty('本章暂无' + (s.mode === 'starred' ? '收藏题' : '斩题'), '当前章节在' + (s.mode === 'starred' ? '收藏' : '斩题库') + '中还没有题目。', true);
+          els.emptyAction.textContent = '查看全部';
+          els.emptyAction.onclick = function () { changeChapter(0); };
+        } else if (s.mode === 'starred') {
+          renderEmpty('还没有收藏题', '刷题时点题目上方的「☆ 收藏」，重点题就会集中到这里。', true);
+          els.emptyAction.textContent = '去顺序练习';
+          els.emptyAction.onclick = function () { switchMode('seq'); };
+        } else {
+          renderEmpty('斩题库是空的', '刷题时点「斩题」会把题目移到这里，不再出现在顺序、随机、错题和收藏模式中。', true);
+          els.emptyAction.textContent = '去顺序练习';
+          els.emptyAction.onclick = function () { switchMode('seq'); };
+        }
       } else if (s.chapter) {
-        renderEmpty('本章暂无题目', '「' + bankChapterLabel(bank, s.chapter) + '」在当前题库中没有题目。', true);
-        els.emptyAction.textContent = '查看全部章节';
-        els.emptyAction.onclick = function () { changeChapter(0); };
+        var chapterCount = bank.questions.filter(function (q) {
+          return Number(q.chapter) === s.chapter;
+        }).length;
+        if (chapterCount) {
+          renderEmpty('本章题目已全部斩掉', '可在「斩题库」中把题目移回题库，恢复后即可继续练习。', true);
+          els.emptyAction.textContent = '去斩题库';
+          els.emptyAction.onclick = function () { switchMode('slashed'); };
+        } else {
+          renderEmpty('本章暂无题目', '「' + bankChapterLabel(bank, s.chapter) + '」在当前题库中没有题目。', true);
+          els.emptyAction.textContent = '查看全部章节';
+          els.emptyAction.onclick = function () { changeChapter(0); };
+        }
+      } else if (bank.questions.length) {
+        renderEmpty('题目已全部斩掉', '可在「斩题库」中把题目移回题库，恢复后即可继续练习。', true);
+        els.emptyAction.textContent = '去斩题库';
+        els.emptyAction.onclick = function () { switchMode('slashed'); };
       } else {
         renderEmpty('当前题库没有题目', '请检查 data.js 中的题库数据。', false);
       }
@@ -2501,6 +2696,15 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
     if (q.needsImage) {
       els.qImageWarning.textContent = '缺图提示：本题依赖图片，题库未包含原图，答案与解析可能不完整。';
     }
+
+    var starred = isStarred(bank.id, q.id);
+    var slashed = isSlashed(bank.id, q.id);
+    els.btnStar.textContent = starred ? '★ 已收藏' : '☆ 收藏';
+    els.btnStar.classList.toggle('on', starred);
+    els.btnStar.setAttribute('aria-pressed', starred ? 'true' : 'false');
+    els.btnSlash.textContent = slashed ? '已斩' : '斩题';
+    els.btnSlash.classList.toggle('on', slashed);
+    els.btnSlash.setAttribute('aria-pressed', slashed ? 'true' : 'false');
 
     els.qOptions.innerHTML = '';
     q.options.forEach(function (o) {
@@ -2608,6 +2812,8 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
 
   els.btnPrev.addEventListener('click', function () { move(-1); });
   els.btnNext.addEventListener('click', function () { move(1); });
+  els.btnStar.addEventListener('click', function () { toggleMark('starred'); });
+  els.btnSlash.addEventListener('click', function () { toggleMark('slashed'); });
   els.mobilePrev.addEventListener('click', function () { move(-1); });
   els.mobileNext.addEventListener('click', function () { move(1); });
   els.btnQList.addEventListener('click', openQuestionList);
