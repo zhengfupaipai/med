@@ -2076,10 +2076,8 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
       var slot = active === 'starred' ? state.starSessions : state.slashSessions;
       var special = slot[bankId];
       if (!sessionValid(special, bankId) || special.mode !== active || special.chapter !== specialChapter) {
-        special = createSession(bankId, active, specialChapter, main.answers);
+        special = createSession(bankId, active, specialChapter);
         slot[bankId] = special;
-      } else {
-        special.answers = main.answers;
       }
       state.modes[bankId] = active;
       return special;
@@ -2207,8 +2205,9 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
     if (s.answers[q.id] !== undefined) return;
     var correctNow = isCorrect(q, key);
     s.answers[q.id] = key;
-    // 错题只增不减，错题本可反复练习
-    if (!correctNow) addWrong(ctx.bank.id, q.id);
+    // 背题以外的三种专门模式使用独立作答记录，仅正常练习答错才收录进错题本
+    var normalMode = s.mode === 'seq' || s.mode === 'random';
+    if (!correctNow && normalMode) addWrong(ctx.bank.id, q.id);
     save();
     render();
     if (correctNow && autoNextEnabled) {
@@ -2401,7 +2400,7 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
       var mainForSpecial = mainSpecial.chapter === chapter ? mainSpecial :
         createSession(bankId, mainSpecial.mode === 'random' ? 'random' : 'seq', chapter, mainSpecial.answers);
       state.sessions[bankId] = mainForSpecial;
-      var special = createSession(bankId, mode, chapter, mainForSpecial.answers);
+      var special = createSession(bankId, mode, chapter);
       if (currentQid) {
         for (var si = 0; si < special.order.length; si++) {
           if (bank.questions[special.order[si]].id === currentQid) {
@@ -2445,7 +2444,7 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
       state.wrongSessions[bankId] = createSession(bankId, 'wrong', chapter);
       state.modes[bankId] = 'wrong';
     } else if (current.mode === 'starred' || current.mode === 'slashed') {
-      storeSession(bankId, createSession(bankId, current.mode, chapter, nextMain.answers));
+      storeSession(bankId, createSession(bankId, current.mode, chapter));
       state.modes[bankId] = current.mode;
     } else {
       state.modes[bankId] = mainMode;
@@ -2469,9 +2468,7 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
       state.wrongSessions[bankId] = createSession(bankId, 'wrong', chapter);
       state.modes[bankId] = 'wrong';
     } else if (s.mode === 'starred' || s.mode === 'slashed') {
-      var mainRestart = getMainSession(bankId);
-      s.order.forEach(function (i) { delete mainRestart.answers[bank.questions[i].id]; });
-      storeSession(bankId, createSession(bankId, s.mode, chapter, mainRestart.answers));
+      storeSession(bankId, createSession(bankId, s.mode, chapter));
       state.modes[bankId] = s.mode;
     } else {
       var remaining = {};
@@ -2752,8 +2749,10 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
     els.doneBanner.hidden = !allDone;
     if (allDone) {
       var rate = Math.round(correctList.length / total * 100);
-      els.doneText.textContent = '本轮完成：答对 ' + correctList.length + ' / ' + total + ' 题（' + rate + '%）' +
-        (s.mode === 'wrong' ? '；错题已保留，可点「再来一轮」反复练习' : '');
+      var modeNote = s.mode === 'wrong'
+        ? '；错题已保留，可点「再来一轮」反复练习'
+        : (s.mode === 'starred' || s.mode === 'slashed' ? '；本轮记录独立，不影响正常练习' : '');
+      els.doneText.textContent = '本轮完成：答对 ' + correctList.length + ' / ' + total + ' 题（' + rate + '%）' + modeNote;
     }
 
     els.qPos.textContent = (s.index + 1) + ' / ' + total;
