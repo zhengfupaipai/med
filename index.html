@@ -1715,7 +1715,7 @@ window.QUESTION_BANKS = [{"id":"pathology-2a","name":"病理学2A","count":300,"
       var answer = ctx.session.answers[question.id];
       if (answer === undefined || !isCorrect(ctx.q, answer)) return;
       move(1);
-    }, 1000);
+    }, 650);
   }
 
   var wrongs = load(LS_WRONG, {});
